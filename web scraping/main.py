@@ -1,21 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 import time
-
-#the order the stats are in on the website. 
-batterStatsOrder = ['TEAM', 'G', 'AB', 'R', 'H', '2B', '3B', 'HR', 'RBI', 'BB', 'SO', 'SB', 'CS', 'AVG', 'OBP', 'SLG', 'OPS']
-pitcherStatsOrder = ['TEAM', 'W', 'L', 'ERA', 'G', 'GS', 'CG', 'SHO', 'SV', 'SVO', 'IP', 'H', 'R', 'ER', 'HR', 'HB', 'BB', 'SO', 'WHIP', 'AVG']
+import format_stats
 
 
-#takes in the stats and converts them to a more readable format.
-def convertStats(stats, isBatter):
-    converted = []
-    for i in range(len(stats)):
-        if(isBatter):
-            converted.append(batterStatsOrder[i] + ": " +  '\033[3m'+str(stats[i])+'\033[0m')
-        else:
-            converted.append(pitcherStatsOrder[i] + ': ' + '\033[3m'+str(stats[i])+'\033[0m')
-    return converted 
 
 #takes in the cells of the table and returns the stats as a list of strings.
 def getStats(cells):
@@ -26,7 +14,7 @@ def getInputs():
     playerNames= input('Enter player(s) seperated by a comma: ').title()
     isBatter = input('Is each player a batter? (y/n/u) seperated by a comma: ').strip().lower()
     players = [name.strip() for name in playerNames.split(',')]
-    isBatter = [batter.strip() for batter in isBatter.split(',')]
+    isBatter = [player.strip() for player in isBatter.split(',')]
     return players, isBatter
 
 players, areBatters = getInputs()
@@ -82,22 +70,35 @@ def checkPitchers(playerName, page=1):
 
 #main function that checks if the player is a batter or pitcher and then gets the stats and prints them in a readable format. If the player is not found, it will print a message saying so.
 def main(isBatter):
-    for index, player in enumerate(players):
-        isBatterFlag = isBatter[index].lower()
+    allPlayerStats = []
+    for player in players:
+        isBatterFlag = isBatter[players.index(player)].lower()
         if isBatterFlag == 'y':
-            row, isBatterFlag = checkBatters(index)
+            row, isBatterFlag = checkBatters(players.index(player))
         elif isBatterFlag == 'n':
-            row, isBatterFlag = checkPitchers(players[index])
+            row, isBatterFlag = checkPitchers(player)
         else:
-            result = checkBatters(index)
-            row, isBatterFlag = result if result[0] is not None else checkPitchers(players[index])
+            result = checkBatters(players.index(player))
+            row, isBatterFlag = result if result[0] is not None else checkPitchers(player)
 
         if row:
             cells = row.find_all('td')
             stats = getStats(cells)
-            convertedStats = convertStats(stats, isBatterFlag)
-            print(f"\nSTATS FOR {players[index].upper()}:")
-            print('\n'.join(convertedStats),'\n')
+            convertedStats = format_stats.convertStats(stats, isBatterFlag)
+            allPlayerStats.append((player, convertedStats, isBatterFlag))
         else:
-            print(f"Player {players[index]} not found.")
+            print(f'{player} not found.')
+    #only bold the highest stat if all players are the same type and there is more than one player. If there is a mix of batters and pitchers, just print the stats without bolding.
+    allBatters = all(player[2] == True for player in allPlayerStats)
+    allPitchers = all(player[2] == False for player in allPlayerStats)
+    print(allBatters)
+    print(allPitchers)
+    if(len(allPlayerStats) > 1 and (allBatters or allPitchers)):
+        format_stats.boldHighestStat(allPlayerStats)
+    else:
+        for player in allPlayerStats:
+            print(player[0].title())
+            print("-" * len(player[0]))
+            for stat in player[1]:
+                print(stat)
 main(areBatters)
