@@ -22,9 +22,10 @@ jobs:
         run: pip install requests
 
       - name: Run script
+        working-directory: email
         env:
           EMAIL: ${{ secrets.EMAIL }}
           APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
           RECIPIENT: ${{ secrets.RECIPIENT }}  
-        working-directory: email
-        run: python email/main.py
+       
+        run: python main.py
