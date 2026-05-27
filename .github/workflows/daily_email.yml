@@ -26,6 +26,6 @@ jobs:
         env:
           EMAIL: ${{ secrets.EMAIL }}
           APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
-          RECIPIENT: ${{ secrets.RECIPIENT }}  
+          RECIPIENTS: ${{ secrets.RECIPIENTS }}  
        
         run: python main.py
