@@ -11,3 +11,5 @@
 # **Email Feature**
 - This feature sends you the leaders in the whole MLB in 3 batting categories, avg, ops, and hrs
   - This feature is still very basic and only sends 3 batting categories
+  - The script now saves each day's top 3 to `email/daily_leaders_snapshot.json`
+  - On the next run it compares today's leaders with the previous snapshot and marks any new players in the email with a `NEW` badge

@@ -1,0 +1,56 @@
+{
+  "date": "2026-05-27",
+  "leaders": {
+    "HR": [
+      {
+        "name": "Kyle Schwarber",
+        "value": "21",
+        "team": "Philadelphia Phillies"
+      },
+      {
+        "name": "Munetaka Murakami",
+        "value": "19",
+        "team": "Chicago White Sox"
+      },
+      {
+        "name": "Yordan Alvarez",
+        "value": "18",
+        "team": "Houston Astros"
+      }
+    ],
+    "AVG": [
+      {
+        "name": "Otto Lopez",
+        "value": ".342",
+        "team": "Miami Marlins"
+      },
+      {
+        "name": "Brandon Marsh",
+        "value": ".326",
+        "team": "Philadelphia Phillies"
+      },
+      {
+        "name": "Luis Arraez",
+        "value": ".325",
+        "team": "San Francisco Giants"
+      }
+    ],
+    "OPS": [
+      {
+        "name": "Yordan Alvarez",
+        "value": "1.045",
+        "team": "Houston Astros"
+      },
+      {
+        "name": "Ben Rice",
+        "value": ".993",
+        "team": "New York Yankees"
+      },
+      {
+        "name": "James Wood",
+        "value": ".967",
+        "team": "Washington Nationals"
+      }
+    ]
+  }
+}
