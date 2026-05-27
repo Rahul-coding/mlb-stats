@@ -2,7 +2,7 @@ name: Daily MLB Email
 
 on:
   schedule:
-    - cron: "27 16 * * *"
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -26,6 +26,5 @@ jobs:
         env:
           EMAIL: ${{ secrets.EMAIL }}
           APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
-          RECIPIENTS: ${{ secrets.RECIPIENTS }}  
-       
+          RECIPIENTS: ${{ secrets.RECIPIENTS }}     
         run: python main.py
