@@ -9,7 +9,7 @@ load_dotenv()
 
 EMAIL = os.getenv("EMAIL")
 APP_PASSWORD = os.getenv("APP_PASSWORD")
-RECIPIENT = os.getenv("RECIPIENT")
+RECIPIENTS = [email.strip() for email in os.getenv("RECIPIENTS").split(",")]
 
 url = "https://statsapi.mlb.com/api/v1/stats/leaders"
 
@@ -45,18 +45,18 @@ for category, (label, group) in categories.items():
 html = build_html(leaders_data)
 
 #make the actual email
+# make the actual email
 msg = EmailMessage()
 msg['Subject'] = 'MLB League Leaders'
 msg['From'] = f"MLB Bot <{EMAIL}>"
-msg['To'] = RECIPIENT
+msg['To'] = ", ".join(RECIPIENTS)
 
 msg.set_content("Your email client does not support HTML.")
 msg.add_alternative(html, subtype='html')
 
-
-#send the email
+# send email
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
     smtp.login(EMAIL, APP_PASSWORD)
-    smtp.send_message(msg)
+    smtp.send_message(msg, to_addrs=RECIPIENTS)
 
 print("Email sent!")
