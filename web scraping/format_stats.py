@@ -17,11 +17,20 @@ def convertStats(stats, isBatter):
 
 
 def boldHighestStat(stats):
-
     highestStats = {}
+    # Determine if this stats list is for pitchers (pitching stats include ERA/WHIP)
+    isPitcher = False
+    lowerBetter = set()
 
-    # Find highest value for each stat type
-    if(len(stats) > 1):
+    if len(stats) > 0:
+        first_player_stats = stats[0][1]
+        stat_names = [s.split(": ")[0] for s in first_player_stats]
+        if 'ERA' in stat_names or 'WHIP' in stat_names:
+            isPitcher = True
+            lowerBetter = {'ERA', 'WHIP', 'AVG'}
+
+    # Find best value for each stat type (max by default, min for lower-better stats)
+    if (len(stats) > 1):
         for player in stats:
             playerStats = player[1]
             for stat in playerStats:
@@ -30,8 +39,14 @@ def boldHighestStat(stats):
                     statValue = float(statValue)
                     if statName not in highestStats:
                         highestStats[statName] = statValue
-                    elif statValue > highestStats[statName]:
-                        highestStats[statName] = statValue
+                    else:
+                        # For pitcher stats where lower is better, keep the minimum
+                        if isPitcher and statName in lowerBetter:
+                            if statValue < highestStats[statName]:
+                                highestStats[statName] = statValue
+                        else:
+                            if statValue > highestStats[statName]:
+                                highestStats[statName] = statValue
 
     # Print all players
     for player in stats:
@@ -45,10 +60,18 @@ def boldHighestStat(stats):
             statName, statValue = stat.split(": ")
             if statValue.replace('.', '', 1).isdigit():
                 statValueFloat = float(statValue)
-                # Bold if this player has the highest value
-                if statValueFloat == highestStats[statName]:
-                    print('\033[1;3m' + stat + '\033[0m')
-                else:
-                    print(stat)
+                # Bold if this player has the best value (highest or lowest depending on stat)
+                bestValue = highestStats.get(statName)
+                if bestValue is not None:
+                    if isPitcher and statName in lowerBetter:
+                        if statValueFloat == bestValue:
+                            print('\033[1;3m' + stat + '\033[0m')
+                        else:
+                            print(stat)
+                    else:
+                        if statValueFloat == bestValue:
+                            print('\033[1;3m' + stat + '\033[0m')
+                        else:
+                            print(stat)
             else:
                 print(stat)
