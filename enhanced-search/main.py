@@ -2,17 +2,29 @@ import streamlit as st
 import statsapi
 import pandas as pd
 
-player = st.text_input("Player Names", placeholder="Enter the names of players separated by commas (e.g. Aaron Judge, Chase Burns)")
 playerId = 0
 hittingStats = ["gamesPlayed", "runs", "doubles", "triples", "homeRuns", "strikeOuts", "baseOnBalls", "avg", "ops", "stolenBases"]
-pitchingStats = ["gamesPlayed", "runs", "baseOnBalls", "strikeOuts", "avg", "era", "inningsPitched", "wins", "losses", "saves", "whip"]
-lowerBetter = ["era", "whip"] #stats where a lower number is better, used for styling the dataframe
+pitchingStats = ["gamesPlayed", "inningsPitched", "wins", "losses", "baseOnBalls", "strikeOuts", "avg", "era", "whip", "runs", "saves"]
+lowerBetter = ["era", "whip", "avg"] #stats where a lower number is better, used for styling the dataframe
 
 hittersStats = []
 pitchersStats = []
 
+#option to show help
+with st.container(horizontal_alignment="right"):
+    col_title, col_info = st.columns([7, 1])
+        
+    with col_info:
+        st.button(
+            "Info", 
+            icon=":material/help:", 
+            help="Enter the names of the players you want to look up, separated by commas. Enter multiple hitters/pitchers to compare their stats. The stats will be highlighted in red for the best performance in each category."
+        )
+
+player = st.text_input("Player Names", placeholder="Aaron Judge, Chase Burns")
+  
 #only run when the button is pressed to avoi overloading the api
-if(st.button("Lookup Player(s)", help="Enter the names of players separated by commas (e.g. `Aaron Judge, Chase Burns`)")):
+if(st.button("Lookup Player(s)")):
     players = player.split(",")
     
     for player in players:
