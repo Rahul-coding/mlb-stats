@@ -110,5 +110,6 @@ def build_html(leaders_data, previous_date=None):
             html += "</ol>"
 
     html += "</body></html>"
+    html += "Baseball stats comparison: https://mlbstatscompare.streamlit.app/"
 
     return html
