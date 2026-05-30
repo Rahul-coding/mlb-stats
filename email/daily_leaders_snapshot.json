@@ -4,7 +4,7 @@
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "21",
+        "value": "22",
         "team": "Philadelphia Phillies"
       },
       {
@@ -31,7 +31,7 @@
       },
       {
         "name": "Brandon Marsh",
-        "value": ".322",
+        "value": ".326",
         "team": "Philadelphia Phillies"
       }
     ],
@@ -43,13 +43,13 @@
       },
       {
         "name": "Ben Rice",
-        "value": "1.016",
+        "value": "1.047",
         "team": "New York Yankees"
       },
       {
-        "name": "James Wood",
-        "value": ".959",
-        "team": "Washington Nationals"
+        "name": "Kyle Schwarber",
+        "value": ".963",
+        "team": "Philadelphia Phillies"
       }
     ]
   }
