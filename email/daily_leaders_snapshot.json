@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-01",
+  "date": "2026-06-02",
   "leaders": {
     "HR": [
       {
@@ -21,7 +21,7 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".326",
+        "value": ".333",
         "team": "Miami Marlins"
       },
       {
@@ -48,7 +48,7 @@
       },
       {
         "name": "James Wood",
-        "value": ".959",
+        "value": ".952",
         "team": "Washington Nationals"
       }
     ]
