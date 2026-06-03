@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-02",
+  "date": "2026-06-03",
   "leaders": {
     "HR": [
       {
@@ -9,7 +9,7 @@
       },
       {
         "name": "Yordan Alvarez",
-        "value": "20",
+        "value": "21",
         "team": "Houston Astros"
       },
       {
@@ -21,35 +21,35 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".333",
+        "value": ".335",
         "team": "Miami Marlins"
       },
       {
-        "name": "Luis Arraez",
-        "value": ".321",
-        "team": "San Francisco Giants"
+        "name": "Brandon Marsh",
+        "value": ".332",
+        "team": "Philadelphia Phillies"
       },
       {
-        "name": "Brandon Marsh",
-        "value": ".317",
-        "team": "Philadelphia Phillies"
+        "name": "Luis Arraez",
+        "value": ".323",
+        "team": "San Francisco Giants"
       }
     ],
     "OPS": [
       {
-        "name": "Ben Rice",
-        "value": "1.055",
-        "team": "New York Yankees"
-      },
-      {
         "name": "Yordan Alvarez",
-        "value": "1.050",
+        "value": "1.064",
         "team": "Houston Astros"
       },
       {
-        "name": "James Wood",
+        "name": "Ben Rice",
+        "value": "1.047",
+        "team": "New York Yankees"
+      },
+      {
+        "name": "Nick Kurtz",
         "value": ".952",
-        "team": "Washington Nationals"
+        "team": "Athletics"
       }
     ]
   }
