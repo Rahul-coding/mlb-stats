@@ -23,7 +23,11 @@ SNAPSHOT_FILE = Path(__file__).with_name("daily_leaders_snapshot.json")
 categories = {
     "homeRuns": ("HR", "hitting"),
     "battingAverage": ("AVG", "hitting"),
-    "onBasePlusSlugging": ("OPS", "hitting")
+    "onBasePlusSlugging": ("OPS", "hitting"),
+    # Pitching leaders
+    "earnedRunAverage": ("ERA", "pitching"),
+    "whip": ("WHIP", "pitching"),
+    "strikeOuts": ("SO", "pitching")
 }
 
 def fetch_current_leaders():
@@ -72,30 +76,41 @@ def enrich_leaders_with_changes(leaders_data, previous_snapshot):
     enriched_leaders = {}
 
     for label, players in leaders_data.items():
-        current_names = {
-            player["name"]
-            for player in players
-        }
+        # current_names and previous players list for comparison
+        current_names = {player["name"] for player in players}
         previous_players = previous_leaders.get(label, [])
-        previous_names = {
-            player["name"]
-            for player in previous_players
-        }
+        previous_names = {player["name"] for player in previous_players}
+
+        # map previous name -> index (0-based rank)
+        prev_pos = {player["name"]: idx for idx, player in enumerate(previous_players)}
+
         enriched_leaders[label] = []
         removed_players = []
 
-        for player in players:
-            enriched_leaders[label].append({
-                **player,
-                "is_new": bool(previous_names) and player["name"] not in previous_names
-            })
+        for idx, player in enumerate(players):
+            name = player["name"]
+            entry = {**player}
+            # is_new if not present previously
+            entry["is_new"] = bool(previous_names) and name not in previous_names
+
+            # if present previously, compute rank movement
+            if name in prev_pos:
+                prev_index = prev_pos[name]
+                # moved up if previous index > current index (e.g., from 2->1)
+                if prev_index > idx:
+                    entry["moved_up"] = prev_index - idx
+                    entry["from_rank"] = prev_index + 1
+                    entry["to_rank"] = idx + 1
+                # moved down if previous index < current index (e.g., from 1->2)
+                elif prev_index < idx:
+                    entry["moved_down"] = idx - prev_index
+                    entry["from_rank"] = prev_index + 1
+                    entry["to_rank"] = idx + 1
+            enriched_leaders[label].append(entry)
 
         for player in previous_players:
             if player["name"] not in current_names:
-                removed_players.append({
-                    **player,
-                    "is_removed": True
-                })
+                removed_players.append({**player, "is_removed": True})
 
         if removed_players:
             enriched_leaders[label + "_removed"] = removed_players
@@ -122,7 +137,7 @@ leaders_with_changes, previous_date = enrich_leaders_with_changes(leaders_data, 
 save_snapshot(leaders_data)
 
 # build the html for the email
-html = build_html(leaders_with_changes, previous_date=previous_date)
+html = build_html(leaders_with_changes, previous_date=previous_date, categories=categories)
 
 # Make the actual email.
 msg = EmailMessage()

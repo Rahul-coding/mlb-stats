@@ -1,7 +1,7 @@
 from html import escape
 
 
-def build_html(leaders_data, previous_date=None):
+def build_html(leaders_data, previous_date=None, categories=None):
     html = """
     <html>
       <head>
@@ -18,11 +18,15 @@ def build_html(leaders_data, previous_date=None):
           h3 {
             color: #2563eb;
           }
+          h4 {
+            color: #334155;
+            margin-bottom: 4px;
+          }
           ol {
             padding-left: 20px;
           }
           li {
-            margin: 5px 0;
+            margin: 6px 0;
           }
           .name {
             font-weight: bold;
@@ -46,11 +50,29 @@ def build_html(leaders_data, previous_date=None):
             font-weight: bold;
             letter-spacing: 0.02em;
             vertical-align: middle;
+            background: #bbf7d0;
           }
-          .removed-note {
-            margin: 0 0 8px;
-            color: #991b1b;
-            font-size: 0.95rem;
+          .up-badge {
+            display: inline-block;
+            margin-left: 8px;
+            padding: 2px 8px;
+            border-radius: 999px;
+            background: #dcfce7;
+            color: #065f46;
+            font-size: 0.75rem;
+            font-weight: bold;
+            vertical-align: middle;
+          }
+          .down-badge {
+            display: inline-block;
+            margin-left: 8px;
+            padding: 2px 8px;
+            border-radius: 999px;
+            background: #fee2e2;
+            color: #7f1d1d;
+            font-size: 0.75rem;
+            font-weight: bold;
+            vertical-align: middle;
           }
           .removed-player {
             color: #7f1d1d;
@@ -66,39 +88,65 @@ def build_html(leaders_data, previous_date=None):
             font-weight: bold;
             letter-spacing: 0.02em;
             vertical-align: middle;
+            background: #fecaca;
           }
         </style>
       </head>
       <body>
         <h2>MLB League Leaders</h2>
     """
-    for label, players in leaders_data.items():
+
+    # Build a mapping from label -> group (hitting/pitching) if categories provided
+    label_group = {}
+    if categories:
+        try:
+            for _, (lab, grp) in categories.items():
+                label_group[lab] = grp
+        except Exception:
+            label_group = {}
+
+    # Group labels by their group
+    groups = {}
+    for label in leaders_data.keys():
         if label.endswith("_removed"):
             continue
+        grp = label_group.get(label, "hitting")
+        groups.setdefault(grp, []).append(label)
 
-        new_players = [player for player in players if player.get("is_new")]
-        removed_players = leaders_data.get(f"{label}_removed", [])
+    # render each group separately (e.g., Hitters, Pitchers)
+    for grp, labels in groups.items():
+        title = "Hitters" if grp == "hitting" else "Pitchers" if grp == "pitching" else grp.title()
+        html += f"<h3>{escape(title)}</h3>"
+        for label in labels:
+            players = leaders_data.get(label, [])
+            removed_players = leaders_data.get(f"{label}_removed", [])
 
-        html += f"<h3>{escape(label)} Leaders</h3>"
+            html += f"<h4>{escape(label)} Leaders</h4>"
+            html += "<ol>"
 
-        if removed_players:
-            removed_names = ", ".join(escape(player["name"]) for player in removed_players)
+            for player in players:
+                player_class = "new-player" if player.get("is_new") else ""
+                new_badge = '<span class="new-badge">NEW</span>' if player.get("is_new") else ""
+                up_badge = ""
+                if player.get("moved_up"):
+                  from_rank = player.get("from_rank")
+                  to_rank = player.get("to_rank")
+                  moved = player.get("moved_up")
+                  up_badge = f'<span class="up-badge" title="from {from_rank} to {to_rank}">▲{moved}</span>'
+                elif player.get("moved_down"):
+                  from_rank = player.get("from_rank")
+                  to_rank = player.get("to_rank")
+                  moved = player.get("moved_down")
+                  up_badge = f'<span class="down-badge" title="from {from_rank} to {to_rank}">▼{moved+1}</span>'
 
-        html += "<ol>"
+                html += f"""
+                <li class="{player_class}">
+                  <span class="name">{escape(player['name'])}</span>{new_badge}{up_badge}
+                  ({escape(player['team'])}) — {escape(str(player['value']))}
+                </li>
+                """
 
-        for player in players:
-            player_class = "new-player" if player.get("is_new") else ""
-            new_badge = '<span class="new-badge">NEW</span>' if player.get("is_new") else ""
-            html += f"""
-            <li class="{player_class}">
-              <span class="name">{escape(player['name'])}</span>{new_badge}
-              ({escape(player['team'])}) — {escape(str(player['value']))}
-            </li>
-            """
-
-        html += "</ol>"
-
-        if removed_players:
+            # render removed players (if any) in the same list with removed styling
             for player in removed_players:
                 html += f"""
                 <li class="removed-player">

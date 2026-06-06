@@ -31,7 +31,7 @@
       },
       {
         "name": "Luis Arraez",
-        "value": ".326",
+        "value": ".328",
         "team": "San Francisco Giants"
       }
     ],
@@ -50,6 +50,57 @@
         "name": "Kyle Schwarber",
         "value": ".957",
         "team": "Philadelphia Phillies"
+      }
+    ],
+    "ERA": [
+      {
+        "name": "Cristopher S\u00e1nchez",
+        "value": "1.46",
+        "team": "Philadelphia Phillies"
+      },
+      {
+        "name": "Jacob Misiorowski",
+        "value": "1.65",
+        "team": "Milwaukee Brewers"
+      },
+      {
+        "name": "Cam Schlittler",
+        "value": "1.89",
+        "team": "New York Yankees"
+      }
+    ],
+    "WHIP": [
+      {
+        "name": "Jacob Misiorowski",
+        "value": "0.79",
+        "team": "Milwaukee Brewers"
+      },
+      {
+        "name": "Cam Schlittler",
+        "value": "0.86",
+        "team": "New York Yankees"
+      },
+      {
+        "name": "Paul Skenes",
+        "value": "0.91",
+        "team": "Pittsburgh Pirates"
+      }
+    ],
+    "SO": [
+      {
+        "name": "Jacob Misiorowski",
+        "value": "108",
+        "team": "Milwaukee Brewers"
+      },
+      {
+        "name": "Cristopher S\u00e1nchez",
+        "value": "103",
+        "team": "Philadelphia Phillies"
+      },
+      {
+        "name": "Gavin Williams",
+        "value": "94",
+        "team": "Cleveland Guardians"
       }
     ]
   }
