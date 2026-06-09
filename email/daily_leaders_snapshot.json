@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-08",
+  "date": "2026-06-09",
   "leaders": {
     "HR": [
       {
@@ -20,48 +20,48 @@
     ],
     "AVG": [
       {
-        "name": "Brandon Marsh",
-        "value": ".338",
-        "team": "Philadelphia Phillies"
-      },
-      {
         "name": "Otto Lopez",
         "value": ".336",
         "team": "Miami Marlins"
       },
       {
-        "name": "Yandy D\u00edaz",
-        "value": ".325",
-        "team": "Tampa Bay Rays"
+        "name": "Jung Hoo Lee",
+        "value": ".333",
+        "team": "San Francisco Giants"
+      },
+      {
+        "name": "Brandon Marsh",
+        "value": ".333",
+        "team": "Philadelphia Phillies"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.081",
+        "value": "1.066",
         "team": "Houston Astros"
       },
       {
         "name": "Ben Rice",
-        "value": "1.032",
+        "value": "1.041",
         "team": "New York Yankees"
       },
       {
-        "name": "Shohei Ohtani",
-        "value": ".939",
-        "team": "Los Angeles Dodgers"
+        "name": "Nick Kurtz",
+        "value": ".955",
+        "team": "Athletics"
       }
     ],
     "ERA": [
       {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "1.46",
-        "team": "Philadelphia Phillies"
-      },
-      {
         "name": "Jacob Misiorowski",
         "value": "1.50",
         "team": "Milwaukee Brewers"
+      },
+      {
+        "name": "Cristopher S\u00e1nchez",
+        "value": "1.54",
+        "team": "Philadelphia Phillies"
       },
       {
         "name": "Cam Schlittler",
@@ -82,7 +82,7 @@
       },
       {
         "name": "Paul Skenes",
-        "value": "0.91",
+        "value": "0.90",
         "team": "Pittsburgh Pirates"
       }
     ],
@@ -94,12 +94,12 @@
       },
       {
         "name": "Cristopher S\u00e1nchez",
-        "value": "103",
+        "value": "113",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Gavin Williams",
-        "value": "94",
+        "value": "99",
         "team": "Cleveland Guardians"
       }
     ]
