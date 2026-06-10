@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "leaders": {
     "HR": [
       {
@@ -21,34 +21,34 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".336",
+        "value": ".341",
         "team": "Miami Marlins"
       },
       {
         "name": "Jung Hoo Lee",
-        "value": ".333",
+        "value": ".335",
         "team": "San Francisco Giants"
       },
       {
         "name": "Brandon Marsh",
-        "value": ".333",
+        "value": ".332",
         "team": "Philadelphia Phillies"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.066",
+        "value": "1.074",
         "team": "Houston Astros"
       },
       {
         "name": "Ben Rice",
-        "value": "1.041",
+        "value": "1.018",
         "team": "New York Yankees"
       },
       {
         "name": "Nick Kurtz",
-        "value": ".955",
+        "value": ".969",
         "team": "Athletics"
       }
     ],
@@ -81,9 +81,9 @@
         "team": "New York Yankees"
       },
       {
-        "name": "Paul Skenes",
-        "value": "0.90",
-        "team": "Pittsburgh Pirates"
+        "name": "Yoshinobu Yamamoto",
+        "value": "0.92",
+        "team": "Los Angeles Dodgers"
       }
     ],
     "SO": [
@@ -98,9 +98,9 @@
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Gavin Williams",
-        "value": "99",
-        "team": "Cleveland Guardians"
+        "name": "Dylan Cease",
+        "value": "103",
+        "team": "Toronto Blue Jays"
       }
     ]
   }
