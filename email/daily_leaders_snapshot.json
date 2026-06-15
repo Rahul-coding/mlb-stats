@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-14",
+  "date": "2026-06-15",
   "leaders": {
     "HR": [
       {
@@ -21,34 +21,34 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".345",
+        "value": ".343",
         "team": "Miami Marlins"
       },
       {
         "name": "Jung Hoo Lee",
-        "value": ".328",
+        "value": ".331",
         "team": "San Francisco Giants"
       },
       {
-        "name": "Brandon Marsh",
-        "value": ".328",
-        "team": "Philadelphia Phillies"
+        "name": "Yordan Alvarez",
+        "value": ".326",
+        "team": "Houston Astros"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.093",
+        "value": "1.084",
         "team": "Houston Astros"
       },
       {
         "name": "Ben Rice",
-        "value": ".990",
+        "value": ".998",
         "team": "New York Yankees"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".979",
+        "value": ".975",
         "team": "Los Angeles Dodgers"
       }
     ],
@@ -60,7 +60,7 @@
       },
       {
         "name": "Cristopher S\u00e1nchez",
-        "value": "1.54",
+        "value": "1.82",
         "team": "Philadelphia Phillies"
       },
       {
@@ -94,7 +94,7 @@
       },
       {
         "name": "Cristopher S\u00e1nchez",
-        "value": "113",
+        "value": "116",
         "team": "Philadelphia Phillies"
       },
       {
