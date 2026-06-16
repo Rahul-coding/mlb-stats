@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-15",
+  "date": "2026-06-16",
   "leaders": {
     "HR": [
       {
@@ -14,14 +14,14 @@
       },
       {
         "name": "Byron Buxton",
-        "value": "22",
+        "value": "23",
         "team": "Minnesota Twins"
       }
     ],
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".343",
+        "value": ".339",
         "team": "Miami Marlins"
       },
       {
@@ -31,25 +31,25 @@
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".326",
+        "value": ".328",
         "team": "Houston Astros"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.084",
+        "value": "1.087",
         "team": "Houston Astros"
+      },
+      {
+        "name": "Nick Kurtz",
+        "value": "1.006",
+        "team": "Athletics"
       },
       {
         "name": "Ben Rice",
         "value": ".998",
         "team": "New York Yankees"
-      },
-      {
-        "name": "Shohei Ohtani",
-        "value": ".975",
-        "team": "Los Angeles Dodgers"
       }
     ],
     "ERA": [
