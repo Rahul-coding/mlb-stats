@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "leaders": {
     "HR": [
       {
@@ -43,12 +43,12 @@
       },
       {
         "name": "Ben Rice",
-        "value": "1.001",
+        "value": ".994",
         "team": "New York Yankees"
       },
       {
         "name": "Nick Kurtz",
-        "value": ".993",
+        "value": ".990",
         "team": "Athletics"
       }
     ],
