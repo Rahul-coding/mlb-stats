@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "leaders": {
     "HR": [
       {
@@ -26,30 +26,35 @@
       },
       {
         "name": "Jung Hoo Lee",
-        "value": ".333",
+        "value": ".332",
         "team": "San Francisco Giants"
       },
       {
         "name": "Yandy D\u00edaz",
-        "value": ".332",
+        "value": ".331",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.069",
+        "value": "1.055",
         "team": "Houston Astros"
       },
       {
-        "name": "Ben Rice",
-        "value": ".972",
-        "team": "New York Yankees"
+        "name": "Juan Soto",
+        "value": ".966",
+        "team": "New York Mets"
       },
       {
-        "name": "Nick Kurtz",
-        "value": ".969",
-        "team": "Athletics"
+        "name": "Shohei Ohtani",
+        "value": ".963",
+        "team": "Los Angeles Dodgers"
+      },
+      {
+        "name": "Kyle Schwarber",
+        "value": ".963",
+        "team": "Philadelphia Phillies"
       }
     ],
     "ERA": [
@@ -60,13 +65,13 @@
       },
       {
         "name": "Cam Schlittler",
-        "value": "1.71",
+        "value": "1.62",
         "team": "New York Yankees"
       },
       {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "1.80",
-        "team": "Philadelphia Phillies"
+        "name": "Chase Burns",
+        "value": "2.00",
+        "team": "Cincinnati Reds"
       }
     ],
     "WHIP": [
@@ -94,13 +99,18 @@
       },
       {
         "name": "Cristopher S\u00e1nchez",
-        "value": "121",
+        "value": "127",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Dylan Cease",
         "value": "118",
         "team": "Toronto Blue Jays"
+      },
+      {
+        "name": "Cam Schlittler",
+        "value": "118",
+        "team": "New York Yankees"
       }
     ]
   }
