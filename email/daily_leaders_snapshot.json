@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-27",
+  "date": "2026-06-28",
   "leaders": {
     "HR": [
       {
@@ -16,12 +16,17 @@
         "name": "Byron Buxton",
         "value": "25",
         "team": "Minnesota Twins"
+      },
+      {
+        "name": "Hunter Goodman",
+        "value": "25",
+        "team": "Colorado Rockies"
       }
     ],
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".335",
+        "value": ".336",
         "team": "Miami Marlins"
       },
       {
@@ -31,7 +36,7 @@
       },
       {
         "name": "Jung Hoo Lee",
-        "value": ".327",
+        "value": ".323",
         "team": "San Francisco Giants"
       }
     ],
@@ -42,14 +47,19 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Kyle Schwarber",
-        "value": ".962",
-        "team": "Philadelphia Phillies"
+        "name": "Juan Soto",
+        "value": ".966",
+        "team": "New York Mets"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".957",
+        "value": ".954",
         "team": "Los Angeles Dodgers"
+      },
+      {
+        "name": "Kyle Schwarber",
+        "value": ".954",
+        "team": "Philadelphia Phillies"
       }
     ],
     "ERA": [
@@ -64,9 +74,9 @@
         "team": "New York Yankees"
       },
       {
-        "name": "Chase Burns",
-        "value": "2.00",
-        "team": "Cincinnati Reds"
+        "name": "Cristopher S\u00e1nchez",
+        "value": "2.13",
+        "team": "Philadelphia Phillies"
       }
     ],
     "WHIP": [
@@ -76,14 +86,14 @@
         "team": "Milwaukee Brewers"
       },
       {
-        "name": "Yoshinobu Yamamoto",
-        "value": "0.87",
-        "team": "Los Angeles Dodgers"
-      },
-      {
         "name": "Drew Rasmussen",
         "value": "0.88",
         "team": "Tampa Bay Rays"
+      },
+      {
+        "name": "Yoshinobu Yamamoto",
+        "value": "0.89",
+        "team": "Los Angeles Dodgers"
       }
     ],
     "SO": [
@@ -93,19 +103,14 @@
         "team": "Milwaukee Brewers"
       },
       {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "127",
-        "team": "Philadelphia Phillies"
-      },
-      {
         "name": "Dylan Cease",
-        "value": "118",
+        "value": "128",
         "team": "Toronto Blue Jays"
       },
       {
-        "name": "Cam Schlittler",
-        "value": "118",
-        "team": "New York Yankees"
+        "name": "Cristopher S\u00e1nchez",
+        "value": "127",
+        "team": "Philadelphia Phillies"
       }
     ]
   }
