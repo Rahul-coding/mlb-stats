@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-28",
+  "date": "2026-06-29",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "29",
+        "value": "30",
         "team": "Philadelphia Phillies"
       },
       {
@@ -25,40 +25,35 @@
     ],
     "AVG": [
       {
-        "name": "Otto Lopez",
-        "value": ".336",
-        "team": "Miami Marlins"
-      },
-      {
         "name": "Yandy D\u00edaz",
-        "value": ".334",
+        "value": ".336",
         "team": "Tampa Bay Rays"
       },
       {
-        "name": "Jung Hoo Lee",
-        "value": ".323",
+        "name": "Otto Lopez",
+        "value": ".332",
+        "team": "Miami Marlins"
+      },
+      {
+        "name": "Luis Arraez",
+        "value": ".324",
         "team": "San Francisco Giants"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.046",
+        "value": "1.039",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".966",
+        "value": ".973",
         "team": "New York Mets"
       },
       {
-        "name": "Shohei Ohtani",
-        "value": ".954",
-        "team": "Los Angeles Dodgers"
-      },
-      {
         "name": "Kyle Schwarber",
-        "value": ".954",
+        "value": ".962",
         "team": "Philadelphia Phillies"
       }
     ],
@@ -74,9 +69,9 @@
         "team": "New York Yankees"
       },
       {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "2.13",
-        "team": "Philadelphia Phillies"
+        "name": "Chris Sale",
+        "value": "2.10",
+        "team": "Atlanta Braves"
       }
     ],
     "WHIP": [
@@ -87,7 +82,7 @@
       },
       {
         "name": "Drew Rasmussen",
-        "value": "0.88",
+        "value": "0.87",
         "team": "Tampa Bay Rays"
       },
       {
