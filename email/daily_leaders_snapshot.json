@@ -1,11 +1,16 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
         "value": "30",
         "team": "Philadelphia Phillies"
+      },
+      {
+        "name": "Hunter Goodman",
+        "value": "26",
+        "team": "Colorado Rockies"
       },
       {
         "name": "Yordan Alvarez",
@@ -16,11 +21,6 @@
         "name": "Byron Buxton",
         "value": "25",
         "team": "Minnesota Twins"
-      },
-      {
-        "name": "Hunter Goodman",
-        "value": "25",
-        "team": "Colorado Rockies"
       }
     ],
     "AVG": [
@@ -31,30 +31,30 @@
       },
       {
         "name": "Otto Lopez",
-        "value": ".332",
+        "value": ".333",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".324",
+        "value": ".326",
         "team": "San Francisco Giants"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.039",
+        "value": "1.031",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".973",
+        "value": ".975",
         "team": "New York Mets"
       },
       {
-        "name": "Kyle Schwarber",
-        "value": ".962",
-        "team": "Philadelphia Phillies"
+        "name": "Shohei Ohtani",
+        "value": ".958",
+        "team": "Los Angeles Dodgers"
       }
     ],
     "ERA": [
