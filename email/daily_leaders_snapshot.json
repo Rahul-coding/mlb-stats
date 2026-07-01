@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "leaders": {
     "HR": [
       {
@@ -8,25 +8,20 @@
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Hunter Goodman",
-        "value": "26",
-        "team": "Colorado Rockies"
-      },
-      {
         "name": "Yordan Alvarez",
-        "value": "25",
+        "value": "26",
         "team": "Houston Astros"
       },
       {
-        "name": "Byron Buxton",
-        "value": "25",
-        "team": "Minnesota Twins"
+        "name": "Hunter Goodman",
+        "value": "26",
+        "team": "Colorado Rockies"
       }
     ],
     "AVG": [
       {
         "name": "Yandy D\u00edaz",
-        "value": ".336",
+        "value": ".334",
         "team": "Tampa Bay Rays"
       },
       {
@@ -36,24 +31,24 @@
       },
       {
         "name": "Luis Arraez",
-        "value": ".326",
+        "value": ".331",
         "team": "San Francisco Giants"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.031",
+        "value": "1.046",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".975",
+        "value": ".971",
         "team": "New York Mets"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".958",
+        "value": ".954",
         "team": "Los Angeles Dodgers"
       }
     ],
@@ -64,14 +59,14 @@
         "team": "Milwaukee Brewers"
       },
       {
-        "name": "Cam Schlittler",
-        "value": "1.62",
-        "team": "New York Yankees"
+        "name": "Cristopher S\u00e1nchez",
+        "value": "2.00",
+        "team": "Philadelphia Phillies"
       },
       {
-        "name": "Chris Sale",
-        "value": "2.10",
-        "team": "Atlanta Braves"
+        "name": "Cam Schlittler",
+        "value": "2.08",
+        "team": "New York Yankees"
       }
     ],
     "WHIP": [
@@ -98,14 +93,14 @@
         "team": "Milwaukee Brewers"
       },
       {
+        "name": "Cristopher S\u00e1nchez",
+        "value": "136",
+        "team": "Philadelphia Phillies"
+      },
+      {
         "name": "Dylan Cease",
         "value": "128",
         "team": "Toronto Blue Jays"
-      },
-      {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "127",
-        "team": "Philadelphia Phillies"
       }
     ]
   }
