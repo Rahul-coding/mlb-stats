@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "leaders": {
     "HR": [
       {
@@ -21,18 +21,18 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".332",
+        "value": ".336",
         "team": "Miami Marlins"
-      },
-      {
-        "name": "Yandy D\u00edaz",
-        "value": ".329",
-        "team": "Tampa Bay Rays"
       },
       {
         "name": "Luis Arraez",
         "value": ".326",
         "team": "San Francisco Giants"
+      },
+      {
+        "name": "Yandy D\u00edaz",
+        "value": ".326",
+        "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
@@ -47,15 +47,15 @@
         "team": "New York Mets"
       },
       {
-        "name": "Junior Caminero",
-        "value": ".944",
-        "team": "Tampa Bay Rays"
+        "name": "Nick Kurtz",
+        "value": ".938",
+        "team": "Athletics"
       }
     ],
     "ERA": [
       {
         "name": "Jacob Misiorowski",
-        "value": "1.45",
+        "value": "1.47",
         "team": "Milwaukee Brewers"
       },
       {
@@ -72,7 +72,7 @@
     "WHIP": [
       {
         "name": "Jacob Misiorowski",
-        "value": "0.77",
+        "value": "0.78",
         "team": "Milwaukee Brewers"
       },
       {
@@ -89,7 +89,7 @@
     "SO": [
       {
         "name": "Jacob Misiorowski",
-        "value": "146",
+        "value": "156",
         "team": "Milwaukee Brewers"
       },
       {
