@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "leaders": {
     "HR": [
       {
@@ -8,20 +8,20 @@
         "team": "Philadelphia Phillies"
       },
       {
+        "name": "Yordan Alvarez",
+        "value": "27",
+        "team": "Houston Astros"
+      },
+      {
         "name": "Hunter Goodman",
         "value": "27",
         "team": "Colorado Rockies"
-      },
-      {
-        "name": "Yordan Alvarez",
-        "value": "26",
-        "team": "Houston Astros"
       }
     ],
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".336",
+        "value": ".337",
         "team": "Miami Marlins"
       },
       {
@@ -31,24 +31,24 @@
       },
       {
         "name": "Yandy D\u00edaz",
-        "value": ".326",
+        "value": ".325",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.053",
+        "value": "1.056",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".957",
+        "value": ".971",
         "team": "New York Mets"
       },
       {
         "name": "Nick Kurtz",
-        "value": ".938",
+        "value": ".949",
         "team": "Athletics"
       }
     ],
@@ -93,14 +93,14 @@
         "team": "Milwaukee Brewers"
       },
       {
+        "name": "Dylan Cease",
+        "value": "137",
+        "team": "Toronto Blue Jays"
+      },
+      {
         "name": "Cristopher S\u00e1nchez",
         "value": "136",
         "team": "Philadelphia Phillies"
-      },
-      {
-        "name": "Dylan Cease",
-        "value": "128",
-        "team": "Toronto Blue Jays"
       }
     ]
   }
