@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-04",
+  "date": "2026-07-05",
   "leaders": {
     "HR": [
       {
@@ -9,7 +9,7 @@
       },
       {
         "name": "Yordan Alvarez",
-        "value": "27",
+        "value": "29",
         "team": "Houston Astros"
       },
       {
@@ -21,12 +21,12 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".337",
+        "value": ".341",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".326",
+        "value": ".330",
         "team": "San Francisco Giants"
       },
       {
@@ -38,18 +38,18 @@
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.056",
+        "value": "1.078",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".971",
+        "value": ".964",
         "team": "New York Mets"
       },
       {
-        "name": "Nick Kurtz",
-        "value": ".949",
-        "team": "Athletics"
+        "name": "Junior Caminero",
+        "value": ".945",
+        "team": "Tampa Bay Rays"
       }
     ],
     "ERA": [
@@ -76,14 +76,14 @@
         "team": "Milwaukee Brewers"
       },
       {
-        "name": "Drew Rasmussen",
-        "value": "0.87",
-        "team": "Tampa Bay Rays"
+        "name": "Yoshinobu Yamamoto",
+        "value": "0.88",
+        "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Yoshinobu Yamamoto",
-        "value": "0.89",
-        "team": "Los Angeles Dodgers"
+        "name": "Drew Rasmussen",
+        "value": "0.90",
+        "team": "Tampa Bay Rays"
       }
     ],
     "SO": [
