@@ -5,95 +5,159 @@ def build_html(leaders_data, previous_date=None, categories=None):
     html = """
     <html>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>
           body {
-            font-family: Arial, sans-serif;
-            color: #0f172a;
+            margin: 0;
+            padding: 24px 12px;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #1f2937;
             line-height: 1.5;
-            background: #f8fafc;
+            background: #eef1f5;
           }
-          h2 {
-            color: #1e3a8a;
+          .container {
+            max-width: 640px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+            border: 1px solid #e2e8f0;
           }
-          h3 {
-            color: #2563eb;
+          .header {
+            background: #0f2557;
+            padding: 28px 32px;
           }
-          h4 {
-            color: #334155;
+          .header h1 {
+            margin: 0;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+          }
+          .header p {
+            margin: 6px 0 0;
+            color: #b6c2dc;
+            font-size: 13px;
+          }
+          .content {
+            padding: 8px 32px 24px;
+          }
+          .section {
+            margin-top: 28px;
+          }
+          .section-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: #0f2557;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            border-bottom: 2px solid #0f2557;
+            padding-bottom: 8px;
             margin-bottom: 4px;
           }
-          ol {
-            padding-left: 20px;
+          .category {
+            margin-top: 20px;
           }
-          li {
-            margin: 6px 0;
-          }
-          .name {
-            font-weight: bold;
-          }
-          .context {
-            margin: 0 0 18px;
-            color: #475569;
-          }
-          .category-note {
-            margin: 0 0 8px;
+          .category-title {
+            font-size: 14px;
+            font-weight: 700;
             color: #334155;
-            font-size: 0.95rem;
+            margin: 0 0 10px;
+          }
+          table.leaders {
+            width: 100%;
+            border-collapse: collapse;
+          }
+          table.leaders tr {
+            border-bottom: 1px solid #eef1f5;
+          }
+          table.leaders tr:last-child {
+            border-bottom: none;
+          }
+          table.leaders td {
+            padding: 9px 4px;
+            font-size: 14px;
+            vertical-align: middle;
+          }
+          .rank {
+            width: 26px;
+            color: #94a3b8;
+            font-weight: 700;
+            font-size: 13px;
+          }
+          .player-name {
+            font-weight: 600;
+            color: #0f172a;
+          }
+          .player-team {
+            color: #64748b;
+            font-size: 13px;
+          }
+          .player-value {
+            text-align: right;
+            font-weight: 700;
+            color: #0f2557;
+            white-space: nowrap;
+          }
+          .badge {
+            display: inline-block;
+            margin-left: 6px;
+            padding: 2px 7px;
+            border-radius: 999px;
+            font-size: 10.5px;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            vertical-align: middle;
           }
           .new-badge {
-            display: inline-block;
-            margin-left: 8px;
-            padding: 2px 8px;
-            border-radius: 999px;
-            color: #166534;
-            font-size: 0.75rem;
-            font-weight: bold;
-            letter-spacing: 0.02em;
-            vertical-align: middle;
-            background: #bbf7d0;
+            background: #dcfce7;
+            color: #15803d;
           }
           .up-badge {
-            display: inline-block;
-            margin-left: 8px;
-            padding: 2px 8px;
-            border-radius: 999px;
-            background: #dcfce7;
-            color: #065f46;
-            font-size: 0.75rem;
-            font-weight: bold;
-            vertical-align: middle;
+            background: #e0f2fe;
+            color: #0369a1;
           }
           .down-badge {
-            display: inline-block;
-            margin-left: 8px;
-            padding: 2px 8px;
-            border-radius: 999px;
             background: #fee2e2;
-            color: #7f1d1d;
-            font-size: 0.75rem;
-            font-weight: bold;
-            vertical-align: middle;
+            color: #b91c1c;
           }
-          .removed-player {
-            color: #7f1d1d;
+          .removed-row .player-name,
+          .removed-row .player-team,
+          .removed-row .player-value {
+            color: #b1b8c4;
             text-decoration: line-through;
           }
           .removed-badge {
-            display: inline-block;
-            margin-left: 8px;
-            padding: 2px 8px;
-            border-radius: 999px;
-            color: #991b1b;
-            font-size: 0.75rem;
-            font-weight: bold;
-            letter-spacing: 0.02em;
-            vertical-align: middle;
-            background: #fecaca;
+            background: #f1f5f9;
+            color: #94a3b8;
+          }
+          .footer {
+            padding: 20px 32px;
+            background: #f8fafc;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+          }
+          .footer a {
+            color: #0f2557;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
           }
         </style>
       </head>
       <body>
-        <h2>MLB League Leaders</h2>
+        <div class="container">
+          <div class="header">
+            <h1>MLB League Leaders</h1>
+    """
+
+    if previous_date:
+        html += f'<p>Updated since {escape(str(previous_date))}</p>'
+
+    html += """
+          </div>
+          <div class="content">
     """
 
     # Build a mapping from label -> group (hitting/pitching) if categories provided
@@ -116,48 +180,65 @@ def build_html(leaders_data, previous_date=None, categories=None):
     # render each group separately (e.g., Hitters, Pitchers)
     for grp, labels in groups.items():
         title = "Hitters" if grp == "hitting" else "Pitchers" if grp == "pitching" else grp.title()
-        html += f"<h3>{escape(title)}</h3>"
+        html += f'<div class="section"><div class="section-title">{escape(title)}</div>'
+
         for label in labels:
             players = leaders_data.get(label, [])
             removed_players = leaders_data.get(f"{label}_removed", [])
 
-            html += f"<h4>{escape(label)} Leaders</h4>"
-            html += "<ol>"
+            html += f'<div class="category"><div class="category-title">{escape(label)} Leaders</div>'
+            html += '<table class="leaders" role="presentation" cellspacing="0" cellpadding="0">'
 
-            for player in players:
-                player_class = "new-player" if player.get("is_new") else ""
-                new_badge = '<span class="new-badge">NEW</span>' if player.get("is_new") else ""
-                up_badge = ""
+            for i, player in enumerate(players, start=1):
+                new_badge = '<span class="badge new-badge">NEW</span>' if player.get("is_new") else ""
+                move_badge = ""
                 if player.get("moved_up"):
-                  from_rank = player.get("from_rank")
-                  to_rank = player.get("to_rank")
-                  moved = player.get("moved_up")
-                  up_badge = f'<span class="up-badge" title="from {from_rank} to {to_rank}">▲{moved}</span>'
+                    from_rank = player.get("from_rank")
+                    to_rank = player.get("to_rank")
+                    moved = player.get("moved_up")
+                    move_badge = f'<span class="badge up-badge" title="from {from_rank} to {to_rank}">&#9650; {moved}</span>'
                 elif player.get("moved_down"):
-                  from_rank = player.get("from_rank")
-                  to_rank = player.get("to_rank")
-                  moved = player.get("moved_down")
-                  up_badge = f'<span class="down-badge" title="from {from_rank} to {to_rank}">▼{moved+1}</span>'
+                    from_rank = player.get("from_rank")
+                    to_rank = player.get("to_rank")
+                    moved = player.get("moved_down")
+                    move_badge = f'<span class="badge down-badge" title="from {from_rank} to {to_rank}">&#9660; {moved + 1}</span>'
 
                 html += f"""
-                <li class="{player_class}">
-                  <span class="name">{escape(player['name'])}</span>{new_badge}{up_badge}
-                  ({escape(player['team'])}) — {escape(str(player['value']))}
-                </li>
+                <tr>
+                  <td class="rank">{i}</td>
+                  <td>
+                    <span class="player-name">{escape(player['name'])}</span>{new_badge}{move_badge}
+                    <div class="player-team">{escape(player['team'])}</div>
+                  </td>
+                  <td class="player-value">{escape(str(player['value']))}</td>
+                </tr>
                 """
 
-            # render removed players (if any) in the same list with removed styling
+            # render removed players (if any) in the same table with removed styling
             for player in removed_players:
                 html += f"""
-                <li class="removed-player">
-                  <span class="name">{escape(player['name'])}</span><span class="removed-badge">REMOVED</span>
-                  ({escape(player['team'])}) — {escape(str(player['value']))}
-                </li>
+                <tr class="removed-row">
+                  <td class="rank">&mdash;</td>
+                  <td>
+                    <span class="player-name">{escape(player['name'])}</span><span class="badge removed-badge">REMOVED</span>
+                    <div class="player-team">{escape(player['team'])}</div>
+                  </td>
+                  <td class="player-value">{escape(str(player['value']))}</td>
+                </tr>
                 """
 
-            html += "</ol>"
+            html += "</table></div>"
 
-    html += "</body></html>"
-    html += "Baseball stats comparison: https://mlbstatscompare.streamlit.app/"
+        html += "</div>"
+
+    html += """
+          </div>
+          <div class="footer">
+            <a href="https://mlbstatscompare.streamlit.app/">Compare full baseball stats &rarr;</a>
+          </div>
+        </div>
+      </body>
+    </html>
+    """
 
     return html

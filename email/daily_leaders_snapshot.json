@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-06",
   "leaders": {
     "HR": [
       {
@@ -9,98 +9,98 @@
       },
       {
         "name": "Yordan Alvarez",
-        "value": "26",
+        "value": "29",
         "team": "Houston Astros"
       },
       {
         "name": "Hunter Goodman",
-        "value": "26",
+        "value": "27",
         "team": "Colorado Rockies"
       }
     ],
     "AVG": [
       {
-        "name": "Yandy D\u00edaz",
-        "value": ".334",
-        "team": "Tampa Bay Rays"
-      },
-      {
         "name": "Otto Lopez",
-        "value": ".333",
+        "value": ".346",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".331",
+        "value": ".326",
         "team": "San Francisco Giants"
+      },
+      {
+        "name": "Yandy D\u00edaz",
+        "value": ".321",
+        "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.046",
+        "value": "1.066",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".971",
+        "value": ".966",
         "team": "New York Mets"
       },
       {
-        "name": "Shohei Ohtani",
-        "value": ".954",
-        "team": "Los Angeles Dodgers"
+        "name": "Junior Caminero",
+        "value": ".939",
+        "team": "Tampa Bay Rays"
       }
     ],
     "ERA": [
       {
         "name": "Jacob Misiorowski",
-        "value": "1.45",
+        "value": "1.47",
         "team": "Milwaukee Brewers"
-      },
-      {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "2.00",
-        "team": "Philadelphia Phillies"
       },
       {
         "name": "Cam Schlittler",
         "value": "2.08",
         "team": "New York Yankees"
+      },
+      {
+        "name": "Cristopher S\u00e1nchez",
+        "value": "2.22",
+        "team": "Philadelphia Phillies"
       }
     ],
     "WHIP": [
       {
         "name": "Jacob Misiorowski",
-        "value": "0.77",
+        "value": "0.78",
         "team": "Milwaukee Brewers"
       },
       {
-        "name": "Drew Rasmussen",
-        "value": "0.87",
-        "team": "Tampa Bay Rays"
+        "name": "Yoshinobu Yamamoto",
+        "value": "0.88",
+        "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Yoshinobu Yamamoto",
-        "value": "0.89",
-        "team": "Los Angeles Dodgers"
+        "name": "Drew Rasmussen",
+        "value": "0.90",
+        "team": "Tampa Bay Rays"
       }
     ],
     "SO": [
       {
         "name": "Jacob Misiorowski",
-        "value": "146",
+        "value": "156",
         "team": "Milwaukee Brewers"
+      },
+      {
+        "name": "Dylan Cease",
+        "value": "137",
+        "team": "Toronto Blue Jays"
       },
       {
         "name": "Cristopher S\u00e1nchez",
         "value": "136",
         "team": "Philadelphia Phillies"
-      },
-      {
-        "name": "Dylan Cease",
-        "value": "128",
-        "team": "Toronto Blue Jays"
       }
     ]
   }
