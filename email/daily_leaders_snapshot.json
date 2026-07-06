@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-05",
+  "date": "2026-07-06",
   "leaders": {
     "HR": [
       {
@@ -21,34 +21,34 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".341",
+        "value": ".346",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".330",
+        "value": ".326",
         "team": "San Francisco Giants"
       },
       {
         "name": "Yandy D\u00edaz",
-        "value": ".325",
+        "value": ".321",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.078",
+        "value": "1.066",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".964",
+        "value": ".966",
         "team": "New York Mets"
       },
       {
         "name": "Junior Caminero",
-        "value": ".945",
+        "value": ".939",
         "team": "Tampa Bay Rays"
       }
     ],
