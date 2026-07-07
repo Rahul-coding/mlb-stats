@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-06",
+  "date": "2026-07-07",
   "leaders": {
     "HR": [
       {
@@ -26,30 +26,30 @@
       },
       {
         "name": "Luis Arraez",
-        "value": ".326",
+        "value": ".325",
         "team": "San Francisco Giants"
       },
       {
-        "name": "Yandy D\u00edaz",
-        "value": ".321",
-        "team": "Tampa Bay Rays"
+        "name": "Yordan Alvarez",
+        "value": ".318",
+        "team": "Houston Astros"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.066",
+        "value": "1.056",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".966",
+        "value": ".984",
         "team": "New York Mets"
       },
       {
-        "name": "Junior Caminero",
-        "value": ".939",
-        "team": "Tampa Bay Rays"
+        "name": "Shohei Ohtani",
+        "value": ".944",
+        "team": "Los Angeles Dodgers"
       }
     ],
     "ERA": [
@@ -60,13 +60,13 @@
       },
       {
         "name": "Cam Schlittler",
-        "value": "2.08",
+        "value": "2.01",
         "team": "New York Yankees"
       },
       {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "2.22",
-        "team": "Philadelphia Phillies"
+        "name": "Eduardo Rodriguez",
+        "value": "2.25",
+        "team": "Arizona Diamondbacks"
       }
     ],
     "WHIP": [
@@ -99,7 +99,7 @@
       },
       {
         "name": "Cristopher S\u00e1nchez",
-        "value": "136",
+        "value": "137",
         "team": "Philadelphia Phillies"
       }
     ]
