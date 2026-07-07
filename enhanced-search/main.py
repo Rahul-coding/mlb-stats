@@ -14,17 +14,15 @@ lowerBetter = ["era", "whip", "avg"]
 hittersStats = []
 pitchersStats = []
 
-with st.container(horizontal_alignment="right"):
-    col_title, col_info = st.columns([7, 1])
-    with col_info:
-        st.button("Info", icon=":material/help:", help="Enter names...")
-
-player = st.text_input("Player Names", placeholder="Aaron Judge, Chase Burns")
-comparison_mode = st.radio(
+st.sidebar.button("Info", icon=":material/help:", help="Enter names...")
+comparison_mode = st.sidebar.radio(
     "Compare",
     ["Batters", "Pitchers"],
-    horizontal=True,
+    horizontal=False,
 )
+
+player = st.text_input("Player Names", placeholder="Aaron Judge, Chase Burns")
+
 
 # We use session_state to save the expected stats dataframe across button presses
 if "df_expected" not in st.session_state:
@@ -90,14 +88,26 @@ if st.button("Lookup Player(s)"):
 if hittersStats:
     st.subheader("Hitter Statistics")
     df_hitters = pd.DataFrame(hittersStats)
-    # ... your existing table styling logic ...
-    st.dataframe(df_hitters) # Placeholder for your styled logic
+    df_hitters.index = df_hitters.index + 1 #start index at 1 instead of 0
+    if(len(hittersStats) > 1):      
+        styled_hitters = df_hitters.style.set_properties(**{'text-align': 'center'}).apply(
+            lambda column: ['color: red; font-weight: bold' if (value ==column.max()) else '' for value in column], 
+            axis=0,
+            subset=hittingStats
+        )
+        st.dataframe(styled_hitters)
     
 if pitchersStats:
     st.subheader("Pitcher Statistics")
     df_pitchers = pd.DataFrame(pitchersStats)
-    # ... your existing table styling logic ...
-    st.dataframe(df_pitchers) # Placeholder for your styled logic
+    df_pitchers.index = df_pitchers.index + 1 #start index at 1 instead of 0
+    if(len(pitchersStats) > 1):      
+        styled_pitchers = df_pitchers.style.set_properties(**{'text-align': 'center'}).apply(
+            lambda column: ['color: red; font-weight: bold' if (value ==column.max() and column.name not in lowerBetter) or (value == column.min() and column.name in lowerBetter) else '' for value in column], 
+            axis=0,
+            subset=pitchingStats
+        )
+        st.dataframe(styled_pitchers)
 
 
 df_exp = st.session_state.df_expected
