@@ -26,8 +26,8 @@ categories = {
     "battingAverage": ("AVG", "hitting"),
     "onBasePlusSlugging": ("OPS", "hitting"),
     # Pitching leaders
-    "earnedRunAverage": ("ERA", "pitching"),
-    "whip": ("WHIP", "pitching"),
+    "earnedRunAverage": ("STARTER ERA", "pitching"),
+    "whip": ("STARTER WHIP", "pitching"),
     "strikeOuts": ("SO", "pitching")
 }
 
@@ -111,11 +111,11 @@ def fetch_reliever_leaders(limit=3):
             {"name": p["name"], "value": str(p["saves"] + p["holds"]), "team": p["team"]}
             for p in svh[:limit]
         ],
-        "REL ERA": [
+        "RELIEVER ERA": [
             {"name": p["name"], "value": str(p["era"]), "team": p["team"]}
             for p in era[:limit]
         ],
-        "REL WHIP": [
+        "RELIEVER WHIP": [
             {"name": p["name"], "value": str(p["whip"]), "team": p["team"]}
             for p in whip[:limit]
         ],

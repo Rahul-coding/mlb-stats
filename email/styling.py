@@ -2,7 +2,13 @@ from html import escape
 
 
 def build_html(leaders_data, previous_date=None, categories=None):
-  reliever_labels = {"SV+H", "ERA", "WHIP"}
+  reliever_labels = {"SV+H", "RELIEVER ERA", "RELIEVER WHIP"}
+  display_labels = {
+      "STARTER ERA": "ERA",
+      "STARTER WHIP": "WHIP",
+      "RELIEVER ERA": "ERA",
+      "RELIEVER WHIP": "WHIP",
+  }
   html = """
     <html>
       <head>
@@ -53,9 +59,10 @@ def build_html(leaders_data, previous_date=None, categories=None):
             color: #0f2557;
             text-transform: uppercase;
             letter-spacing: 0.06em;
-            border-bottom: 2px solid #0f2557;
+            border-bottom: 5px solid #0f2557;
             padding-bottom: 8px;
             margin-bottom: 4px;
+            bold: true;
           }
           .category {
             margin-top: 20px;
@@ -175,7 +182,7 @@ def build_html(leaders_data, previous_date=None, categories=None):
     for label in leaders_data.keys():
         if label.endswith("_removed"):
             continue
-        grp = "relieving" if label in reliever_labels else label_group.get(label, "hitting")
+        grp = "relieving" if label in reliever_labels else "pitching" if label == "pitching" else label_group.get(label, "hitting")
         groups.setdefault(grp, []).append(label)
 
     # render each group separately (e.g., Hitters, Pitchers)
@@ -183,61 +190,64 @@ def build_html(leaders_data, previous_date=None, categories=None):
       if grp == "hitting":
         title = "Hitters"
       elif grp == "pitching":
-        title = "Pitchers"
+        title = "Starting Pitchers"
       elif grp == "relieving":
         title = "Relievers"
       else:
         title = grp.title()
-        html += f'<div class="section"><div class="section-title">{escape(title)}</div>'
 
-        for label in labels:
-            players = leaders_data.get(label, [])
-            removed_players = leaders_data.get(f"{label}_removed", [])
+      html += f'<div class="section"><div class="section-title">{escape(title)}</div>'
 
-            html += f'<div class="category"><div class="category-title">{escape(label)} Leaders</div>'
-            html += '<table class="leaders" role="presentation" cellspacing="0" cellpadding="0">'
+      for label in labels:
+          players = leaders_data.get(label, [])
+          removed_players = leaders_data.get(f"{label}_removed", [])
+          category_label = display_labels.get(label, label)
 
-            for i, player in enumerate(players, start=1):
-                new_badge = '<span class="badge new-badge">NEW</span>' if player.get("is_new") else ""
-                move_badge = ""
-                if player.get("moved_up"):
-                    from_rank = player.get("from_rank")
-                    to_rank = player.get("to_rank")
-                    moved = player.get("moved_up")
-                    move_badge = f'<span class="badge up-badge" title="from {from_rank} to {to_rank}">&#9650; {moved}</span>'
-                elif player.get("moved_down"):
-                    from_rank = player.get("from_rank")
-                    to_rank = player.get("to_rank")
-                    moved = player.get("moved_down")
-                    move_badge = f'<span class="badge down-badge" title="from {from_rank} to {to_rank}">&#9660; {moved + 1}</span>'
+          html += f'<div class="category"><div class="category-title">{escape(category_label)}</div>'
+          html += '<table class="leaders" role="presentation" cellspacing="0" cellpadding="0">'
 
-                html += f"""
-                <tr>
-                  <td class="rank">{i}</td>
-                  <td>
-                    <span class="player-name">{escape(player['name'])}</span>{new_badge}{move_badge}
-                    <div class="player-team">{escape(player['team'])}</div>
-                  </td>
-                  <td class="player-value">{escape(str(player['value']))}</td>
-                </tr>
-                """
+          for i, player in enumerate(players, start=1):
+              new_badge = '<span class="badge new-badge">NEW</span>' if player.get("is_new") else ""
+              move_badge = ""
+              if player.get("moved_up"):
+                  from_rank = player.get("from_rank")
+                  to_rank = player.get("to_rank")
+                  moved = player.get("moved_up")
+                  move_badge = f'<span class="badge up-badge" title="from {from_rank} to {to_rank}">&#9650; {moved}</span>'
+              elif player.get("moved_down"):
+                  from_rank = player.get("from_rank")
+                  to_rank = player.get("to_rank")
+                  moved = player.get("moved_down")
+                  move_badge = f'<span class="badge down-badge" title="from {from_rank} to {to_rank}">&#9660; {moved + 1}</span>'
 
-            # render removed players (if any) in the same table with removed styling
-            for player in removed_players:
-                html += f"""
-                <tr class="removed-row">
-                  <td class="rank">&mdash;</td>
-                  <td>
-                    <span class="player-name">{escape(player['name'])}</span><span class="badge removed-badge">REMOVED</span>
-                    <div class="player-team">{escape(player['team'])}</div>
-                  </td>
-                  <td class="player-value">{escape(str(player['value']))}</td>
-                </tr>
-                """
+              html += f"""
+              <tr>
+                <td class="rank">{i}</td>
+                <td>
+                  <span class="player-name">{escape(player['name'])}</span>{new_badge}{move_badge}
+                  <div class="player-team">{escape(player['team'])}</div>
+                </td>
+                <td class="player-value">{escape(str(player['value']))}</td>
+              </tr>
+              """
 
-            html += "</table></div>"
+          # render removed players (if any) in the same table with removed styling
+          for player in removed_players:
+              html += f"""
+              <tr class="removed-row">
+                <td class="rank">&mdash;</td>
+                <td>
+                  <span class="player-name">{escape(player['name'])}</span><span class="badge removed-badge">REMOVED</span>
+                  <div class="player-team">{escape(player['team'])}</div>
+                </td>
+                <td class="player-value">{escape(str(player['value']))}</td>
+              </tr>
+              """
 
-        html += "</div>"
+          html += "</table>"
+      html += "</div>"
+
+      html += "</div>"
 
     html += """
           </div>
