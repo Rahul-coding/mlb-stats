@@ -2,7 +2,8 @@ from html import escape
 
 
 def build_html(leaders_data, previous_date=None, categories=None):
-    html = """
+  reliever_labels = {"SV+H", "ERA", "WHIP"}
+  html = """
     <html>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -152,34 +153,41 @@ def build_html(leaders_data, previous_date=None, categories=None):
             <h1>MLB League Leaders</h1>
     """
 
-    if previous_date:
-        html += f'<p>Updated since {escape(str(previous_date))}</p>'
+  if previous_date:
+      html += f'<p>Updated since {escape(str(previous_date))}</p>'
 
-    html += """
-          </div>
-          <div class="content">
+  html += """
+        </div>
+        <div class="content">
     """
 
     # Build a mapping from label -> group (hitting/pitching) if categories provided
-    label_group = {}
-    if categories:
-        try:
-            for _, (lab, grp) in categories.items():
-                label_group[lab] = grp
-        except Exception:
-            label_group = {}
+  label_group = {}
+  if categories:
+    try:
+        for _, (lab, grp) in categories.items():
+            label_group[lab] = grp
+    except Exception:
+        label_group = {}
 
     # Group labels by their group
     groups = {}
     for label in leaders_data.keys():
         if label.endswith("_removed"):
             continue
-        grp = label_group.get(label, "hitting")
+        grp = "relieving" if label in reliever_labels else label_group.get(label, "hitting")
         groups.setdefault(grp, []).append(label)
 
     # render each group separately (e.g., Hitters, Pitchers)
     for grp, labels in groups.items():
-        title = "Hitters" if grp == "hitting" else "Pitchers" if grp == "pitching" else grp.title()
+      if grp == "hitting":
+        title = "Hitters"
+      elif grp == "pitching":
+        title = "Pitchers"
+      elif grp == "relieving":
+        title = "Relievers"
+      else:
+        title = grp.title()
         html += f'<div class="section"><div class="section-title">{escape(title)}</div>'
 
         for label in labels:

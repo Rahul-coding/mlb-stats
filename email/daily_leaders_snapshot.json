@@ -55,7 +55,7 @@
     "ERA": [
       {
         "name": "Jacob Misiorowski",
-        "value": "1.47",
+        "value": "1.62",
         "team": "Milwaukee Brewers"
       },
       {
@@ -72,7 +72,7 @@
     "WHIP": [
       {
         "name": "Jacob Misiorowski",
-        "value": "0.78",
+        "value": "0.76",
         "team": "Milwaukee Brewers"
       },
       {
@@ -89,7 +89,7 @@
     "SO": [
       {
         "name": "Jacob Misiorowski",
-        "value": "156",
+        "value": "167",
         "team": "Milwaukee Brewers"
       },
       {
@@ -101,6 +101,57 @@
         "name": "Cristopher S\u00e1nchez",
         "value": "137",
         "team": "Philadelphia Phillies"
+      }
+    ],
+    "SV+H": [
+      {
+        "name": "Cade Smith",
+        "value": "26",
+        "team": "Cleveland Guardians"
+      },
+      {
+        "name": "Bryan Baker",
+        "value": "25",
+        "team": "Tampa Bay Rays"
+      },
+      {
+        "name": "Riley O'Brien",
+        "value": "23",
+        "team": "St. Louis Cardinals"
+      }
+    ],
+    "REL ERA": [
+      {
+        "name": "Robert Suarez",
+        "value": "0.56",
+        "team": "Atlanta Braves"
+      },
+      {
+        "name": "Louis Varland",
+        "value": "0.96",
+        "team": "Toronto Blue Jays"
+      },
+      {
+        "name": "Mason Miller",
+        "value": "0.98",
+        "team": "San Diego Padres"
+      }
+    ],
+    "REL WHIP": [
+      {
+        "name": "Dylan Lee",
+        "value": "0.69",
+        "team": "Atlanta Braves"
+      },
+      {
+        "name": "Taylor Clarke",
+        "value": "0.76",
+        "team": "Arizona Diamondbacks"
+      },
+      {
+        "name": "Mason Miller",
+        "value": "0.82",
+        "team": "San Diego Padres"
       }
     ]
   }
