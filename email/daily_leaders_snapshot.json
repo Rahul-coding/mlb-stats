@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "30",
+        "value": "31",
         "team": "Philadelphia Phillies"
       },
       {
@@ -21,34 +21,34 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".346",
+        "value": ".343",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".325",
+        "value": ".327",
         "team": "San Francisco Giants"
       },
       {
-        "name": "Yordan Alvarez",
-        "value": ".318",
-        "team": "Houston Astros"
+        "name": "Yandy D\u00edaz",
+        "value": ".319",
+        "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.056",
+        "value": "1.041",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".984",
+        "value": ".985",
         "team": "New York Mets"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".944",
+        "value": ".950",
         "team": "Los Angeles Dodgers"
       }
     ],
@@ -111,13 +111,13 @@
       },
       {
         "name": "Bryan Baker",
-        "value": "25",
+        "value": "26",
         "team": "Tampa Bay Rays"
       },
       {
-        "name": "Riley O'Brien",
+        "name": "Mason Miller",
         "value": "23",
-        "team": "St. Louis Cardinals"
+        "team": "San Diego Padres"
       }
     ],
     "RELIEVER ERA": [
@@ -128,12 +128,12 @@
       },
       {
         "name": "Louis Varland",
-        "value": "0.96",
+        "value": "0.94",
         "team": "Toronto Blue Jays"
       },
       {
         "name": "Mason Miller",
-        "value": "0.98",
+        "value": "0.96",
         "team": "San Diego Padres"
       }
     ],
@@ -150,7 +150,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.82",
+        "value": "0.80",
         "team": "San Diego Padres"
       }
     ]
