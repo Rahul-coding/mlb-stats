@@ -13,18 +13,8 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Junior Caminero",
-        "value": "27",
-        "team": "Tampa Bay Rays"
-      },
-      {
-        "name": "Hunter Goodman",
-        "value": "27",
-        "team": "Colorado Rockies"
-      },
-      {
         "name": "Ben Rice",
-        "value": "27",
+        "value": "28",
         "team": "New York Yankees"
       }
     ],
@@ -57,9 +47,9 @@
         "team": "New York Mets"
       },
       {
-        "name": "James Wood",
-        "value": ".948",
-        "team": "Washington Nationals"
+        "name": "Ben Rice",
+        "value": ".954",
+        "team": "New York Yankees"
       }
     ],
     "STARTER ERA": [
