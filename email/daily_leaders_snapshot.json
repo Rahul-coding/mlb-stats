@@ -13,30 +13,20 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Junior Caminero",
-        "value": "27",
-        "team": "Tampa Bay Rays"
-      },
-      {
-        "name": "Hunter Goodman",
-        "value": "27",
-        "team": "Colorado Rockies"
-      },
-      {
         "name": "Ben Rice",
-        "value": "27",
+        "value": "28",
         "team": "New York Yankees"
       }
     ],
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".345",
+        "value": ".344",
         "team": "Miami Marlins"
       },
       {
         "name": "Yandy D\u00edaz",
-        "value": ".327",
+        "value": ".326",
         "team": "Tampa Bay Rays"
       },
       {
@@ -57,9 +47,9 @@
         "team": "New York Mets"
       },
       {
-        "name": "James Wood",
-        "value": ".948",
-        "team": "Washington Nationals"
+        "name": "Ben Rice",
+        "value": ".956",
+        "team": "New York Yankees"
       }
     ],
     "STARTER ERA": [
@@ -115,14 +105,14 @@
     ],
     "SV+H": [
       {
+        "name": "Cade Smith",
+        "value": "27",
+        "team": "Cleveland Guardians"
+      },
+      {
         "name": "Bryan Baker",
         "value": "27",
         "team": "Tampa Bay Rays"
-      },
-      {
-        "name": "Cade Smith",
-        "value": "26",
-        "team": "Cleveland Guardians"
       },
       {
         "name": "Mason Miller",
