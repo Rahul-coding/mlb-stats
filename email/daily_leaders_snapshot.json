@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "31",
+        "value": "32",
         "team": "Philadelphia Phillies"
       },
       {
@@ -21,35 +21,35 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".343",
+        "value": ".345",
         "team": "Miami Marlins"
       },
       {
-        "name": "Luis Arraez",
+        "name": "Yandy D\u00edaz",
         "value": ".327",
-        "team": "San Francisco Giants"
+        "team": "Tampa Bay Rays"
       },
       {
-        "name": "Yandy D\u00edaz",
-        "value": ".319",
-        "team": "Tampa Bay Rays"
+        "name": "Luis Arraez",
+        "value": ".324",
+        "team": "San Francisco Giants"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.041",
+        "value": "1.030",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".985",
+        "value": ".978",
         "team": "New York Mets"
       },
       {
-        "name": "Shohei Ohtani",
-        "value": ".950",
-        "team": "Los Angeles Dodgers"
+        "name": "James Wood",
+        "value": ".948",
+        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
@@ -94,7 +94,7 @@
       },
       {
         "name": "Dylan Cease",
-        "value": "137",
+        "value": "148",
         "team": "Toronto Blue Jays"
       },
       {
@@ -105,14 +105,14 @@
     ],
     "SV+H": [
       {
+        "name": "Bryan Baker",
+        "value": "27",
+        "team": "Tampa Bay Rays"
+      },
+      {
         "name": "Cade Smith",
         "value": "26",
         "team": "Cleveland Guardians"
-      },
-      {
-        "name": "Bryan Baker",
-        "value": "26",
-        "team": "Tampa Bay Rays"
       },
       {
         "name": "Mason Miller",
@@ -140,18 +140,18 @@
     "RELIEVER WHIP": [
       {
         "name": "Dylan Lee",
-        "value": "0.69",
+        "value": "0.68",
         "team": "Atlanta Braves"
-      },
-      {
-        "name": "Taylor Clarke",
-        "value": "0.76",
-        "team": "Arizona Diamondbacks"
       },
       {
         "name": "Mason Miller",
         "value": "0.80",
         "team": "San Diego Padres"
+      },
+      {
+        "name": "Dylan Dodd",
+        "value": "0.80",
+        "team": "Atlanta Braves"
       }
     ]
   }
