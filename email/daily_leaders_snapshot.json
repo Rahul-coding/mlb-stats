@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-09",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "30",
+        "value": "32",
         "team": "Philadelphia Phillies"
       },
       {
@@ -13,43 +13,53 @@
         "team": "Houston Astros"
       },
       {
+        "name": "Junior Caminero",
+        "value": "27",
+        "team": "Tampa Bay Rays"
+      },
+      {
         "name": "Hunter Goodman",
         "value": "27",
         "team": "Colorado Rockies"
+      },
+      {
+        "name": "Ben Rice",
+        "value": "27",
+        "team": "New York Yankees"
       }
     ],
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".346",
+        "value": ".345",
         "team": "Miami Marlins"
       },
       {
-        "name": "Luis Arraez",
-        "value": ".325",
-        "team": "San Francisco Giants"
+        "name": "Yandy D\u00edaz",
+        "value": ".327",
+        "team": "Tampa Bay Rays"
       },
       {
-        "name": "Yordan Alvarez",
-        "value": ".318",
-        "team": "Houston Astros"
+        "name": "Luis Arraez",
+        "value": ".324",
+        "team": "San Francisco Giants"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.056",
+        "value": "1.030",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".984",
+        "value": ".993",
         "team": "New York Mets"
       },
       {
-        "name": "Shohei Ohtani",
-        "value": ".944",
-        "team": "Los Angeles Dodgers"
+        "name": "James Wood",
+        "value": ".948",
+        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
@@ -81,9 +91,9 @@
         "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Drew Rasmussen",
-        "value": "0.90",
-        "team": "Tampa Bay Rays"
+        "name": "Cam Schlittler",
+        "value": "0.93",
+        "team": "New York Yankees"
       }
     ],
     "SO": [
@@ -94,7 +104,7 @@
       },
       {
         "name": "Dylan Cease",
-        "value": "137",
+        "value": "148",
         "team": "Toronto Blue Jays"
       },
       {
@@ -105,19 +115,19 @@
     ],
     "SV+H": [
       {
+        "name": "Bryan Baker",
+        "value": "27",
+        "team": "Tampa Bay Rays"
+      },
+      {
         "name": "Cade Smith",
         "value": "26",
         "team": "Cleveland Guardians"
       },
       {
-        "name": "Bryan Baker",
-        "value": "25",
-        "team": "Tampa Bay Rays"
-      },
-      {
-        "name": "Riley O'Brien",
+        "name": "Mason Miller",
         "value": "23",
-        "team": "St. Louis Cardinals"
+        "team": "San Diego Padres"
       }
     ],
     "RELIEVER ERA": [
@@ -128,30 +138,47 @@
       },
       {
         "name": "Louis Varland",
-        "value": "0.96",
+        "value": "0.94",
         "team": "Toronto Blue Jays"
       },
       {
         "name": "Mason Miller",
-        "value": "0.98",
+        "value": "0.96",
         "team": "San Diego Padres"
       }
     ],
     "RELIEVER WHIP": [
       {
         "name": "Dylan Lee",
-        "value": "0.69",
+        "value": "0.68",
         "team": "Atlanta Braves"
       },
       {
-        "name": "Taylor Clarke",
-        "value": "0.76",
-        "team": "Arizona Diamondbacks"
+        "name": "Dylan Dodd",
+        "value": "0.77",
+        "team": "Atlanta Braves"
       },
       {
         "name": "Mason Miller",
-        "value": "0.82",
+        "value": "0.80",
         "team": "San Diego Padres"
+      }
+    ],
+    "YESTERDAY'S TOP PERFORMANCES": [
+      {
+        "name": "Jo Adell",
+        "team": "Los Angeles Angels",
+        "value": "2-4, 2 HR, 5 RBI, 3 R"
+      },
+      {
+        "name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "value": "2-4, 2 HR, 2 RBI, 3 R"
+      },
+      {
+        "name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
       }
     ]
   }

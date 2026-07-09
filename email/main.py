@@ -9,6 +9,8 @@ import requests
 from dotenv import load_dotenv
 
 from styling import build_html
+from best_performance import get_yesterdays_best_batters
+
 
 load_dotenv()
 
@@ -223,6 +225,22 @@ def save_snapshot(leaders_data):
 
 
 leaders_data = fetch_current_leaders()
+
+#get the best performances from yesterday's games and add them to the leaders_data
+yesterday_df = get_yesterdays_best_batters()
+if yesterday_df is not None and not yesterday_df.empty:
+    top_performers = []
+    for _, row in yesterday_df.iterrows():
+        # Construct a descriptive string of their stat line for the value column
+        stat_line = f"{row['H']}-{row['AB']}, {row['HR']} HR, {row['RBI']} RBI, {row['R']} R"
+        top_performers.append({
+            "name": row["Player"],
+            "team": row["Team"],
+            "value": stat_line
+        })
+    # Inject it into leaders_data with a unique label
+    leaders_data["YESTERDAY'S TOP PERFORMANCES"] = top_performers
+
 previous_snapshot = load_previous_snapshot()
 leaders_with_changes, previous_date = enrich_leaders_with_changes(leaders_data, previous_snapshot)
 

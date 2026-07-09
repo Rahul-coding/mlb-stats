@@ -8,6 +8,7 @@ def build_html(leaders_data, previous_date=None, categories=None):
       "STARTER WHIP": "WHIP",
       "RELIEVER ERA": "ERA",
       "RELIEVER WHIP": "WHIP",
+      "YESTERDAY'S BEST BATTERS": "Yesterday's Best Batters",
   }
   html = """
     <html>
@@ -182,7 +183,10 @@ def build_html(leaders_data, previous_date=None, categories=None):
     for label in leaders_data.keys():
         if label.endswith("_removed"):
             continue
-        grp = "relieving" if label in reliever_labels else "pitching" if label == "pitching" else label_group.get(label, "hitting")
+        if label == "YESTERDAY'S BEST BATTERS":
+            grp = "standouts"
+        else:
+          grp = "relieving" if label in reliever_labels else "pitching" if label == "pitching" else label_group.get(label, "hitting")
         groups.setdefault(grp, []).append(label)
 
     # render each group separately (e.g., Hitters, Pitchers)
@@ -193,6 +197,8 @@ def build_html(leaders_data, previous_date=None, categories=None):
         title = "Starting Pitchers"
       elif grp == "relieving":
         title = "Relievers"
+      elif grp == "standouts":
+        title = "Yesterday's Best Batters"
       else:
         title = grp.title()
 
@@ -208,17 +214,19 @@ def build_html(leaders_data, previous_date=None, categories=None):
 
           for i, player in enumerate(players, start=1):
               new_badge = '<span class="badge new-badge">NEW</span>' if player.get("is_new") else ""
+              is_daily = (label == "YESTERDAY'S TOP PERFORMANCES")
               move_badge = ""
-              if player.get("moved_up"):
-                  from_rank = player.get("from_rank")
-                  to_rank = player.get("to_rank")
-                  moved = player.get("moved_up")
-                  move_badge = f'<span class="badge up-badge" title="from {from_rank} to {to_rank}">&#9650; {moved}</span>'
-              elif player.get("moved_down"):
-                  from_rank = player.get("from_rank")
-                  to_rank = player.get("to_rank")
-                  moved = player.get("moved_down")
-                  move_badge = f'<span class="badge down-badge" title="from {from_rank} to {to_rank}">&#9660; {moved + 1}</span>'
+              if(not is_daily):
+                if player.get("moved_up"):
+                    from_rank = player.get("from_rank")
+                    to_rank = player.get("to_rank")
+                    moved = player.get("moved_up")
+                    move_badge = f'<span class="badge up-badge" title="from {from_rank} to {to_rank}">&#9650; {moved}</span>'
+                elif player.get("moved_down"):
+                    from_rank = player.get("from_rank")
+                    to_rank = player.get("to_rank")
+                    moved = player.get("moved_down")
+                    move_badge = f'<span class="badge down-badge" title="from {from_rank} to {to_rank}">&#9660; {moved + 1}</span>'
 
               html += f"""
               <tr>
