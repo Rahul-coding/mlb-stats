@@ -1,6 +1,38 @@
 from html import escape
 
 def build_html(leaders_data, previous_date=None, categories=None):
+    TEAM_ABBREVIATIONS = {
+        "Arizona Diamondbacks": "ARI",
+        "Atlanta Braves": "ATL",
+        "Baltimore Orioles": "BAL",
+        "Boston Red Sox": "BOS",
+        "Chicago White Sox": "CWS",
+        "Chicago Cubs": "CHC",
+        "Cincinnati Reds": "CIN",
+        "Cleveland Guardians": "CLE",
+        "Colorado Rockies": "COL",
+        "Detroit Tigers": "DET",
+        "Houston Astros": "HOU",
+        "Kansas City Royals": "KC",
+        "Los Angeles Angels": "LAA",
+        "Los Angeles Dodgers": "LAD",
+        "Miami Marlins": "MIA",
+        "Milwaukee Brewers": "MIL",
+        "Minnesota Twins": "MIN",
+        "New York Yankees": "NYY",
+        "New York Mets": "NYM",
+        "Oakland Athletics": "OAK",
+        "Philadelphia Phillies": "PHI",
+        "Pittsburgh Pirates": "PIT",
+        "San Diego Padres": "SD",
+        "San Francisco Giants": "SF",
+        "Seattle Mariners": "SEA",
+        "St. Louis Cardinals": "STL",
+        "Tampa Bay Rays": "TB",
+        "Texas Rangers": "TEX",
+        "Toronto Blue Jays": "TOR",
+        "Washington Nationals": "WSH",
+    }
     reliever_labels = {"SV+H", "RELIEVER ERA", "RELIEVER WHIP"}
     display_labels = {
         "STARTER ERA": "ERA",
@@ -98,13 +130,16 @@ def build_html(leaders_data, previous_date=None, categories=None):
                 # Check border logic considering if there are removed players coming right after
                 is_last = (i == len(players) and not removed_players)
                 border_style = "" if is_last else "border-bottom: 1px solid #f1f5f9;"
-                
+                player_team = player["team"] 
+                team_abbr = TEAM_ABBREVIATIONS.get(player_team, player_team[:3].upper())
+                print(TEAM_ABBREVIATIONS.get(player_team))
+
                 sub_html += f"""
                     <tr style="{border_style}">
                       <td width="22" style="padding: 10px 0; font-size: 12px; font-weight: 700; color: #94a3b8; {font_stack}">{i}</td>
                       <td style="padding: 10px 0; font-size: 13px; {font_stack}">
                         <span style="font-weight: 600; color: #0f172a; vertical-align: middle;">{escape(player['name'])}</span>{new_badge}
-                        <span style="color: #64748b; font-size: 11px; font-weight: 500; margin-left: 2px;">({escape(player['team'][:3].upper())})</span>
+                        <span style="color: #64748b; font-size: 11px; font-weight: 500; margin-left: 2px;">({escape(team_abbr)})</span>
                       </td>
                       <td align="right" style="padding: 10px 0; font-size: 13px; font-weight: 700; color: #1e3a8a; {font_stack}">{escape(str(player['value']))}</td>
                     </tr>
@@ -117,13 +152,15 @@ def build_html(leaders_data, previous_date=None, categories=None):
                 for j, player in enumerate(removed_players):
                     is_last_removed = (j == len(removed_players) - 1)
                     border_style = "" if is_last_removed else "border-bottom: 1px solid #f1f5f9;"
-                    
+                    player_team = player["team"] 
+                    team_abbr = TEAM_ABBREVIATIONS.get(player_team, player_team[:3].upper())
+
                     sub_html += f"""
                     <tr style="{border_style}">
                       <td width="22" style="padding: 10px 0; font-size: 12px; font-weight: 700; color: #cbd5e1; {font_stack}">&mdash;</td>
                       <td style="padding: 10px 0; font-size: 13px; {font_stack} text-decoration: line-through; color: #94a3b8;">
                         <span style="font-weight: 500; color: #94a3b8; vertical-align: middle;">{escape(player['name'])}</span>
-                        <span style="color: #cbd5e1; font-size: 11px; font-weight: 500; margin-left: 2px;">({escape(player['team'][:3].upper())})</span>
+                        <span style="color: #cbd5e1; font-size: 11px; font-weight: 500; margin-left: 2px;">({escape(team_abbr)})</span>
                         {removed_badge}
                       </td>
                       <td align="right" style="padding: 10px 0; font-size: 13px; font-weight: 500; color: #94a3b8; {font_stack} text-decoration: line-through;">{escape(str(player['value']))}</td>
