@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "leaders": {
     "HR": [
       {
@@ -9,47 +9,47 @@
       },
       {
         "name": "Yordan Alvarez",
-        "value": "29",
+        "value": "30",
         "team": "Houston Astros"
       },
       {
         "name": "Ben Rice",
-        "value": "28",
+        "value": "29",
         "team": "New York Yankees"
       }
     ],
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".345",
+        "value": ".341",
         "team": "Miami Marlins"
       },
       {
-        "name": "Yandy D\u00edaz",
-        "value": ".326",
-        "team": "Tampa Bay Rays"
+        "name": "Luis Arraez",
+        "value": ".331",
+        "team": "San Francisco Giants"
       },
       {
-        "name": "Luis Arraez",
-        "value": ".326",
-        "team": "San Francisco Giants"
+        "name": "Yandy D\u00edaz",
+        "value": ".321",
+        "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.030",
+        "value": "1.038",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".993",
+        "value": ".988",
         "team": "New York Mets"
       },
       {
-        "name": "Ben Rice",
-        "value": ".956",
-        "team": "New York Yankees"
+        "name": "James Wood",
+        "value": ".962",
+        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
@@ -64,9 +64,9 @@
         "team": "New York Yankees"
       },
       {
-        "name": "Eduardo Rodriguez",
-        "value": "2.25",
-        "team": "Arizona Diamondbacks"
+        "name": "Chris Sale",
+        "value": "2.20",
+        "team": "Atlanta Braves"
       }
     ],
     "STARTER WHIP": [
@@ -106,7 +106,7 @@
     "SV+H": [
       {
         "name": "Cade Smith",
-        "value": "27",
+        "value": "28",
         "team": "Cleveland Guardians"
       },
       {
@@ -115,9 +115,9 @@
         "team": "Tampa Bay Rays"
       },
       {
-        "name": "Mason Miller",
-        "value": "23",
-        "team": "San Diego Padres"
+        "name": "Riley O'Brien",
+        "value": "24",
+        "team": "St. Louis Cardinals"
       }
     ],
     "RELIEVER ERA": [
@@ -127,14 +127,14 @@
         "team": "Atlanta Braves"
       },
       {
-        "name": "Louis Varland",
-        "value": "0.94",
-        "team": "Toronto Blue Jays"
-      },
-      {
         "name": "Mason Miller",
         "value": "0.96",
         "team": "San Diego Padres"
+      },
+      {
+        "name": "Louis Varland",
+        "value": "1.10",
+        "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER WHIP": [
@@ -149,26 +149,43 @@
         "team": "Atlanta Braves"
       },
       {
-        "name": "Mason Miller",
-        "value": "0.80",
-        "team": "San Diego Padres"
+        "name": "Brandyn Garcia",
+        "value": "0.78",
+        "team": "Arizona Diamondbacks"
       }
     ],
-    "YESTERDAY'S TOP PERFORMANCES": [
+    "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Ben Rice",
-        "team": "New York Yankees",
-        "value": "2-4, 2 HR, 5 RBI, 3 R"
+        "name": "Tristan Peters",
+        "team": "Chicago White Sox",
+        "value": "4-4, 1 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Jake Mangum",
-        "team": "Pittsburgh Pirates",
-        "value": "4-5, 1 HR, 3 RBI, 1 R"
+        "name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "value": "3-4, 1 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Jim Jarvis",
-        "team": "Atlanta Braves",
-        "value": "3-5, 1 HR, 2 RBI, 1 R"
+        "name": "Wilyer Abreu",
+        "team": "Boston Red Sox",
+        "value": "3-4, 1 HR, 2 RBI, 2 R"
+      }
+    ],
+    "YESTERDAY'S BEST PITCHERS": [
+      {
+        "name": "Hunter Greene",
+        "team": "Cincinnati Reds",
+        "value": "7.0 IP, 3 H, 0 ER, 12 SO"
+      },
+      {
+        "name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "value": "7.0 IP, 4 H, 1 ER, 9 SO"
+      },
+      {
+        "name": "Sandy Alcantara",
+        "team": "Miami Marlins",
+        "value": "7.0 IP, 5 H, 3 ER, 8 SO"
       }
     ]
   }
