@@ -239,8 +239,18 @@ if yesterday_df is not None and not yesterday_df.empty:
             "value": stat_line
         })
     # Inject it into leaders_data with a unique label
-    leaders_data["YESTERDAY'S TOP PERFORMANCES"] = top_performers
+    leaders_data["YESTERDAY'S BEST BATTERS"] = top_performers
+from best_performance import get_yesterdays_best_pitchers
 
+yesterday_pitchers_df = get_yesterdays_best_pitchers()
+if yesterday_pitchers_df is not None and not yesterday_pitchers_df.empty:
+    top_pitchers = []
+    for _, row in yesterday_pitchers_df.iterrows():
+        # e.g., 6.0 IP, 2 H, 1 ER, 8 SO
+        stat_line = f"{row['IP']} IP, {row['H']} H, {row['ER']} ER, {row['SO']} SO"
+        top_pitchers.append({"name": row["Player"], "team": row["Team"], "value": stat_line})
+    leaders_data["YESTERDAY'S BEST PITCHERS"] = top_pitchers
+    
 previous_snapshot = load_previous_snapshot()
 leaders_with_changes, previous_date = enrich_leaders_with_changes(leaders_data, previous_snapshot)
 

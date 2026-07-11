@@ -40,6 +40,7 @@ def build_html(leaders_data, previous_date=None, categories=None):
         "RELIEVER ERA": "ERA",
         "RELIEVER WHIP": "WHIP",
         "YESTERDAY'S BEST BATTERS": "Yesterday's Best Batters",
+        "YESTERDAY'S BEST PITCHERS": "Yesterday's Best Pitchers",
     }
     font_stack = "font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
     
@@ -79,14 +80,17 @@ def build_html(leaders_data, previous_date=None, categories=None):
     groups = {}
     for label in leaders_data.keys():
         if label.endswith("_removed"): continue
-        if label == "YESTERDAY'S BEST BATTERS":
+        if label in ["YESTERDAY'S BEST BATTERS"]:
             grp = "standouts"
+        elif label in ["YESTERDAY'S BEST PITCHERS"]:
+            grp = "standouts_pitching"
         else:
             grp = "relieving" if label in reliever_labels else "pitching" if label == "pitching" else label_group.get(label, "hitting")
         groups.setdefault(grp, []).append(label)
 
     batting_html = ""
     pitching_html = ""
+    standouts_html = ""  # New string collector specifically for stacked elements
 
     for grp, labels in groups.items():
         sub_html = ""
@@ -94,6 +98,7 @@ def build_html(leaders_data, previous_date=None, categories=None):
         elif grp == "pitching": title = "Starting Pitchers"
         elif grp == "relieving": title = "Relievers"
         elif grp == "standouts": title = "Yesterday's Best Batters"
+        elif grp == "standouts_pitching": title = "Yesterday's Best Pitchers"
         else: title = grp.title()
 
         sub_html += f"""
@@ -125,14 +130,15 @@ def build_html(leaders_data, previous_date=None, categories=None):
 
             # 1. Render Current Leaders
             for i, player in enumerate(players, start=1):
-                new_badge = '<span style="background: #e6f4ea; color: #137333; padding: 2px 6px; border-radius: 10px; font-size: 9px; font-weight: 700; margin-left: 6px; display: inline-block; vertical-align: middle;">NEW</span>' if player.get("is_new") else ""
+                # Turn off new badge if it's one of the standouts categories
+                new_badge = ""
+                if player.get("is_new") and grp not in ["standouts", "standouts_pitching"]:
+                    new_badge = '<span style="background: #e6f4ea; color: #137333; padding: 2px 6px; border-radius: 10px; font-size: 9px; font-weight: 700; margin-left: 6px; display: inline-block; vertical-align: middle;">NEW</span>'
                 
-                # Check border logic considering if there are removed players coming right after
                 is_last = (i == len(players) and not removed_players)
                 border_style = "" if is_last else "border-bottom: 1px solid #f1f5f9;"
                 player_team = player["team"] 
                 team_abbr = TEAM_ABBREVIATIONS.get(player_team, player_team[:3].upper())
-                print(TEAM_ABBREVIATIONS.get(player_team))
 
                 sub_html += f"""
                     <tr style="{border_style}">
@@ -145,8 +151,8 @@ def build_html(leaders_data, previous_date=None, categories=None):
                     </tr>
                 """
 
-            # 2. Render Removed Players (If any exist for this category)
-            if removed_players:
+            # 2. Render Removed Players (Turned off for standouts entirely)
+            if removed_players and grp not in ["standouts", "standouts_pitching"]:
                 removed_badge = '<span style="background: #fce8e6; color: #c5221f; padding: 2px 6px; border-radius: 10px; font-size: 9px; font-weight: 700; margin-left: 6px; display: inline-block; vertical-align: middle; text-decoration: none !important;">REMOVED</span>'
                 
                 for j, player in enumerate(removed_players):
@@ -169,13 +175,24 @@ def build_html(leaders_data, previous_date=None, categories=None):
 
             sub_html += "</table></td></tr></table>"
             
-        if grp in ["hitting", "standouts"]:
+        # Route standouts to their own stacked layout block
+        if grp in ["standouts", "standouts_pitching"]:
+            standouts_html += sub_html
+        elif grp == "hitting":
             batting_html += sub_html
         else:
             pitching_html += sub_html
 
-    # Master Layout Wrapper (2 Columns)
+    # Render Standouts row first across 100% width, then the 2 Column Master Layout Wrapper
     html += f"""
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; margin-bottom: 12px;">
+          <tr>
+            <td valign="top" style="width: 100%;">
+              {standouts_html}
+            </td>
+          </tr>
+        </table>
+        
         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
           <tr>
             <td width="48%" valign="top" style="width: 48%; min-width: 280px;">
