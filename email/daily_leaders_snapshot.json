@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-12",
   "leaders": {
     "HR": [
       {
@@ -9,47 +9,47 @@
       },
       {
         "name": "Yordan Alvarez",
-        "value": "29",
+        "value": "31",
         "team": "Houston Astros"
       },
       {
         "name": "Ben Rice",
-        "value": "28",
+        "value": "29",
         "team": "New York Yankees"
       }
     ],
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".345",
+        "value": ".339",
         "team": "Miami Marlins"
       },
       {
-        "name": "Yandy D\u00edaz",
-        "value": ".326",
-        "team": "Tampa Bay Rays"
+        "name": "Luis Arraez",
+        "value": ".332",
+        "team": "San Francisco Giants"
       },
       {
-        "name": "Luis Arraez",
-        "value": ".326",
-        "team": "San Francisco Giants"
+        "name": "Yandy D\u00edaz",
+        "value": ".320",
+        "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.030",
+        "value": "1.055",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".993",
+        "value": ".980",
         "team": "New York Mets"
       },
       {
-        "name": "Ben Rice",
-        "value": ".956",
-        "team": "New York Yankees"
+        "name": "James Wood",
+        "value": ".974",
+        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
@@ -60,13 +60,13 @@
       },
       {
         "name": "Cam Schlittler",
-        "value": "2.01",
+        "value": "2.05",
         "team": "New York Yankees"
       },
       {
-        "name": "Eduardo Rodriguez",
-        "value": "2.25",
-        "team": "Arizona Diamondbacks"
+        "name": "Chris Sale",
+        "value": "2.20",
+        "team": "Atlanta Braves"
       }
     ],
     "STARTER WHIP": [
@@ -77,12 +77,12 @@
       },
       {
         "name": "Yoshinobu Yamamoto",
-        "value": "0.88",
+        "value": "0.91",
         "team": "Los Angeles Dodgers"
       },
       {
         "name": "Cam Schlittler",
-        "value": "0.93",
+        "value": "0.94",
         "team": "New York Yankees"
       }
     ],
@@ -99,14 +99,14 @@
       },
       {
         "name": "Cristopher S\u00e1nchez",
-        "value": "137",
+        "value": "144",
         "team": "Philadelphia Phillies"
       }
     ],
     "SV+H": [
       {
         "name": "Cade Smith",
-        "value": "27",
+        "value": "28",
         "team": "Cleveland Guardians"
       },
       {
@@ -115,9 +115,9 @@
         "team": "Tampa Bay Rays"
       },
       {
-        "name": "Mason Miller",
-        "value": "23",
-        "team": "San Diego Padres"
+        "name": "Riley O'Brien",
+        "value": "25",
+        "team": "St. Louis Cardinals"
       }
     ],
     "RELIEVER ERA": [
@@ -127,14 +127,14 @@
         "team": "Atlanta Braves"
       },
       {
-        "name": "Louis Varland",
-        "value": "0.94",
-        "team": "Toronto Blue Jays"
+        "name": "Mason Miller",
+        "value": "0.93",
+        "team": "San Diego Padres"
       },
       {
-        "name": "Mason Miller",
-        "value": "0.96",
-        "team": "San Diego Padres"
+        "name": "Louis Varland",
+        "value": "1.10",
+        "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER WHIP": [
@@ -144,31 +144,48 @@
         "team": "Atlanta Braves"
       },
       {
+        "name": "Brandyn Garcia",
+        "value": "0.76",
+        "team": "Arizona Diamondbacks"
+      },
+      {
         "name": "Dylan Dodd",
         "value": "0.77",
         "team": "Atlanta Braves"
-      },
-      {
-        "name": "Mason Miller",
-        "value": "0.80",
-        "team": "San Diego Padres"
       }
     ],
-    "YESTERDAY'S TOP PERFORMANCES": [
+    "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Ben Rice",
-        "team": "New York Yankees",
-        "value": "2-4, 2 HR, 5 RBI, 3 R"
-      },
-      {
-        "name": "Jake Mangum",
+        "name": "Esmerlyn Valdez",
         "team": "Pittsburgh Pirates",
-        "value": "4-5, 1 HR, 3 RBI, 1 R"
+        "value": "3-4, 2 HR, 6 RBI, 2 R"
       },
       {
-        "name": "Jim Jarvis",
-        "team": "Atlanta Braves",
-        "value": "3-5, 1 HR, 2 RBI, 1 R"
+        "name": "James McCann",
+        "team": "Arizona Diamondbacks",
+        "value": "2-4, 2 HR, 4 RBI, 2 R"
+      },
+      {
+        "name": "Ezequiel Duran",
+        "team": "Texas Rangers",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
+      }
+    ],
+    "YESTERDAY'S BEST PITCHERS": [
+      {
+        "name": "Peter Lambert",
+        "team": "Houston Astros",
+        "value": "6.0 IP, 3 H, 1 ER, 7 SO"
+      },
+      {
+        "name": "Matthew Liberatore",
+        "team": "St. Louis Cardinals",
+        "value": "6.0 IP, 4 H, 0 ER, 6 SO"
+      },
+      {
+        "name": "Kyle Bradish",
+        "team": "Baltimore Orioles",
+        "value": "6.2 IP, 2 H, 1 ER, 5 SO"
       }
     ]
   }
