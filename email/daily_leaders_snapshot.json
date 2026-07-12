@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "leaders": {
     "HR": [
       {
@@ -9,7 +9,7 @@
       },
       {
         "name": "Yordan Alvarez",
-        "value": "30",
+        "value": "31",
         "team": "Houston Astros"
       },
       {
@@ -21,34 +21,34 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".341",
+        "value": ".339",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".331",
+        "value": ".332",
         "team": "San Francisco Giants"
       },
       {
         "name": "Yandy D\u00edaz",
-        "value": ".321",
+        "value": ".320",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.038",
+        "value": "1.055",
         "team": "Houston Astros"
       },
       {
         "name": "Juan Soto",
-        "value": ".988",
+        "value": ".980",
         "team": "New York Mets"
       },
       {
         "name": "James Wood",
-        "value": ".962",
+        "value": ".974",
         "team": "Washington Nationals"
       }
     ],
@@ -60,7 +60,7 @@
       },
       {
         "name": "Cam Schlittler",
-        "value": "2.01",
+        "value": "2.05",
         "team": "New York Yankees"
       },
       {
@@ -77,12 +77,12 @@
       },
       {
         "name": "Yoshinobu Yamamoto",
-        "value": "0.88",
+        "value": "0.91",
         "team": "Los Angeles Dodgers"
       },
       {
         "name": "Cam Schlittler",
-        "value": "0.93",
+        "value": "0.94",
         "team": "New York Yankees"
       }
     ],
@@ -99,7 +99,7 @@
       },
       {
         "name": "Cristopher S\u00e1nchez",
-        "value": "137",
+        "value": "144",
         "team": "Philadelphia Phillies"
       }
     ],
@@ -116,7 +116,7 @@
       },
       {
         "name": "Riley O'Brien",
-        "value": "24",
+        "value": "25",
         "team": "St. Louis Cardinals"
       }
     ],
@@ -128,7 +128,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.96",
+        "value": "0.93",
         "team": "San Diego Padres"
       },
       {
@@ -144,48 +144,48 @@
         "team": "Atlanta Braves"
       },
       {
+        "name": "Brandyn Garcia",
+        "value": "0.76",
+        "team": "Arizona Diamondbacks"
+      },
+      {
         "name": "Dylan Dodd",
         "value": "0.77",
         "team": "Atlanta Braves"
-      },
-      {
-        "name": "Brandyn Garcia",
-        "value": "0.78",
-        "team": "Arizona Diamondbacks"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Tristan Peters",
-        "team": "Chicago White Sox",
-        "value": "4-4, 1 HR, 4 RBI, 2 R"
+        "name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "value": "3-4, 2 HR, 6 RBI, 2 R"
       },
       {
-        "name": "Miguel Vargas",
-        "team": "Chicago White Sox",
-        "value": "3-4, 1 HR, 3 RBI, 2 R"
+        "name": "James McCann",
+        "team": "Arizona Diamondbacks",
+        "value": "2-4, 2 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Wilyer Abreu",
-        "team": "Boston Red Sox",
-        "value": "3-4, 1 HR, 2 RBI, 2 R"
+        "name": "Ezequiel Duran",
+        "team": "Texas Rangers",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Hunter Greene",
-        "team": "Cincinnati Reds",
-        "value": "7.0 IP, 3 H, 0 ER, 12 SO"
+        "name": "Peter Lambert",
+        "team": "Houston Astros",
+        "value": "6.0 IP, 3 H, 1 ER, 7 SO"
       },
       {
-        "name": "Sean Burke",
-        "team": "Chicago White Sox",
-        "value": "7.0 IP, 4 H, 1 ER, 9 SO"
+        "name": "Matthew Liberatore",
+        "team": "St. Louis Cardinals",
+        "value": "6.0 IP, 4 H, 0 ER, 6 SO"
       },
       {
-        "name": "Sandy Alcantara",
-        "team": "Miami Marlins",
-        "value": "7.0 IP, 5 H, 3 ER, 8 SO"
+        "name": "Kyle Bradish",
+        "team": "Baltimore Orioles",
+        "value": "6.2 IP, 2 H, 1 ER, 5 SO"
       }
     ]
   }
