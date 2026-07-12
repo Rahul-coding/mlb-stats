@@ -2,8 +2,17 @@ import streamlit as st
 import statsapi
 import pandas as pd
 import numpy as np
-import json
-import statcast
+import search.statcast as statcast 
+from trade_trees.app import render_trade_trees
+
+page = st.sidebar.selectbox(
+    "Page",
+    ["Player Comparison", "Trade Trees"],
+)
+
+if page == "Trade Trees":
+    render_trade_trees()
+    st.stop()
 
 # --- Keep all your existing setup, layout, and loops exactly the same ---
 playerId = 0

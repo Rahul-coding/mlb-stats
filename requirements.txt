@@ -3,3 +3,5 @@ python-dotenv
 streamlit
 MLB-StatsAPI
 pybaseball
+networkx
+pyvis
