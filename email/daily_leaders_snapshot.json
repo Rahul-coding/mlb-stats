@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "leaders": {
     "HR": [
       {
@@ -21,35 +21,35 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".339",
+        "value": ".334",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".332",
+        "value": ".330",
         "team": "San Francisco Giants"
       },
       {
         "name": "Yandy D\u00edaz",
-        "value": ".320",
+        "value": ".322",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.055",
+        "value": "1.059",
         "team": "Houston Astros"
       },
       {
-        "name": "Juan Soto",
-        "value": ".980",
-        "team": "New York Mets"
+        "name": "James Wood",
+        "value": ".985",
+        "team": "Washington Nationals"
       },
       {
-        "name": "James Wood",
-        "value": ".974",
-        "team": "Washington Nationals"
+        "name": "Ben Rice",
+        "value": ".971",
+        "team": "New York Yankees"
       }
     ],
     "STARTER ERA": [
@@ -115,9 +115,9 @@
         "team": "Tampa Bay Rays"
       },
       {
-        "name": "Riley O'Brien",
+        "name": "Mason Miller",
         "value": "25",
-        "team": "St. Louis Cardinals"
+        "team": "San Diego Padres"
       }
     ],
     "RELIEVER ERA": [
@@ -128,7 +128,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.93",
+        "value": "0.91",
         "team": "San Diego Padres"
       },
       {
@@ -140,7 +140,7 @@
     "RELIEVER WHIP": [
       {
         "name": "Dylan Lee",
-        "value": "0.68",
+        "value": "0.65",
         "team": "Atlanta Braves"
       },
       {
@@ -149,43 +149,43 @@
         "team": "Arizona Diamondbacks"
       },
       {
-        "name": "Dylan Dodd",
-        "value": "0.77",
-        "team": "Atlanta Braves"
+        "name": "Mason Miller",
+        "value": "0.78",
+        "team": "San Diego Padres"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Esmerlyn Valdez",
+        "name": "Alex Bregman",
+        "team": "Chicago Cubs",
+        "value": "3-5, 1 HR, 4 RBI, 2 R"
+      },
+      {
+        "name": "Henry Davis",
         "team": "Pittsburgh Pirates",
-        "value": "3-4, 2 HR, 6 RBI, 2 R"
+        "value": "2-4, 1 HR, 3 RBI, 3 R"
       },
       {
-        "name": "James McCann",
-        "team": "Arizona Diamondbacks",
-        "value": "2-4, 2 HR, 4 RBI, 2 R"
-      },
-      {
-        "name": "Ezequiel Duran",
-        "team": "Texas Rangers",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
+        "name": "Leody Taveras",
+        "team": "Baltimore Orioles",
+        "value": "2-4, 1 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Peter Lambert",
-        "team": "Houston Astros",
-        "value": "6.0 IP, 3 H, 1 ER, 7 SO"
+        "name": "Zack Wheeler",
+        "team": "Philadelphia Phillies",
+        "value": "6.0 IP, 2 H, 0 ER, 10 SO"
       },
       {
-        "name": "Matthew Liberatore",
-        "team": "St. Louis Cardinals",
-        "value": "6.0 IP, 4 H, 0 ER, 6 SO"
+        "name": "Zach Thornton",
+        "team": "New York Mets",
+        "value": "7.0 IP, 2 H, 0 ER, 5 SO"
       },
       {
-        "name": "Kyle Bradish",
-        "team": "Baltimore Orioles",
-        "value": "6.2 IP, 2 H, 1 ER, 5 SO"
+        "name": "Trevor McDonald",
+        "team": "San Francisco Giants",
+        "value": "7.0 IP, 3 H, 1 ER, 4 SO"
       }
     ]
   }
