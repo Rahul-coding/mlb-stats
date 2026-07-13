@@ -211,7 +211,7 @@ def build_html(leaders_data, previous_date=None, categories=None):
           </tr>
           <tr>
             <td bgcolor="#f8fafc" align="center" style="padding: 24px 32px; border-top: 1px solid #e2e8f0; {font_stack}">
-              <a href="https://mlbstatscompare.streamlit.app/" style="color: #1e3a8a; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-block; letter-spacing: -0.01em;">Compare full baseball stats &rarr;</a>
+              <a href="https://mlbplayersearch.streamlit.app/" style="color: #1e3a8a; font-size: 13px; font-weight: 700; text-decoration: none; display: inline-block; letter-spacing: -0.01em;">Compare full baseball stats &rarr;</a>
             </td>
           </tr>
         </table>
