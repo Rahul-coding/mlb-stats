@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "leaders": {
     "HR": [
       {
@@ -152,40 +152,6 @@
         "name": "Mason Miller",
         "value": "0.78",
         "team": "San Diego Padres"
-      }
-    ],
-    "YESTERDAY'S BEST BATTERS": [
-      {
-        "name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "value": "3-5, 1 HR, 4 RBI, 2 R"
-      },
-      {
-        "name": "Henry Davis",
-        "team": "Pittsburgh Pirates",
-        "value": "2-4, 1 HR, 3 RBI, 3 R"
-      },
-      {
-        "name": "Leody Taveras",
-        "team": "Baltimore Orioles",
-        "value": "2-4, 1 HR, 3 RBI, 2 R"
-      }
-    ],
-    "YESTERDAY'S BEST PITCHERS": [
-      {
-        "name": "Zack Wheeler",
-        "team": "Philadelphia Phillies",
-        "value": "6.0 IP, 2 H, 0 ER, 10 SO"
-      },
-      {
-        "name": "Zach Thornton",
-        "team": "New York Mets",
-        "value": "7.0 IP, 2 H, 0 ER, 5 SO"
-      },
-      {
-        "name": "Trevor McDonald",
-        "team": "San Francisco Giants",
-        "value": "7.0 IP, 3 H, 1 ER, 4 SO"
       }
     ]
   }
