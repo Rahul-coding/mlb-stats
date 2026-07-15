@@ -16,6 +16,7 @@ def get_yesterdays_best_batters():
     game_pks = []
     for date_obj in schedule_data.get("dates", []):
         for game in date_obj.get("games", []):
+            pk = game["gamePk"]
             game_pks.append(game["gamePk"])
 
     if not game_pks:
@@ -40,6 +41,7 @@ def get_yesterdays_best_batters():
                 # Only include players who actually had an At-Bat or Plate Appearance
                 if stats.get("plateAppearances", 0) > 0:
                     name = player_info["person"]["fullName"]
+                    person_id = player_info["person"]["id"]
 
                     # Extract basic box score stats
                     at_bats = stats.get("atBats", 0)
@@ -50,6 +52,7 @@ def get_yesterdays_best_batters():
                     doubles = stats.get("doubles", 0)
                     triples = stats.get("triples", 0)
                     walks = stats.get("baseOnBalls", 0)
+                    strike_outs = stats.get("strikeOuts", 0)
 
                     #calc total bases
                     singles = hits - (doubles + triples + home_runs)
@@ -59,7 +62,7 @@ def get_yesterdays_best_batters():
 
                     # Create a simple "Game Score" value to rank overall impact
                     # (1.5 pt per Total Base, 1pt per Run, 1pt per RBI, 0.5pt per Walk)
-                    performance_score = (total_bases * 1.5) + runs + rbi + (walks * 0.5)
+                    performance_score = (total_bases * 1.5) + runs + rbi + (walks * 0.5) - strike_outs * 0.5
 
                     all_batter_stats.append(
                         {
@@ -94,10 +97,11 @@ def get_yesterdays_best_pitchers():
     schedule_data = requests.get(schedule_url).json()
 
     game_pks = []
+
     for date_obj in schedule_data.get("dates", []):
         for game in date_obj.get("games", []):
+            pk = game["gamePk"]
             game_pks.append(game["gamePk"])
-
     if not game_pks:
         print("No games found for yesterday.")
         return None
@@ -120,19 +124,26 @@ def get_yesterdays_best_pitchers():
                 innings_pitched_str = stats.get("inningsPitched", "0.0")
                 if innings_pitched_str != "0.0" and stats.get("battersFaced", 0) > 0:
                     name = player_info["person"]["fullName"]
+                    person_id = player_info["person"]["id"]
 
                     # Extract stats
                     strikeouts = stats.get("strikeOuts", 0)
                     earned_runs = stats.get("earnedRuns", 0)
-                    runs = stats.get("runs", 0)
                     hits = stats.get("hits", 0)
                     walks = stats.get("baseOnBalls", 0)
+
                     
                     # Convert innings notation (e.g., 5.1) to float decimal for score calculation
                     ip_float = float(innings_pitched_str)
 
+                    #check if pitcher earned the quality start
+                    if(ip_float >= 6 and earned_runs <=3):
+                        qual_start_score = 2
+                    else:
+                        qual_start_score = -1.5
+
                     # Simple Pitcher Game Score Heuristic
-                    performance_score = (ip_float * 3.0) + strikeouts - (earned_runs * 2.0) - walks - hits
+                    performance_score = (ip_float * 1.5) + strikeouts - (earned_runs * 2.0) - (walks * 0.5) - (hits * 0.5) + qual_start_score
 
                     all_pitcher_stats.append({
                         "Player": name,

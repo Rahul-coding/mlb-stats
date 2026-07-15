@@ -49,6 +49,7 @@ def parse_trade_string(trade_str):
             
     return team_players
 
+#Thank you to rosternomics.com for the csv file
 def load_and_build_tree(csv_path="mlb_trades.csv"):
     """
     Loads the trade CSV, normalizes trade dates, extracts player transactions,

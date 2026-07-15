@@ -1,6 +1,6 @@
 from html import escape
 
-def build_html(leaders_data, previous_date=None, categories=None):
+def build_html(leaders_data, previous_date=None, categories=None, stories=None):
     TEAM_ABBREVIATIONS = {
         "Arizona Diamondbacks": "ARI",
         "Atlanta Braves": "ATL",
@@ -50,13 +50,13 @@ def build_html(leaders_data, previous_date=None, categories=None):
       <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>MLB League Leaders</title>
+        <title>MLB League Leaders & News</title>
       </head>
       <body style="margin: 0; padding: 32px 12px; background-color: #f1f5f9; {font_stack} color: #1e293b;-webkit-font-smoothing: antialiased;">
         <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px; background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; border-collapse: separate; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
           <tr>
             <td bgcolor="#0A192F" style="padding: 28px 32px; background: linear-gradient(135deg, #0A192F 0%, #1E3A8A 100%);">
-              <h1 style="margin: 0; color: #ffffff; font-size: 22px; font-weight: 800; letter-spacing: -0.02em; {font_stack}">MLB League Leaders</h1>
+              <h1 style="margin: 0; color: #ffffff; font-size: 22px; font-weight: 800; letter-spacing: -0.02em; {font_stack}">MLB League Leaders & News</h1>
     """
 
     if previous_date:
@@ -69,7 +69,41 @@ def build_html(leaders_data, previous_date=None, categories=None):
             <td style="padding: 12px 24px 28px;">
     """
 
-    # Group separating logic
+    # --- Render TOP STORIES Section if available ---
+    if stories:
+        html += f"""
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top: 16px; border-collapse: collapse;">
+          <tr>
+            <td style="font-size: 13px; font-weight: 800; color: #0A192F; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 2px solid #0A192F; padding-bottom: 6px; {font_stack}">
+              Latest MLB Stories
+            </td>
+          </tr>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top: 12px; border-collapse: separate; background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;">
+          <tr>
+            <td style="padding: 8px 16px;">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+        """
+        for i, story in enumerate(stories):
+            is_last = (i == len(stories) - 1)
+            border_style = "" if is_last else "border-bottom: 1px solid #e2e8f0;"
+            html += f"""
+                <tr style="{border_style}">
+                  <td style="padding: 12px 0; font-size: 13px; {font_stack}">
+                    <a href="{escape(story['link'])}" target="_blank" style="color: #1e3a8a; font-weight: 600; text-decoration: none;">
+                      {escape(story['title'])}
+                    </a>
+                  </td>
+                </tr>
+            """
+        html += """
+              </table>
+            </td>
+          </tr>
+        </table>
+        """
+
+    # Group separating logic for stats
     label_group = {}
     if categories:
         try:
@@ -90,7 +124,7 @@ def build_html(leaders_data, previous_date=None, categories=None):
 
     batting_html = ""
     pitching_html = ""
-    standouts_html = ""  # New string collector specifically for stacked elements
+    standouts_html = ""
 
     for grp, labels in groups.items():
         sub_html = ""
@@ -128,9 +162,7 @@ def build_html(leaders_data, previous_date=None, categories=None):
                   <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
             """
 
-            # 1. Render Current Leaders
             for i, player in enumerate(players, start=1):
-                # Turn off new badge if it's one of the standouts categories
                 new_badge = ""
                 if player.get("is_new") and grp not in ["standouts", "standouts_pitching"]:
                     new_badge = '<span style="background: #e6f4ea; color: #137333; padding: 2px 6px; border-radius: 10px; font-size: 9px; font-weight: 700; margin-left: 6px; display: inline-block; vertical-align: middle;">NEW</span>'
@@ -151,7 +183,6 @@ def build_html(leaders_data, previous_date=None, categories=None):
                     </tr>
                 """
 
-            # 2. Render Removed Players (Turned off for standouts entirely)
             if removed_players and grp not in ["standouts", "standouts_pitching"]:
                 removed_badge = '<span style="background: #fce8e6; color: #c5221f; padding: 2px 6px; border-radius: 10px; font-size: 9px; font-weight: 700; margin-left: 6px; display: inline-block; vertical-align: middle; text-decoration: none !important;">REMOVED</span>'
                 
@@ -175,7 +206,6 @@ def build_html(leaders_data, previous_date=None, categories=None):
 
             sub_html += "</table></td></tr></table>"
             
-        # Route standouts to their own stacked layout block
         if grp in ["standouts", "standouts_pitching"]:
             standouts_html += sub_html
         elif grp == "hitting":
@@ -183,7 +213,6 @@ def build_html(leaders_data, previous_date=None, categories=None):
         else:
             pitching_html += sub_html
 
-    # Render Standouts row first across 100% width, then the 2 Column Master Layout Wrapper
     html += f"""
         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; margin-bottom: 12px;">
           <tr>

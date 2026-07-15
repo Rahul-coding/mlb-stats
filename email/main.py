@@ -1,6 +1,7 @@
 import json
 import os
 import smtplib
+import xml.etree.ElementTree as ET  # <-- Added for XML parsing
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from pathlib import Path
@@ -9,7 +10,7 @@ import requests
 from dotenv import load_dotenv
 
 from styling import build_html
-from best_performance import get_yesterdays_best_batters
+from best_performance import get_yesterdays_best_batters, get_yesterdays_best_pitchers
 
 
 load_dotenv()
@@ -55,11 +56,7 @@ def innings_to_float(innings_text):
 
 
 def fetch_reliever_leaders(limit=3):
-    """Build reliever leaders from season pitching stats.
-
-    MLB leaders endpoint does not expose saves+holds directly, so this computes
-    reliever-only rankings from the season stats endpoint.
-    """
+    """Build reliever leaders from season pitching stats."""
     params = {
         "stats": "season",
         "group": "pitching",
@@ -78,7 +75,7 @@ def fetch_reliever_leaders(limit=3):
         games_started = int(stat.get("gamesStarted") or 0)
         games_played = int(stat.get("gamesPlayed") or 0)
 
-        # Keep relievers only. Starters are handled in the pitching section.
+        # Keep relievers only.
         if games_played <= 0 or games_started > 0:
             continue
 
@@ -171,12 +168,10 @@ def enrich_leaders_with_changes(leaders_data, previous_snapshot):
     enriched_leaders = {}
 
     for label, players in leaders_data.items():
-        # current_names and previous players list for comparison
         current_names = {player["name"] for player in players}
         previous_players = previous_leaders.get(label, [])
         previous_names = {player["name"] for player in previous_players}
 
-        # map previous name -> index (0-based rank)
         prev_pos = {player["name"]: idx for idx, player in enumerate(previous_players)}
 
         enriched_leaders[label] = []
@@ -185,18 +180,14 @@ def enrich_leaders_with_changes(leaders_data, previous_snapshot):
         for idx, player in enumerate(players):
             name = player["name"]
             entry = {**player}
-            # is_new if not present previously
             entry["is_new"] = bool(previous_names) and name not in previous_names
 
-            # if present previously, compute rank movement
             if name in prev_pos:
                 prev_index = prev_pos[name]
-                # moved up if previous index > current index (e.g., from 2->1)
                 if prev_index > idx:
                     entry["moved_up"] = prev_index - idx
                     entry["from_rank"] = prev_index + 1
                     entry["to_rank"] = idx + 1
-                # moved down if previous index < current index (e.g., from 1->2)
                 elif prev_index < idx:
                     entry["moved_down"] = idx - prev_index
                     entry["from_rank"] = prev_index + 1
@@ -224,29 +215,49 @@ def save_snapshot(leaders_data):
         snapshot_file.write("\n")
 
 
+def fetch_top_stories(limit=5):
+    """Fetch top MLB stories from the official RSS feed."""
+    feed_url = "https://www.mlb.com/feeds/news/rss.xml"
+    try:
+        response = requests.get(feed_url, timeout=15)
+        response.raise_for_status()
+        root = ET.fromstring(response.content)
+        
+        stories = []
+        # XML structure is rss -> channel -> item
+        for item in root.findall(".//item")[:limit]:
+            title_node = item.find("title")
+            link_node = item.find("link")
+            
+            title = title_node.text if title_node is not None else "MLB Story"
+            link = link_node.text if link_node is not None else "https://www.mlb.com"
+            
+            stories.append({"title": title, "link": link})
+        return stories
+    except Exception as e:
+        print(f"Warning: Could not fetch top stories: {e}")
+        return []
+
+
 leaders_data = fetch_current_leaders()
 
-#get the best performances from yesterday's games and add them to the leaders_data
+# Get the best performances from yesterday's games
 yesterday_df = get_yesterdays_best_batters()
 if yesterday_df is not None and not yesterday_df.empty:
     top_performers = []
     for _, row in yesterday_df.iterrows():
-        # Construct a descriptive string of their stat line for the value column
         stat_line = f"{row['H']}-{row['AB']}, {row['HR']} HR, {row['RBI']} RBI, {row['R']} R"
         top_performers.append({
             "name": row["Player"],
             "team": row["Team"],
             "value": stat_line
         })
-    # Inject it into leaders_data with a unique label
     leaders_data["YESTERDAY'S BEST BATTERS"] = top_performers
-from best_performance import get_yesterdays_best_pitchers
 
 yesterday_pitchers_df = get_yesterdays_best_pitchers()
 if yesterday_pitchers_df is not None and not yesterday_pitchers_df.empty:
     top_pitchers = []
     for _, row in yesterday_pitchers_df.iterrows():
-        # e.g., 6.0 IP, 2 H, 1 ER, 8 SO
         stat_line = f"{row['IP']} IP, {row['H']} H, {row['ER']} ER, {row['SO']} SO"
         top_pitchers.append({"name": row["Player"], "team": row["Team"], "value": stat_line})
     leaders_data["YESTERDAY'S BEST PITCHERS"] = top_pitchers
@@ -254,15 +265,18 @@ if yesterday_pitchers_df is not None and not yesterday_pitchers_df.empty:
 previous_snapshot = load_previous_snapshot()
 leaders_with_changes, previous_date = enrich_leaders_with_changes(leaders_data, previous_snapshot)
 
-# Save the current day's leaders so the next run can compare against them.
+# Save current leaders snapshot
 save_snapshot(leaders_data)
 
-# build the html for the email
-html = build_html(leaders_with_changes, previous_date=previous_date, categories=categories)
+# Fetch current news stories
+top_stories = fetch_top_stories(limit=5)
 
-# Make the actual email.
+# build HTML (passing the new stories argument)
+html = build_html(leaders_with_changes, previous_date=previous_date, categories=categories, stories=top_stories)
+
+# Make the email
 msg = EmailMessage()
-msg['Subject'] = 'MLB League Leaders'
+msg['Subject'] = 'MLB League Leaders & Stories'
 msg['From'] = f"MLB Bot <{EMAIL}>"
 msg['To'] = ", ".join(RECIPIENTS)
 
