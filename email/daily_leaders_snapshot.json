@@ -178,14 +178,14 @@
         "value": "2.0 IP, 1 H, 1 ER, 5 SO"
       },
       {
-        "name": "Foster Griffin",
-        "team": "National League All-Stars",
-        "value": "1.0 IP, 0 H, 0 ER, 2 SO"
-      },
-      {
         "name": "Dylan Cease",
         "team": "American League All-Stars",
         "value": "1.0 IP, 0 H, 0 ER, 3 SO"
+      },
+      {
+        "name": "Foster Griffin",
+        "team": "National League All-Stars",
+        "value": "1.0 IP, 0 H, 0 ER, 2 SO"
       }
     ]
   }
