@@ -14,7 +14,6 @@ if page == "Trade Trees":
     render_trade_trees()
     st.stop()
 
-# --- Keep all your existing setup, layout, and loops exactly the same ---
 playerId = 0
 hittingStats = ["gamesPlayed", "runs", "doubles", "triples", "homeRuns", "strikeOuts", "baseOnBalls", "avg", "ops", "stolenBases"]
 pitchingStats = ["gamesPlayed", "inningsPitched", "wins", "losses", "baseOnBalls", "strikeOuts", "avg", "era", "whip", "runs", "svhd", "blownSaves"]
@@ -33,7 +32,7 @@ comparison_mode = st.sidebar.radio(
 player = st.text_input("Player Names", placeholder="Aaron Judge, Chase Burns")
 
 
-# We use session_state to save the expected stats dataframe across button presses
+#use session_state to save the expected stats dataframe across button presses
 if "df_expected" not in st.session_state:
     st.session_state.df_expected = None
 if "df_expected_mode" not in st.session_state:
