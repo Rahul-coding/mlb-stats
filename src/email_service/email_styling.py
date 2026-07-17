@@ -1,6 +1,6 @@
 from html import escape
 
-def build_html(leaders_data, previous_date=None, categories=None, stories=None):
+def build_html(email_data, previous_date=None, categories=None, stories=None):
     TEAM_ABBREVIATIONS = {
         "Arizona Diamondbacks": "ARI",
         "Atlanta Braves": "ATL",
@@ -112,7 +112,7 @@ def build_html(leaders_data, previous_date=None, categories=None, stories=None):
         except Exception: pass
 
     groups = {}
-    for label in leaders_data.keys():
+    for label in email_data.keys():
         if label.endswith("_removed"): continue
         if label in ["YESTERDAY'S BEST BATTERS"]:
             grp = "standouts"
@@ -146,8 +146,8 @@ def build_html(leaders_data, previous_date=None, categories=None, stories=None):
         """
 
         for label in labels:
-            players = leaders_data.get(label, [])
-            removed_players = leaders_data.get(f"{label}_removed", [])
+            players = email_data.get(label, [])
+            removed_players = email_data.get(f"{label}_removed", [])
             category_label = display_labels.get(label, label)
 
             sub_html += f"""

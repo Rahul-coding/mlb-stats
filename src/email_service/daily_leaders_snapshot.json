@@ -1,0 +1,192 @@
+{
+  "date": "2026-07-17",
+  "leaders": {
+    "HR": [
+      {
+        "name": "Kyle Schwarber",
+        "value": "32",
+        "team": "Philadelphia Phillies"
+      },
+      {
+        "name": "Yordan Alvarez",
+        "value": "31",
+        "team": "Houston Astros"
+      },
+      {
+        "name": "Ben Rice",
+        "value": "29",
+        "team": "New York Yankees"
+      }
+    ],
+    "AVG": [
+      {
+        "name": "Otto Lopez",
+        "value": ".334",
+        "team": "Miami Marlins"
+      },
+      {
+        "name": "Luis Arraez",
+        "value": ".330",
+        "team": "San Francisco Giants"
+      },
+      {
+        "name": "Yordan Alvarez",
+        "value": ".318",
+        "team": "Houston Astros"
+      }
+    ],
+    "OPS": [
+      {
+        "name": "Yordan Alvarez",
+        "value": "1.059",
+        "team": "Houston Astros"
+      },
+      {
+        "name": "James Wood",
+        "value": ".985",
+        "team": "Washington Nationals"
+      },
+      {
+        "name": "Juan Soto",
+        "value": ".975",
+        "team": "New York Mets"
+      }
+    ],
+    "STARTER ERA": [
+      {
+        "name": "Jacob Misiorowski",
+        "value": "1.62",
+        "team": "Milwaukee Brewers"
+      },
+      {
+        "name": "Cam Schlittler",
+        "value": "2.05",
+        "team": "New York Yankees"
+      },
+      {
+        "name": "Chris Sale",
+        "value": "2.16",
+        "team": "Atlanta Braves"
+      }
+    ],
+    "STARTER WHIP": [
+      {
+        "name": "Jacob Misiorowski",
+        "value": "0.76",
+        "team": "Milwaukee Brewers"
+      },
+      {
+        "name": "Yoshinobu Yamamoto",
+        "value": "0.91",
+        "team": "Los Angeles Dodgers"
+      },
+      {
+        "name": "Cam Schlittler",
+        "value": "0.94",
+        "team": "New York Yankees"
+      }
+    ],
+    "SO": [
+      {
+        "name": "Jacob Misiorowski",
+        "value": "167",
+        "team": "Milwaukee Brewers"
+      },
+      {
+        "name": "Dylan Cease",
+        "value": "148",
+        "team": "Toronto Blue Jays"
+      },
+      {
+        "name": "Cristopher S\u00e1nchez",
+        "value": "144",
+        "team": "Philadelphia Phillies"
+      }
+    ],
+    "SV+H": [
+      {
+        "name": "Cade Smith",
+        "value": "28",
+        "team": "Cleveland Guardians"
+      },
+      {
+        "name": "Bryan Baker",
+        "value": "27",
+        "team": "Tampa Bay Rays"
+      },
+      {
+        "name": "Mason Miller",
+        "value": "25",
+        "team": "San Diego Padres"
+      }
+    ],
+    "RELIEVER ERA": [
+      {
+        "name": "Robert Suarez",
+        "value": "0.56",
+        "team": "Atlanta Braves"
+      },
+      {
+        "name": "Mason Miller",
+        "value": "0.91",
+        "team": "San Diego Padres"
+      },
+      {
+        "name": "Louis Varland",
+        "value": "1.10",
+        "team": "Toronto Blue Jays"
+      }
+    ],
+    "RELIEVER WHIP": [
+      {
+        "name": "Dylan Lee",
+        "value": "0.65",
+        "team": "Atlanta Braves"
+      },
+      {
+        "name": "Brandyn Garcia",
+        "value": "0.76",
+        "team": "Arizona Diamondbacks"
+      },
+      {
+        "name": "Mason Miller",
+        "value": "0.78",
+        "team": "San Diego Padres"
+      }
+    ],
+    "YESTERDAY'S BEST BATTERS": [
+      {
+        "name": "Francisco Alvarez",
+        "team": "New York Mets",
+        "value": "2-3, 2 HR, 2 RBI, 2 R"
+      },
+      {
+        "name": "Brett Baty",
+        "team": "New York Mets",
+        "value": "2-4, 1 HR, 1 RBI, 1 R"
+      },
+      {
+        "name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "value": "1-4, 1 HR, 1 RBI, 1 R"
+      }
+    ],
+    "YESTERDAY'S BEST PITCHERS": [
+      {
+        "name": "Christian Scott",
+        "team": "New York Mets",
+        "value": "5.2 IP, 3 H, 0 ER, 7 SO"
+      },
+      {
+        "name": "Aaron Nola",
+        "team": "Philadelphia Phillies",
+        "value": "6.0 IP, 6 H, 3 ER, 6 SO"
+      },
+      {
+        "name": "Devin Williams",
+        "team": "New York Mets",
+        "value": "1.0 IP, 0 H, 0 ER, 1 SO"
+      }
+    ]
+  }
+}

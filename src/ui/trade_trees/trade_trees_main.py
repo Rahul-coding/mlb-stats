@@ -4,7 +4,7 @@ from pyvis.network import Network
 import streamlit.components.v1 as components
 from pathlib import Path
 import tempfile
-from trade_trees.data_loader import load_and_build_tree
+from src.ui.trade_trees.data_loader import load_and_build_tree
 
 def render_trade_trees():
     # Clean Dark Slate styling
