@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "leaders": {
     "HR": [
       {
@@ -47,9 +47,9 @@
         "team": "Washington Nationals"
       },
       {
-        "name": "Ben Rice",
-        "value": ".971",
-        "team": "New York Yankees"
+        "name": "Juan Soto",
+        "value": ".975",
+        "team": "New York Mets"
       }
     ],
     "STARTER ERA": [
@@ -152,6 +152,40 @@
         "name": "Mason Miller",
         "value": "0.78",
         "team": "San Diego Padres"
+      }
+    ],
+    "YESTERDAY'S BEST BATTERS": [
+      {
+        "name": "Francisco Alvarez",
+        "team": "New York Mets",
+        "value": "2-3, 2 HR, 2 RBI, 2 R"
+      },
+      {
+        "name": "Brett Baty",
+        "team": "New York Mets",
+        "value": "2-4, 1 HR, 1 RBI, 1 R"
+      },
+      {
+        "name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "value": "1-4, 1 HR, 1 RBI, 1 R"
+      }
+    ],
+    "YESTERDAY'S BEST PITCHERS": [
+      {
+        "name": "Christian Scott",
+        "team": "New York Mets",
+        "value": "5.2 IP, 3 H, 0 ER, 7 SO"
+      },
+      {
+        "name": "Aaron Nola",
+        "team": "Philadelphia Phillies",
+        "value": "6.0 IP, 6 H, 3 ER, 6 SO"
+      },
+      {
+        "name": "Devin Williams",
+        "team": "New York Mets",
+        "value": "1.0 IP, 0 H, 0 ER, 1 SO"
       }
     ]
   }
