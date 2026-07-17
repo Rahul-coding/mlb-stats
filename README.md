@@ -1,60 +1,69 @@
-# MLB Stats
+# MLB Players stats & daily email
 
-## Streamlit UI Navigation
-The Streamlit app now includes multiple pages in one interface.
+A streamlit application and automated email to track high performaing MLB players, top performances, and visualize trade trees. 
 
-- Use the sidebar `Page` selector to switch between:
-  - `Player Comparison`
-  - `Trade Trees`
+**[Live Stat Comparison App](https://mlbplayersearch.streamlit.app)**
+
+---
+
+## Table of Contents
+1. [Features](#-features)
+   - [Player Comparison](#1-player-comparison)
+   - [Interactive Trade Trees](#2-interactive-trade-trees)
+   - [Daily Email Summaries](#3-daily-email-summaries)
+2. [How the backend works](#-how-it-works)
+3. [Legacy Features](#-legacy-features)
+
+---
+
+## Features
+
+### 1.) Player comparison 
+Compare the stats of multiple players for the current MLB season side by side
+* **Lookup players** In the sidebar select `Player Comparison` and select either `Batters` or `Pitchers`
+* **Comparision** Bars showing how players compare to the rest of the MLB will pop up and the leader in multiple stats will be highlighted in red
+
+### 2.) Interactive Trade Trees
+Visualize complex MLB trade relationships as an interactive graph.
+* **How to use:** Select `Trade Trees` from the sidebar, choose a player from the dropdown, and adjust the **Max Depth** slider.
+* **Interactive UI:** Zoom, drag, and hover over nodes to explore trades.
+* **Data source**
+  - Trade data is loaded from `ui/trade_trees/mlb_trades.csv`.
+
+### 3.) Daily Email Summaries
+A fully automated daily email digest featuring:
+* **Stat Leaders:**  Top performers in hitting (HRs, OPS, AVG), starting pitchers (ERA, WHIP, Ks), and relieving categories  (SV+H, WHIP, ERA).
+* **Standout Performance:** Uses custom weighted formulas to rank the day's best games:
+  * **Hitters:** $+1.5$ per total base, $+1$ per run/RBI, $+0.5$ per walk, $-0.5$ per strikeout.
+  * **Pitchers:** $+1.5$ per IP, $+1$ per K, $-2$ per ER, $-0.5$ per BB/H, $+2$ for a Quality Start (otherwise $-1.5$).
+* **Dynamic Badges:** Displays a `NEW` badge next to a new category leader, while crossing out the previous leader with a `removed` tag.
+* **Top Stories:** Curates the top 5 stories scraped directly from MLB.
 
 
-## Player comparison feature (New)
-In this feature youc an compare the current season stats of multiple players. I chose to
-make a new version of this feature as the old one wasn't user friendly and hard to compar stats with
-- **How to use this feature**
-  - type the names of players separated by commas (e.g. `Ben Rice, Aaron Judge` and press `Lookup Player(s)`
-  - If there is more than one hitter/pitcher the player with the higher/better stat will be in red/bolded
-  - You can always access the app here: **[MLB stat comparison App](https://mlbstatscompare.streamlit.app)**
-
-## Trade Trees
-This page visualizes MLB trade relationships as an interactive directed tree.
-
-- **How to use this feature**
-  - Open the Streamlit app and choose `Trade Trees` from the sidebar `Page` selector
-  - Select a player from the dropdown
-  - Adjust `Max Depth (Generations Away)` in the sidebar to expand or shrink the graph
-  - The selected player is highlighted, with ancestors and descendants shown by generation
-
-- **What it uses**
-  - `networkx` to build and traverse trade relationships
-  - `pyvis` to render the interactive graph
-  - `streamlit.components.v1` to embed the generated HTML visualization
-
-- **Data source**
-  - Trade data is loaded from `ui/trade_trees/mlb_trades.csv`
-
-
-## Email Feature
-This feature sends a daily email summary of leaders in many categories
-  - **Hitting categories** HRs, OPS, and AVG
-  - **Starting Pitcher categories** ERA, WHIP, and Ks
-  - **Reliver categories** SV+H, WHIP, and ERA
-  - **Top hitting performances** Uses weights of `1.5` per `total base`, `1` per `run`, `1` per `rbi`, `0.5` per `walk` and `-0.5` per `strikeout`
-  - **Top pitching perofromances** Uses weights of `1.5` per `inning pitched`, `1` per `strikeout`, `-2` per `Earned run`, `-0.5` per `walk` and `-0.5` per `hit`, `2` if the got the `Quality start` otherwise `-1.5`
-  - If there is a new leader in a stat a `NEW` badge will be next to their name. The old leader will be crossed out with a `removed` tag
-  - **Top stories** Pulls the first 5 stories from MLB's website
+---
  
-**How they work backend**
-- **Player Comparison (legacy):** This feature is powered by **Beautiful Soup** for web scraping. The player stats are compared against each other to determine the better stat. *Web scraping was chosen purely for educational purposes* 
+## How It Works 
 
--**UI**
-- The ui uses `streamlit` to allow the app to allways be accesible. It has to main parts
-  - **Player Comparison (new):** The new version uses the `statsapi` for MLB to pull data. I then use `pandas` to determine the highest/better stat in each column. I found the `statsapi` to be much easier to use than the MLB endpoint
+### Frontend & UI
+* **Streamlit:** Serves as the primary web framework, hosting the dashboard.
+* **NetworkX & PyVis:** Used by the Trade Trees feature. `networkx` builds the trade graph, `pyvis` generates the interactive HTML visualization, and `streamlit.components.v1` embeds it natively.
+* **Data Source:** Trade network data is from [rosternomics.com](https://rosternomics.com).
 
-  - **Trade Trees:** This feature builds a directed graph of player relationships and renders it as an interactive hierarchical tree using `networkx` + `pyvis` in Streamlit. The CVS file with all of the data was got from **rosternomics.com** 
+### Backend & Data Pipelines
+* **MLB API & `statsapi`:** The new Player Comparison tool uses the official Python wrapper for the MLB API to pull real-time data, utilizing `pandas` to handle and format the statistical comparisons.
+* **Email Automation:** 
+  * Powered by `smtplib` and run with **GitHub Actions** automatically every morining.
+  * Standings and leader data are fetched via the MLB API.
+  * Daily news is parsed from the **MLB RSS Feed** using Python's native `xml.etree.ElementTree`.
 
-- **Email Feature:** 
-  - **Data collection** This part of the email utilizes the official **MLB API** to gather stats for the top players and standout performances 
-  - **Daily email** The email is sent every morning automaticly using `smtplib` and **github actions**
-  - **Top stories** The top stories are collected from the **MLB RSS feed** and are parsed using pythons `xml.etree.ElementTree`
+---
+## ⏳ Legacy Features
 
+<details>
+<summary><b>Legacy Player Comparison Tool</b></summary>
+
+The original player comparison tool is kept for educational purposes:
+* **How it worked:** You entered player names (e.g., `Ben Rice, Aaron Judge, Chase Burns`), and were prompted to confirm if they were batters (`y`, `n`, or `u`).
+* **Technical:** Powered by **Beautiful Soup** to web scrape data directly from player profile pages. 
+* **Comparison logic:** Highlighted the best stats (lower ERA/WHIP for pitchers, higher stats for hitters).
+</details>
