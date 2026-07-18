@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "leaders": {
     "HR": [
       {
@@ -11,6 +11,11 @@
         "name": "Yordan Alvarez",
         "value": "31",
         "team": "Houston Astros"
+      },
+      {
+        "name": "Junior Caminero",
+        "value": "29",
+        "team": "Tampa Bay Rays"
       },
       {
         "name": "Ben Rice",
@@ -26,24 +31,24 @@
       },
       {
         "name": "Luis Arraez",
-        "value": ".330",
+        "value": ".328",
         "team": "San Francisco Giants"
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".318",
+        "value": ".321",
         "team": "Houston Astros"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.059",
+        "value": "1.067",
         "team": "Houston Astros"
       },
       {
         "name": "James Wood",
-        "value": ".985",
+        "value": ".979",
         "team": "Washington Nationals"
       },
       {
@@ -65,7 +70,7 @@
       },
       {
         "name": "Chris Sale",
-        "value": "2.16",
+        "value": "2.06",
         "team": "Atlanta Braves"
       }
     ],
@@ -115,9 +120,9 @@
         "team": "Tampa Bay Rays"
       },
       {
-        "name": "Mason Miller",
-        "value": "25",
-        "team": "San Diego Padres"
+        "name": "Riley O'Brien",
+        "value": "26",
+        "team": "St. Louis Cardinals"
       }
     ],
     "RELIEVER ERA": [
@@ -128,7 +133,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.91",
+        "value": "0.89",
         "team": "San Diego Padres"
       },
       {
@@ -145,47 +150,47 @@
       },
       {
         "name": "Brandyn Garcia",
-        "value": "0.76",
+        "value": "0.74",
         "team": "Arizona Diamondbacks"
       },
       {
-        "name": "Mason Miller",
-        "value": "0.78",
-        "team": "San Diego Padres"
+        "name": "Tanner Scott",
+        "value": "0.76",
+        "team": "Los Angeles Dodgers"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Francisco Alvarez",
-        "team": "New York Mets",
-        "value": "2-3, 2 HR, 2 RBI, 2 R"
+        "name": "Andr\u00e9s Chaparro",
+        "team": "Washington Nationals",
+        "value": "4-5, 2 HR, 8 RBI, 4 R"
       },
       {
-        "name": "Brett Baty",
-        "team": "New York Mets",
-        "value": "2-4, 1 HR, 1 RBI, 1 R"
+        "name": "Wilyer Abreu",
+        "team": "Boston Red Sox",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Trea Turner",
-        "team": "Philadelphia Phillies",
-        "value": "1-4, 1 HR, 1 RBI, 1 R"
+        "name": "Curtis Mead",
+        "team": "Washington Nationals",
+        "value": "4-6, 0 HR, 3 RBI, 4 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Christian Scott",
-        "team": "New York Mets",
-        "value": "5.2 IP, 3 H, 0 ER, 7 SO"
+        "name": "Chris Sale",
+        "team": "Atlanta Braves",
+        "value": "7.0 IP, 2 H, 0 ER, 6 SO"
       },
       {
-        "name": "Aaron Nola",
-        "team": "Philadelphia Phillies",
-        "value": "6.0 IP, 6 H, 3 ER, 6 SO"
+        "name": "Peter Lambert",
+        "team": "Houston Astros",
+        "value": "6.0 IP, 3 H, 1 ER, 10 SO"
       },
       {
-        "name": "Devin Williams",
-        "team": "New York Mets",
-        "value": "1.0 IP, 0 H, 0 ER, 1 SO"
+        "name": "Reid Detmers",
+        "team": "Los Angeles Angels",
+        "value": "6.0 IP, 4 H, 0 ER, 7 SO"
       }
     ]
   }
