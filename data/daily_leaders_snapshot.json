@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "32",
+        "value": "33",
         "team": "Philadelphia Phillies"
       },
       {
@@ -26,35 +26,35 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".336",
+        "value": ".335",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".328",
+        "value": ".327",
         "team": "San Francisco Giants"
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".321",
+        "value": ".320",
         "team": "Houston Astros"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.067",
+        "value": "1.065",
         "team": "Houston Astros"
       },
       {
-        "name": "James Wood",
-        "value": ".979",
-        "team": "Washington Nationals"
+        "name": "Ben Rice",
+        "value": ".974",
+        "team": "New York Yankees"
       },
       {
-        "name": "Juan Soto",
-        "value": ".975",
-        "team": "New York Mets"
+        "name": "James Wood",
+        "value": ".968",
+        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
@@ -103,9 +103,9 @@
         "team": "Toronto Blue Jays"
       },
       {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "144",
-        "team": "Philadelphia Phillies"
+        "name": "Gavin Williams",
+        "value": "145",
+        "team": "Cleveland Guardians"
       }
     ],
     "SV+H": [
@@ -138,19 +138,19 @@
       },
       {
         "name": "Louis Varland",
-        "value": "1.10",
+        "value": "1.08",
         "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER WHIP": [
       {
         "name": "Dylan Lee",
-        "value": "0.65",
+        "value": "0.71",
         "team": "Atlanta Braves"
       },
       {
         "name": "Brandyn Garcia",
-        "value": "0.74",
+        "value": "0.73",
         "team": "Arizona Diamondbacks"
       },
       {
@@ -161,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Andr\u00e9s Chaparro",
-        "team": "Washington Nationals",
-        "value": "4-5, 2 HR, 8 RBI, 4 R"
+        "name": "Jose Trevino",
+        "team": "Cincinnati Reds",
+        "value": "3-4, 2 HR, 2 RBI, 2 R"
       },
       {
         "name": "Wilyer Abreu",
         "team": "Boston Red Sox",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
+        "value": "2-3, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Curtis Mead",
-        "team": "Washington Nationals",
-        "value": "4-6, 0 HR, 3 RBI, 4 R"
+        "name": "Spencer Torkelson",
+        "team": "Detroit Tigers",
+        "value": "2-4, 2 HR, 4 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Chris Sale",
-        "team": "Atlanta Braves",
-        "value": "7.0 IP, 2 H, 0 ER, 6 SO"
+        "name": "Tarik Skubal",
+        "team": "Detroit Tigers",
+        "value": "7.0 IP, 5 H, 0 ER, 9 SO"
       },
       {
-        "name": "Peter Lambert",
-        "team": "Houston Astros",
-        "value": "6.0 IP, 3 H, 1 ER, 10 SO"
+        "name": "J.T. Ginn",
+        "team": "Athletics",
+        "value": "6.1 IP, 1 H, 0 ER, 7 SO"
       },
       {
-        "name": "Reid Detmers",
-        "team": "Los Angeles Angels",
-        "value": "6.0 IP, 4 H, 0 ER, 7 SO"
+        "name": "Shane Bieber",
+        "team": "Toronto Blue Jays",
+        "value": "6.0 IP, 3 H, 0 ER, 6 SO"
       }
     ]
   }
