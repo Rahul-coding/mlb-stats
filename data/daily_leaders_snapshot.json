@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "leaders": {
     "HR": [
       {
@@ -13,14 +13,9 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Junior Caminero",
-        "value": "29",
-        "team": "Tampa Bay Rays"
-      },
-      {
-        "name": "Ben Rice",
-        "value": "29",
-        "team": "New York Yankees"
+        "name": "Hunter Goodman",
+        "value": "30",
+        "team": "Colorado Rockies"
       }
     ],
     "AVG": [
@@ -31,30 +26,30 @@
       },
       {
         "name": "Luis Arraez",
-        "value": ".327",
+        "value": ".326",
         "team": "San Francisco Giants"
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".320",
+        "value": ".319",
         "team": "Houston Astros"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.065",
+        "value": "1.062",
         "team": "Houston Astros"
       },
       {
         "name": "Ben Rice",
-        "value": ".974",
+        "value": ".967",
         "team": "New York Yankees"
       },
       {
-        "name": "James Wood",
-        "value": ".968",
-        "team": "Washington Nationals"
+        "name": "Juan Soto",
+        "value": ".961",
+        "team": "New York Mets"
       }
     ],
     "STARTER ERA": [
@@ -64,14 +59,14 @@
         "team": "Milwaukee Brewers"
       },
       {
-        "name": "Cam Schlittler",
-        "value": "2.05",
-        "team": "New York Yankees"
-      },
-      {
         "name": "Chris Sale",
         "value": "2.06",
         "team": "Atlanta Braves"
+      },
+      {
+        "name": "Cam Schlittler",
+        "value": "2.20",
+        "team": "New York Yankees"
       }
     ],
     "STARTER WHIP": [
@@ -82,13 +77,13 @@
       },
       {
         "name": "Yoshinobu Yamamoto",
-        "value": "0.91",
+        "value": "0.88",
         "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Cam Schlittler",
-        "value": "0.94",
-        "team": "New York Yankees"
+        "name": "Drew Rasmussen",
+        "value": "0.95",
+        "team": "Tampa Bay Rays"
       }
     ],
     "SO": [
@@ -101,6 +96,11 @@
         "name": "Dylan Cease",
         "value": "148",
         "team": "Toronto Blue Jays"
+      },
+      {
+        "name": "Cam Schlittler",
+        "value": "145",
+        "team": "New York Yankees"
       },
       {
         "name": "Gavin Williams",
@@ -144,14 +144,14 @@
     ],
     "RELIEVER WHIP": [
       {
-        "name": "Dylan Lee",
-        "value": "0.71",
-        "team": "Atlanta Braves"
-      },
-      {
         "name": "Brandyn Garcia",
         "value": "0.73",
         "team": "Arizona Diamondbacks"
+      },
+      {
+        "name": "Dylan Lee",
+        "value": "0.74",
+        "team": "Atlanta Braves"
       },
       {
         "name": "Tanner Scott",
@@ -161,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Jose Trevino",
-        "team": "Cincinnati Reds",
-        "value": "3-4, 2 HR, 2 RBI, 2 R"
+        "name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "value": "3-4, 3 HR, 5 RBI, 3 R"
       },
       {
-        "name": "Wilyer Abreu",
-        "team": "Boston Red Sox",
-        "value": "2-3, 2 HR, 3 RBI, 2 R"
+        "name": "Drake Baldwin",
+        "team": "Atlanta Braves",
+        "value": "5-5, 2 HR, 2 RBI, 3 R"
       },
       {
-        "name": "Spencer Torkelson",
-        "team": "Detroit Tigers",
-        "value": "2-4, 2 HR, 4 RBI, 2 R"
+        "name": "Jackson Merrill",
+        "team": "San Diego Padres",
+        "value": "4-6, 2 HR, 4 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Tarik Skubal",
-        "team": "Detroit Tigers",
-        "value": "7.0 IP, 5 H, 0 ER, 9 SO"
+        "name": "Nolan McLean",
+        "team": "New York Mets",
+        "value": "6.0 IP, 2 H, 0 ER, 10 SO"
       },
       {
-        "name": "J.T. Ginn",
-        "team": "Athletics",
-        "value": "6.1 IP, 1 H, 0 ER, 7 SO"
+        "name": "Eury P\u00e9rez",
+        "team": "Miami Marlins",
+        "value": "6.0 IP, 1 H, 0 ER, 9 SO"
       },
       {
-        "name": "Shane Bieber",
-        "team": "Toronto Blue Jays",
-        "value": "6.0 IP, 3 H, 0 ER, 6 SO"
+        "name": "Yoshinobu Yamamoto",
+        "team": "Los Angeles Dodgers",
+        "value": "9.0 IP, 4 H, 2 ER, 7 SO"
       }
     ]
   }
