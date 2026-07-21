@@ -1,16 +1,16 @@
 {
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "leaders": {
     "HR": [
+      {
+        "name": "Yordan Alvarez",
+        "value": "33",
+        "team": "Houston Astros"
+      },
       {
         "name": "Kyle Schwarber",
         "value": "33",
         "team": "Philadelphia Phillies"
-      },
-      {
-        "name": "Yordan Alvarez",
-        "value": "31",
-        "team": "Houston Astros"
       },
       {
         "name": "Hunter Goodman",
@@ -25,37 +25,42 @@
         "team": "Miami Marlins"
       },
       {
-        "name": "Luis Arraez",
-        "value": ".326",
-        "team": "San Francisco Giants"
+        "name": "Yordan Alvarez",
+        "value": ".324",
+        "team": "Houston Astros"
       },
       {
-        "name": "Yordan Alvarez",
-        "value": ".319",
-        "team": "Houston Astros"
+        "name": "Luis Arraez",
+        "value": ".323",
+        "team": "San Francisco Giants"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.062",
+        "value": "1.083",
         "team": "Houston Astros"
       },
       {
         "name": "Ben Rice",
-        "value": ".967",
+        "value": ".966",
         "team": "New York Yankees"
       },
       {
         "name": "Juan Soto",
-        "value": ".961",
+        "value": ".954",
         "team": "New York Mets"
+      },
+      {
+        "name": "James Wood",
+        "value": ".954",
+        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
       {
         "name": "Jacob Misiorowski",
-        "value": "1.62",
+        "value": "1.57",
         "team": "Milwaukee Brewers"
       },
       {
@@ -72,7 +77,7 @@
     "STARTER WHIP": [
       {
         "name": "Jacob Misiorowski",
-        "value": "0.76",
+        "value": "0.77",
         "team": "Milwaukee Brewers"
       },
       {
@@ -89,23 +94,18 @@
     "SO": [
       {
         "name": "Jacob Misiorowski",
-        "value": "167",
+        "value": "173",
         "team": "Milwaukee Brewers"
       },
       {
         "name": "Dylan Cease",
-        "value": "148",
+        "value": "155",
         "team": "Toronto Blue Jays"
       },
       {
-        "name": "Cam Schlittler",
-        "value": "145",
-        "team": "New York Yankees"
-      },
-      {
-        "name": "Gavin Williams",
-        "value": "145",
-        "team": "Cleveland Guardians"
+        "name": "Cristopher S\u00e1nchez",
+        "value": "151",
+        "team": "Philadelphia Phillies"
       }
     ],
     "SV+H": [
@@ -144,53 +144,53 @@
     ],
     "RELIEVER WHIP": [
       {
+        "name": "Cam Booser",
+        "value": "0.65",
+        "team": "Tampa Bay Rays"
+      },
+      {
         "name": "Brandyn Garcia",
-        "value": "0.73",
+        "value": "0.74",
         "team": "Arizona Diamondbacks"
       },
       {
         "name": "Dylan Lee",
         "value": "0.74",
         "team": "Atlanta Braves"
-      },
-      {
-        "name": "Tanner Scott",
-        "value": "0.76",
-        "team": "Los Angeles Dodgers"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "value": "3-4, 3 HR, 5 RBI, 3 R"
+        "name": "Petey Halpin",
+        "team": "Cleveland Guardians",
+        "value": "3-5, 2 HR, 3 RBI, 3 R"
       },
       {
-        "name": "Drake Baldwin",
-        "team": "Atlanta Braves",
-        "value": "5-5, 2 HR, 2 RBI, 3 R"
+        "name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "value": "3-5, 2 HR, 5 RBI, 2 R"
       },
       {
-        "name": "Jackson Merrill",
-        "team": "San Diego Padres",
-        "value": "4-6, 2 HR, 4 RBI, 2 R"
+        "name": "Mookie Betts",
+        "team": "Los Angeles Dodgers",
+        "value": "4-5, 2 HR, 3 RBI, 3 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Nolan McLean",
-        "team": "New York Mets",
-        "value": "6.0 IP, 2 H, 0 ER, 10 SO"
+        "name": "George Kirby",
+        "team": "Seattle Mariners",
+        "value": "6.0 IP, 3 H, 0 ER, 6 SO"
       },
       {
-        "name": "Eury P\u00e9rez",
-        "team": "Miami Marlins",
-        "value": "6.0 IP, 1 H, 0 ER, 9 SO"
+        "name": "Andrew Abbott",
+        "team": "Cincinnati Reds",
+        "value": "6.0 IP, 4 H, 0 ER, 6 SO"
       },
       {
-        "name": "Yoshinobu Yamamoto",
-        "team": "Los Angeles Dodgers",
-        "value": "9.0 IP, 4 H, 2 ER, 7 SO"
+        "name": "Jos\u00e9 Soriano",
+        "team": "Los Angeles Angels",
+        "value": "7.0 IP, 4 H, 2 ER, 7 SO"
       }
     ]
   }
