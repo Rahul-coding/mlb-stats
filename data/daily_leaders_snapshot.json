@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "leaders": {
     "HR": [
       {
@@ -14,19 +14,19 @@
       },
       {
         "name": "Hunter Goodman",
-        "value": "30",
+        "value": "31",
         "team": "Colorado Rockies"
       }
     ],
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".335",
+        "value": ".332",
         "team": "Miami Marlins"
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".324",
+        "value": ".326",
         "team": "Houston Astros"
       },
       {
@@ -38,7 +38,7 @@
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.083",
+        "value": "1.081",
         "team": "Houston Astros"
       },
       {
@@ -47,13 +47,8 @@
         "team": "New York Yankees"
       },
       {
-        "name": "Juan Soto",
-        "value": ".954",
-        "team": "New York Mets"
-      },
-      {
         "name": "James Wood",
-        "value": ".954",
+        "value": ".957",
         "team": "Washington Nationals"
       }
     ],
@@ -86,9 +81,9 @@
         "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Drew Rasmussen",
-        "value": "0.95",
-        "team": "Tampa Bay Rays"
+        "name": "Cam Schlittler",
+        "value": "0.96",
+        "team": "New York Yankees"
       }
     ],
     "SO": [
@@ -111,7 +106,7 @@
     "SV+H": [
       {
         "name": "Cade Smith",
-        "value": "28",
+        "value": "29",
         "team": "Cleveland Guardians"
       },
       {
@@ -133,7 +128,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.89",
+        "value": "0.86",
         "team": "San Diego Padres"
       },
       {
@@ -161,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Petey Halpin",
-        "team": "Cleveland Guardians",
-        "value": "3-5, 2 HR, 3 RBI, 3 R"
+        "name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "value": "2-3, 2 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Trea Turner",
-        "team": "Philadelphia Phillies",
-        "value": "3-5, 2 HR, 5 RBI, 2 R"
+        "name": "Manny Machado",
+        "team": "San Diego Padres",
+        "value": "2-5, 2 HR, 2 RBI, 2 R"
       },
       {
-        "name": "Mookie Betts",
-        "team": "Los Angeles Dodgers",
-        "value": "4-5, 2 HR, 3 RBI, 3 R"
+        "name": "Nick Fortes",
+        "team": "Tampa Bay Rays",
+        "value": "3-5, 1 HR, 4 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "George Kirby",
-        "team": "Seattle Mariners",
-        "value": "6.0 IP, 3 H, 0 ER, 6 SO"
+        "name": "Kumar Rocker",
+        "team": "Texas Rangers",
+        "value": "6.0 IP, 1 H, 0 ER, 6 SO"
       },
       {
-        "name": "Andrew Abbott",
-        "team": "Cincinnati Reds",
-        "value": "6.0 IP, 4 H, 0 ER, 6 SO"
+        "name": "Zack Wheeler",
+        "team": "Philadelphia Phillies",
+        "value": "7.0 IP, 5 H, 2 ER, 9 SO"
       },
       {
-        "name": "Jos\u00e9 Soriano",
-        "team": "Los Angeles Angels",
-        "value": "7.0 IP, 4 H, 2 ER, 7 SO"
+        "name": "Tatsuya Imai",
+        "team": "Houston Astros",
+        "value": "6.0 IP, 4 H, 1 ER, 8 SO"
       }
     ]
   }
