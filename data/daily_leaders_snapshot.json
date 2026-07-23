@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "leaders": {
     "HR": [
       {
         "name": "Yordan Alvarez",
-        "value": "33",
+        "value": "34",
         "team": "Houston Astros"
       },
       {
@@ -26,29 +26,34 @@
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".326",
+        "value": ".328",
         "team": "Houston Astros"
       },
       {
         "name": "Luis Arraez",
-        "value": ".323",
+        "value": ".320",
         "team": "San Francisco Giants"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.081",
+        "value": "1.089",
         "team": "Houston Astros"
       },
       {
         "name": "Ben Rice",
-        "value": ".966",
+        "value": ".956",
         "team": "New York Yankees"
       },
       {
+        "name": "Willson Contreras",
+        "value": ".948",
+        "team": "Boston Red Sox"
+      },
+      {
         "name": "James Wood",
-        "value": ".957",
+        "value": ".948",
         "team": "Washington Nationals"
       }
     ],
@@ -111,12 +116,12 @@
       },
       {
         "name": "Bryan Baker",
-        "value": "27",
+        "value": "28",
         "team": "Tampa Bay Rays"
       },
       {
         "name": "Riley O'Brien",
-        "value": "26",
+        "value": "27",
         "team": "St. Louis Cardinals"
       }
     ],
@@ -133,59 +138,59 @@
       },
       {
         "name": "Louis Varland",
-        "value": "1.08",
+        "value": "1.06",
         "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER WHIP": [
       {
         "name": "Cam Booser",
-        "value": "0.65",
+        "value": "0.68",
         "team": "Tampa Bay Rays"
+      },
+      {
+        "name": "Dylan Lee",
+        "value": "0.72",
+        "team": "Atlanta Braves"
       },
       {
         "name": "Brandyn Garcia",
         "value": "0.74",
         "team": "Arizona Diamondbacks"
-      },
-      {
-        "name": "Dylan Lee",
-        "value": "0.74",
-        "team": "Atlanta Braves"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "CJ Abrams",
-        "team": "Washington Nationals",
-        "value": "2-3, 2 HR, 4 RBI, 2 R"
+        "name": "James McCann",
+        "team": "Arizona Diamondbacks",
+        "value": "3-4, 1 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Manny Machado",
-        "team": "San Diego Padres",
-        "value": "2-5, 2 HR, 2 RBI, 2 R"
+        "name": "Joey Ortiz",
+        "team": "Milwaukee Brewers",
+        "value": "3-3, 0 HR, 2 RBI, 2 R"
       },
       {
-        "name": "Nick Fortes",
-        "team": "Tampa Bay Rays",
-        "value": "3-5, 1 HR, 4 RBI, 2 R"
+        "name": "Corbin Carroll",
+        "team": "Arizona Diamondbacks",
+        "value": "2-4, 1 HR, 1 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Kumar Rocker",
-        "team": "Texas Rangers",
-        "value": "6.0 IP, 1 H, 0 ER, 6 SO"
+        "name": "Cade Cavalli",
+        "team": "Washington Nationals",
+        "value": "6.0 IP, 4 H, 0 ER, 8 SO"
       },
       {
-        "name": "Zack Wheeler",
-        "team": "Philadelphia Phillies",
-        "value": "7.0 IP, 5 H, 2 ER, 9 SO"
+        "name": "Gerrit Cole",
+        "team": "New York Yankees",
+        "value": "7.0 IP, 4 H, 3 ER, 11 SO"
       },
       {
-        "name": "Tatsuya Imai",
-        "team": "Houston Astros",
-        "value": "6.0 IP, 4 H, 1 ER, 8 SO"
+        "name": "Bubba Chandler",
+        "team": "Pittsburgh Pirates",
+        "value": "6.1 IP, 2 H, 0 ER, 5 SO"
       }
     ]
   }
