@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "leaders": {
     "HR": [
       {
@@ -65,7 +65,7 @@
       },
       {
         "name": "Chris Sale",
-        "value": "2.06",
+        "value": "2.19",
         "team": "Atlanta Braves"
       },
       {
@@ -98,14 +98,14 @@
         "team": "Milwaukee Brewers"
       },
       {
+        "name": "Gavin Williams",
+        "value": "156",
+        "team": "Cleveland Guardians"
+      },
+      {
         "name": "Dylan Cease",
         "value": "155",
         "team": "Toronto Blue Jays"
-      },
-      {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "151",
-        "team": "Philadelphia Phillies"
       }
     ],
     "SV+H": [
@@ -138,7 +138,7 @@
       },
       {
         "name": "Louis Varland",
-        "value": "1.06",
+        "value": "1.04",
         "team": "Toronto Blue Jays"
       }
     ],
@@ -155,42 +155,42 @@
       },
       {
         "name": "Brandyn Garcia",
-        "value": "0.74",
+        "value": "0.75",
         "team": "Arizona Diamondbacks"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "James McCann",
+        "name": "Tyler Locklear",
         "team": "Arizona Diamondbacks",
-        "value": "3-4, 1 HR, 3 RBI, 2 R"
+        "value": "3-5, 1 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Joey Ortiz",
-        "team": "Milwaukee Brewers",
-        "value": "3-3, 0 HR, 2 RBI, 2 R"
-      },
-      {
-        "name": "Corbin Carroll",
-        "team": "Arizona Diamondbacks",
+        "name": "Michael Harris II",
+        "team": "Atlanta Braves",
         "value": "2-4, 1 HR, 1 RBI, 2 R"
+      },
+      {
+        "name": "Dominic Smith",
+        "team": "Atlanta Braves",
+        "value": "1-3, 1 HR, 3 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Cade Cavalli",
-        "team": "Washington Nationals",
-        "value": "6.0 IP, 4 H, 0 ER, 8 SO"
+        "name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "value": "7.0 IP, 2 H, 0 ER, 11 SO"
       },
       {
-        "name": "Gerrit Cole",
-        "team": "New York Yankees",
-        "value": "7.0 IP, 4 H, 3 ER, 11 SO"
+        "name": "Chris Sale",
+        "team": "Atlanta Braves",
+        "value": "6.0 IP, 5 H, 3 ER, 11 SO"
       },
       {
-        "name": "Bubba Chandler",
-        "team": "Pittsburgh Pirates",
-        "value": "6.1 IP, 2 H, 0 ER, 5 SO"
+        "name": "Taj Bradley",
+        "team": "Minnesota Twins",
+        "value": "7.0 IP, 2 H, 1 ER, 5 SO"
       }
     ]
   }
