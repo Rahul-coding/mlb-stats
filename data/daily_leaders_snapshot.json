@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-26",
+  "date": "2026-07-27",
   "leaders": {
     "HR": [
       {
@@ -16,46 +16,51 @@
         "name": "Hunter Goodman",
         "value": "31",
         "team": "Colorado Rockies"
+      },
+      {
+        "name": "Ben Rice",
+        "value": "31",
+        "team": "New York Yankees"
       }
     ],
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".331",
+        "value": ".328",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".326",
+        "value": ".327",
         "team": "San Francisco Giants"
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".325",
+        "value": ".323",
         "team": "Houston Astros"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.077",
+        "value": "1.074",
         "team": "Houston Astros"
+      },
+      {
+        "name": "James Wood",
+        "value": ".953",
+        "team": "Washington Nationals"
       },
       {
         "name": "Juan Soto",
         "value": ".947",
         "team": "New York Mets"
-      },
-      {
-        "name": "Willson Contreras",
-        "value": ".941",
-        "team": "Boston Red Sox"
       }
     ],
     "STARTER ERA": [
       {
         "name": "Jacob Misiorowski",
-        "value": "1.57",
+        "value": "1.58",
         "team": "Milwaukee Brewers"
       },
       {
@@ -72,7 +77,7 @@
     "STARTER WHIP": [
       {
         "name": "Jacob Misiorowski",
-        "value": "0.77",
+        "value": "0.75",
         "team": "Milwaukee Brewers"
       },
       {
@@ -89,7 +94,7 @@
     "SO": [
       {
         "name": "Jacob Misiorowski",
-        "value": "173",
+        "value": "185",
         "team": "Milwaukee Brewers"
       },
       {
@@ -101,23 +106,28 @@
         "name": "Cam Schlittler",
         "value": "157",
         "team": "New York Yankees"
+      },
+      {
+        "name": "Cristopher S\u00e1nchez",
+        "value": "157",
+        "team": "Philadelphia Phillies"
       }
     ],
     "SV+H": [
+      {
+        "name": "Bryan Baker",
+        "value": "30",
+        "team": "Tampa Bay Rays"
+      },
       {
         "name": "Cade Smith",
         "value": "29",
         "team": "Cleveland Guardians"
       },
       {
-        "name": "Bryan Baker",
-        "value": "29",
-        "team": "Tampa Bay Rays"
-      },
-      {
-        "name": "Riley O'Brien",
+        "name": "Mason Miller",
         "value": "27",
-        "team": "St. Louis Cardinals"
+        "team": "San Diego Padres"
       }
     ],
     "RELIEVER ERA": [
@@ -128,7 +138,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.84",
+        "value": "0.82",
         "team": "San Diego Padres"
       },
       {
@@ -144,48 +154,48 @@
         "team": "Tampa Bay Rays"
       },
       {
-        "name": "Brandyn Garcia",
-        "value": "0.75",
-        "team": "Arizona Diamondbacks"
+        "name": "Dylan Dodd",
+        "value": "0.76",
+        "team": "Atlanta Braves"
       },
       {
         "name": "Dylan Lee",
-        "value": "0.75",
+        "value": "0.76",
         "team": "Atlanta Braves"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "value": "4-5, 1 HR, 3 RBI, 3 R"
-      },
-      {
-        "name": "Rafael Devers",
-        "team": "San Francisco Giants",
-        "value": "3-4, 1 HR, 4 RBI, 2 R"
+        "name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "value": "3-5, 2 HR, 6 RBI, 3 R"
       },
       {
         "name": "CJ Abrams",
         "team": "Washington Nationals",
-        "value": "3-4, 1 HR, 3 RBI, 1 R"
+        "value": "3-5, 2 HR, 3 RBI, 2 R"
+      },
+      {
+        "name": "James Wood",
+        "team": "Washington Nationals",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Dylan Cease",
-        "team": "Toronto Blue Jays",
-        "value": "9.0 IP, 1 H, 0 ER, 12 SO"
+        "name": "Drew Rasmussen",
+        "team": "Tampa Bay Rays",
+        "value": "7.0 IP, 1 H, 0 ER, 9 SO"
       },
       {
-        "name": "Andre Pallante",
-        "team": "St. Louis Cardinals",
-        "value": "7.0 IP, 2 H, 0 ER, 8 SO"
+        "name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "value": "5.0 IP, 1 H, 1 ER, 12 SO"
       },
       {
-        "name": "Hunter Brown",
-        "team": "Houston Astros",
-        "value": "7.0 IP, 2 H, 0 ER, 7 SO"
+        "name": "Parker Messick",
+        "team": "Cleveland Guardians",
+        "value": "7.2 IP, 6 H, 1 ER, 6 SO"
       }
     ]
   }
