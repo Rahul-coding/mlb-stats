@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "leaders": {
     "HR": [
       {
@@ -26,12 +26,12 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".328",
+        "value": ".331",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".327",
+        "value": ".326",
         "team": "San Francisco Giants"
       },
       {
@@ -48,13 +48,13 @@
       },
       {
         "name": "James Wood",
-        "value": ".953",
+        "value": ".954",
         "team": "Washington Nationals"
       },
       {
-        "name": "Juan Soto",
-        "value": ".947",
-        "team": "New York Mets"
+        "name": "Ben Rice",
+        "value": ".948",
+        "team": "New York Yankees"
       }
     ],
     "STARTER ERA": [
@@ -143,7 +143,7 @@
       },
       {
         "name": "Louis Varland",
-        "value": "1.04",
+        "value": "1.02",
         "team": "Toronto Blue Jays"
       }
     ],
@@ -166,36 +166,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "value": "3-5, 2 HR, 6 RBI, 3 R"
+        "name": "Francisco Lindor",
+        "team": "New York Mets",
+        "value": "3-5, 2 HR, 6 RBI, 2 R"
       },
       {
-        "name": "CJ Abrams",
-        "team": "Washington Nationals",
-        "value": "3-5, 2 HR, 3 RBI, 2 R"
+        "name": "Alex Bregman",
+        "team": "Chicago Cubs",
+        "value": "4-5, 1 HR, 2 RBI, 3 R"
       },
       {
-        "name": "James Wood",
-        "team": "Washington Nationals",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
+        "name": "Joc Pederson",
+        "team": "Texas Rangers",
+        "value": "2-4, 2 HR, 4 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Drew Rasmussen",
-        "team": "Tampa Bay Rays",
-        "value": "7.0 IP, 1 H, 0 ER, 9 SO"
+        "name": "Walbert Ure\u00f1a",
+        "team": "Los Angeles Angels",
+        "value": "6.0 IP, 2 H, 1 ER, 5 SO"
       },
       {
-        "name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "value": "5.0 IP, 1 H, 1 ER, 12 SO"
+        "name": "Cristian Javier",
+        "team": "Houston Astros",
+        "value": "5.0 IP, 3 H, 0 ER, 7 SO"
       },
       {
-        "name": "Parker Messick",
-        "team": "Cleveland Guardians",
-        "value": "7.2 IP, 6 H, 1 ER, 6 SO"
+        "name": "Tyler Mahle",
+        "team": "San Francisco Giants",
+        "value": "6.0 IP, 3 H, 0 ER, 3 SO"
       }
     ]
   }
