@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "leaders": {
     "HR": [
       {
         "name": "Yordan Alvarez",
-        "value": "34",
+        "value": "35",
         "team": "Houston Astros"
       },
       {
@@ -26,35 +26,35 @@
     "AVG": [
       {
         "name": "Otto Lopez",
-        "value": ".331",
+        "value": ".328",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".326",
+        "value": ".325",
         "team": "San Francisco Giants"
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".323",
+        "value": ".325",
         "team": "Houston Astros"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.074",
+        "value": "1.082",
         "team": "Houston Astros"
       },
       {
-        "name": "James Wood",
-        "value": ".954",
-        "team": "Washington Nationals"
+        "name": "Juan Soto",
+        "value": ".947",
+        "team": "New York Mets"
       },
       {
-        "name": "Ben Rice",
-        "value": ".948",
-        "team": "New York Yankees"
+        "name": "James Wood",
+        "value": ".946",
+        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
@@ -98,31 +98,26 @@
         "team": "Milwaukee Brewers"
       },
       {
+        "name": "Gavin Williams",
+        "value": "168",
+        "team": "Cleveland Guardians"
+      },
+      {
         "name": "Dylan Cease",
         "value": "167",
         "team": "Toronto Blue Jays"
-      },
-      {
-        "name": "Cam Schlittler",
-        "value": "157",
-        "team": "New York Yankees"
-      },
-      {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "157",
-        "team": "Philadelphia Phillies"
       }
     ],
     "SV+H": [
       {
+        "name": "Cade Smith",
+        "value": "30",
+        "team": "Cleveland Guardians"
+      },
+      {
         "name": "Bryan Baker",
         "value": "30",
         "team": "Tampa Bay Rays"
-      },
-      {
-        "name": "Cade Smith",
-        "value": "29",
-        "team": "Cleveland Guardians"
       },
       {
         "name": "Mason Miller",
@@ -138,7 +133,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.82",
+        "value": "0.81",
         "team": "San Diego Padres"
       },
       {
@@ -166,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Francisco Lindor",
-        "team": "New York Mets",
-        "value": "3-5, 2 HR, 6 RBI, 2 R"
+        "name": "Eduardo Valencia",
+        "team": "Detroit Tigers",
+        "value": "4-5, 2 HR, 4 RBI, 3 R"
       },
       {
-        "name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "value": "4-5, 1 HR, 2 RBI, 3 R"
+        "name": "Dominic Canzone",
+        "team": "Seattle Mariners",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Joc Pederson",
-        "team": "Texas Rangers",
-        "value": "2-4, 2 HR, 4 RBI, 2 R"
+        "name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "value": "3-4, 1 HR, 3 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Walbert Ure\u00f1a",
-        "team": "Los Angeles Angels",
-        "value": "6.0 IP, 2 H, 1 ER, 5 SO"
+        "name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "value": "7.0 IP, 3 H, 2 ER, 12 SO"
       },
       {
-        "name": "Cristian Javier",
-        "team": "Houston Astros",
-        "value": "5.0 IP, 3 H, 0 ER, 7 SO"
+        "name": "Troy Melton",
+        "team": "Detroit Tigers",
+        "value": "7.0 IP, 3 H, 0 ER, 5 SO"
       },
       {
-        "name": "Tyler Mahle",
-        "team": "San Francisco Giants",
-        "value": "6.0 IP, 3 H, 0 ER, 3 SO"
+        "name": "Sandy Alcantara",
+        "team": "Miami Marlins",
+        "value": "7.0 IP, 4 H, 0 ER, 5 SO"
       }
     ]
   }
