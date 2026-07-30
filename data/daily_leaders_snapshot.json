@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "leaders": {
     "HR": [
       {
@@ -25,36 +25,36 @@
     ],
     "AVG": [
       {
-        "name": "Otto Lopez",
-        "value": ".328",
-        "team": "Miami Marlins"
-      },
-      {
         "name": "Luis Arraez",
-        "value": ".325",
+        "value": ".331",
         "team": "San Francisco Giants"
       },
       {
+        "name": "Otto Lopez",
+        "value": ".329",
+        "team": "Miami Marlins"
+      },
+      {
         "name": "Yordan Alvarez",
-        "value": ".325",
+        "value": ".321",
         "team": "Houston Astros"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.082",
+        "value": "1.072",
         "team": "Houston Astros"
+      },
+      {
+        "name": "James Wood",
+        "value": ".950",
+        "team": "Washington Nationals"
       },
       {
         "name": "Juan Soto",
         "value": ".947",
         "team": "New York Mets"
-      },
-      {
-        "name": "James Wood",
-        "value": ".946",
-        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
@@ -65,12 +65,12 @@
       },
       {
         "name": "Cam Schlittler",
-        "value": "2.07",
+        "value": "2.04",
         "team": "New York Yankees"
       },
       {
         "name": "Chris Sale",
-        "value": "2.19",
+        "value": "2.08",
         "team": "Atlanta Braves"
       }
     ],
@@ -87,7 +87,7 @@
       },
       {
         "name": "Cam Schlittler",
-        "value": "0.93",
+        "value": "0.91",
         "team": "New York Yankees"
       }
     ],
@@ -110,18 +110,18 @@
     ],
     "SV+H": [
       {
+        "name": "Bryan Baker",
+        "value": "31",
+        "team": "Tampa Bay Rays"
+      },
+      {
         "name": "Cade Smith",
         "value": "30",
         "team": "Cleveland Guardians"
       },
       {
-        "name": "Bryan Baker",
-        "value": "30",
-        "team": "Tampa Bay Rays"
-      },
-      {
         "name": "Mason Miller",
-        "value": "27",
+        "value": "28",
         "team": "San Diego Padres"
       }
     ],
@@ -133,12 +133,12 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.81",
+        "value": "0.79",
         "team": "San Diego Padres"
       },
       {
         "name": "Louis Varland",
-        "value": "1.02",
+        "value": "0.98",
         "team": "Toronto Blue Jays"
       }
     ],
@@ -149,47 +149,47 @@
         "team": "Tampa Bay Rays"
       },
       {
-        "name": "Dylan Dodd",
-        "value": "0.76",
+        "name": "Dylan Lee",
+        "value": "0.74",
         "team": "Atlanta Braves"
       },
       {
-        "name": "Dylan Lee",
-        "value": "0.76",
-        "team": "Atlanta Braves"
+        "name": "Mason Miller",
+        "value": "0.79",
+        "team": "San Diego Padres"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Eduardo Valencia",
-        "team": "Detroit Tigers",
-        "value": "4-5, 2 HR, 4 RBI, 3 R"
+        "name": "Daniel Susac",
+        "team": "San Francisco Giants",
+        "value": "2-4, 2 HR, 4 RBI, 3 R"
       },
       {
-        "name": "Dominic Canzone",
-        "team": "Seattle Mariners",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
+        "name": "Yainer Diaz",
+        "team": "Houston Astros",
+        "value": "4-5, 1 HR, 2 RBI, 2 R"
       },
       {
-        "name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "value": "3-4, 1 HR, 3 RBI, 1 R"
+        "name": "Tyler Tolbert",
+        "team": "Kansas City Royals",
+        "value": "2-3, 1 HR, 1 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "value": "7.0 IP, 3 H, 2 ER, 12 SO"
+        "name": "Chris Sale",
+        "team": "Atlanta Braves",
+        "value": "6.0 IP, 2 H, 0 ER, 9 SO"
       },
       {
-        "name": "Troy Melton",
-        "team": "Detroit Tigers",
-        "value": "7.0 IP, 3 H, 0 ER, 5 SO"
+        "name": "Cam Schlittler",
+        "team": "New York Yankees",
+        "value": "6.1 IP, 2 H, 1 ER, 8 SO"
       },
       {
-        "name": "Sandy Alcantara",
-        "team": "Miami Marlins",
+        "name": "Matthew Boyd",
+        "team": "Chicago Cubs",
         "value": "7.0 IP, 4 H, 0 ER, 5 SO"
       }
     ]
