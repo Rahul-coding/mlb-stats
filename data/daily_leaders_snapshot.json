@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "leaders": {
     "HR": [
       {
@@ -26,12 +26,12 @@
     "AVG": [
       {
         "name": "Luis Arraez",
-        "value": ".331",
+        "value": ".328",
         "team": "San Francisco Giants"
       },
       {
         "name": "Otto Lopez",
-        "value": ".329",
+        "value": ".325",
         "team": "Miami Marlins"
       },
       {
@@ -111,7 +111,7 @@
     "SV+H": [
       {
         "name": "Bryan Baker",
-        "value": "31",
+        "value": "32",
         "team": "Tampa Bay Rays"
       },
       {
@@ -145,12 +145,12 @@
     "RELIEVER WHIP": [
       {
         "name": "Cam Booser",
-        "value": "0.68",
+        "value": "0.70",
         "team": "Tampa Bay Rays"
       },
       {
         "name": "Dylan Lee",
-        "value": "0.74",
+        "value": "0.72",
         "team": "Atlanta Braves"
       },
       {
@@ -161,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Daniel Susac",
-        "team": "San Francisco Giants",
-        "value": "2-4, 2 HR, 4 RBI, 3 R"
+        "name": "Daylen Lile",
+        "team": "Washington Nationals",
+        "value": "2-4, 2 HR, 2 RBI, 2 R"
       },
       {
-        "name": "Yainer Diaz",
-        "team": "Houston Astros",
-        "value": "4-5, 1 HR, 2 RBI, 2 R"
+        "name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "value": "3-5, 1 HR, 2 RBI, 1 R"
       },
       {
-        "name": "Tyler Tolbert",
-        "team": "Kansas City Royals",
-        "value": "2-3, 1 HR, 1 RBI, 2 R"
+        "name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "value": "3-4, 0 HR, 1 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Chris Sale",
-        "team": "Atlanta Braves",
-        "value": "6.0 IP, 2 H, 0 ER, 9 SO"
+        "name": "Noah Cameron",
+        "team": "Kansas City Royals",
+        "value": "8.0 IP, 1 H, 0 ER, 7 SO"
       },
       {
-        "name": "Cam Schlittler",
+        "name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "value": "6.0 IP, 3 H, 0 ER, 10 SO"
+      },
+      {
+        "name": "Ryan Weathers",
         "team": "New York Yankees",
-        "value": "6.1 IP, 2 H, 1 ER, 8 SO"
-      },
-      {
-        "name": "Matthew Boyd",
-        "team": "Chicago Cubs",
-        "value": "7.0 IP, 4 H, 0 ER, 5 SO"
+        "value": "7.0 IP, 3 H, 0 ER, 4 SO"
       }
     ]
   }
