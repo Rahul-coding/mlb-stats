@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "leaders": {
     "HR": [
       {
@@ -20,25 +20,25 @@
     ],
     "AVG": [
       {
-        "name": "Luis Arraez",
-        "value": ".328",
-        "team": "San Francisco Giants"
-      },
-      {
         "name": "Yordan Alvarez",
-        "value": ".324",
+        "value": ".330",
         "team": "Houston Astros"
       },
       {
+        "name": "Luis Arraez",
+        "value": ".324",
+        "team": "San Francisco Giants"
+      },
+      {
         "name": "Otto Lopez",
-        "value": ".322",
+        "value": ".321",
         "team": "Miami Marlins"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.079",
+        "value": "1.092",
         "team": "Houston Astros"
       },
       {
@@ -47,15 +47,15 @@
         "team": "New York Mets"
       },
       {
-        "name": "Willson Contreras",
-        "value": ".943",
-        "team": "Boston Red Sox"
+        "name": "Shohei Ohtani",
+        "value": ".939",
+        "team": "Los Angeles Dodgers"
       }
     ],
     "STARTER ERA": [
       {
         "name": "Jacob Misiorowski",
-        "value": "1.58",
+        "value": "1.63",
         "team": "Milwaukee Brewers"
       },
       {
@@ -72,7 +72,7 @@
     "STARTER WHIP": [
       {
         "name": "Jacob Misiorowski",
-        "value": "0.75",
+        "value": "0.73",
         "team": "Milwaukee Brewers"
       },
       {
@@ -89,23 +89,18 @@
     "SO": [
       {
         "name": "Jacob Misiorowski",
-        "value": "185",
+        "value": "195",
         "team": "Milwaukee Brewers"
+      },
+      {
+        "name": "Gavin Williams",
+        "value": "178",
+        "team": "Cleveland Guardians"
       },
       {
         "name": "Dylan Cease",
         "value": "174",
         "team": "Toronto Blue Jays"
-      },
-      {
-        "name": "Cristopher S\u00e1nchez",
-        "value": "168",
-        "team": "Philadelphia Phillies"
-      },
-      {
-        "name": "Gavin Williams",
-        "value": "168",
-        "team": "Cleveland Guardians"
       }
     ],
     "SV+H": [
@@ -138,20 +133,20 @@
       },
       {
         "name": "Louis Varland",
-        "value": "0.96",
+        "value": "1.11",
         "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER WHIP": [
       {
-        "name": "Dylan Lee",
-        "value": "0.72",
-        "team": "Atlanta Braves"
-      },
-      {
         "name": "Cam Booser",
         "value": "0.73",
         "team": "Tampa Bay Rays"
+      },
+      {
+        "name": "Dylan Lee",
+        "value": "0.73",
+        "team": "Atlanta Braves"
       },
       {
         "name": "Mason Miller",
@@ -161,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "value": "4-5, 2 HR, 5 RBI, 2 R"
+        "name": "Everson Pereira",
+        "team": "Chicago White Sox",
+        "value": "2-4, 1 HR, 4 RBI, 1 R"
       },
       {
-        "name": "Ceddanne Rafaela",
-        "team": "Boston Red Sox",
-        "value": "2-4, 2 HR, 2 RBI, 2 R"
+        "name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "value": "4-5, 0 HR, 2 RBI, 1 R"
       },
       {
-        "name": "Henry Bolte",
-        "team": "Athletics",
-        "value": "3-4, 1 HR, 3 RBI, 2 R"
+        "name": "Tyler Stephenson",
+        "team": "Cincinnati Reds",
+        "value": "2-4, 1 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Drew Rasmussen",
-        "team": "Tampa Bay Rays",
-        "value": "6.0 IP, 4 H, 0 ER, 10 SO"
+        "name": "Kyle Freeland",
+        "team": "Colorado Rockies",
+        "value": "9.0 IP, 5 H, 1 ER, 8 SO"
       },
       {
-        "name": "Cristopher S\u00e1nchez",
-        "team": "Philadelphia Phillies",
-        "value": "6.0 IP, 2 H, 0 ER, 11 SO"
+        "name": "Matthew Liberatore",
+        "team": "St. Louis Cardinals",
+        "value": "6.0 IP, 1 H, 0 ER, 7 SO"
       },
       {
-        "name": "Mart\u00edn P\u00e9rez",
-        "team": "Atlanta Braves",
-        "value": "7.0 IP, 1 H, 0 ER, 6 SO"
+        "name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "value": "7.0 IP, 2 H, 2 ER, 10 SO"
       }
     ]
   }
