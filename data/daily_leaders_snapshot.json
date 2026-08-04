@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "leaders": {
     "HR": [
       {
@@ -38,7 +38,7 @@
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.092",
+        "value": "1.091",
         "team": "Houston Astros"
       },
       {
@@ -48,7 +48,7 @@
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".939",
+        "value": ".940",
         "team": "Los Angeles Dodgers"
       }
     ],
@@ -59,14 +59,14 @@
         "team": "Milwaukee Brewers"
       },
       {
-        "name": "Cam Schlittler",
-        "value": "2.04",
-        "team": "New York Yankees"
-      },
-      {
         "name": "Chris Sale",
         "value": "2.08",
         "team": "Atlanta Braves"
+      },
+      {
+        "name": "Cam Schlittler",
+        "value": "2.26",
+        "team": "New York Yankees"
       }
     ],
     "STARTER WHIP": [
@@ -81,9 +81,9 @@
         "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Cam Schlittler",
-        "value": "0.91",
-        "team": "New York Yankees"
+        "name": "Drew Rasmussen",
+        "value": "0.93",
+        "team": "Tampa Bay Rays"
       }
     ],
     "SO": [
@@ -149,43 +149,43 @@
         "team": "Atlanta Braves"
       },
       {
-        "name": "Mason Miller",
-        "value": "0.80",
-        "team": "San Diego Padres"
+        "name": "Brandyn Garcia",
+        "value": "0.77",
+        "team": "Arizona Diamondbacks"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Everson Pereira",
-        "team": "Chicago White Sox",
-        "value": "2-4, 1 HR, 4 RBI, 1 R"
+        "name": "Alec Burleson",
+        "team": "St. Louis Cardinals",
+        "value": "3-5, 3 HR, 6 RBI, 3 R"
       },
       {
-        "name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "value": "4-5, 0 HR, 2 RBI, 1 R"
+        "name": "Jung Hoo Lee",
+        "team": "San Francisco Giants",
+        "value": "3-4, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Tyler Stephenson",
-        "team": "Cincinnati Reds",
-        "value": "2-4, 1 HR, 2 RBI, 2 R"
+        "name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "value": "2-5, 2 HR, 3 RBI, 3 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Kyle Freeland",
-        "team": "Colorado Rockies",
-        "value": "9.0 IP, 5 H, 1 ER, 8 SO"
+        "name": "Logan Webb",
+        "team": "San Francisco Giants",
+        "value": "6.0 IP, 5 H, 0 ER, 8 SO"
       },
       {
-        "name": "Matthew Liberatore",
-        "team": "St. Louis Cardinals",
-        "value": "6.0 IP, 1 H, 0 ER, 7 SO"
+        "name": "Ian Seymour",
+        "team": "Tampa Bay Rays",
+        "value": "6.0 IP, 7 H, 2 ER, 9 SO"
       },
       {
-        "name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "value": "7.0 IP, 2 H, 2 ER, 10 SO"
+        "name": "Brandon Pfaadt",
+        "team": "Arizona Diamondbacks",
+        "value": "6.2 IP, 5 H, 0 ER, 3 SO"
       }
     ]
   }
