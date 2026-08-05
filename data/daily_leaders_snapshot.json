@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "leaders": {
     "HR": [
       {
@@ -21,24 +21,24 @@
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".330",
+        "value": ".329",
         "team": "Houston Astros"
       },
       {
         "name": "Luis Arraez",
-        "value": ".324",
-        "team": "San Francisco Giants"
+        "value": ".325",
+        "team": "Philadelphia Phillies"
       },
       {
         "name": "Otto Lopez",
-        "value": ".321",
+        "value": ".323",
         "team": "Miami Marlins"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.091",
+        "value": "1.087",
         "team": "Houston Astros"
       },
       {
@@ -48,7 +48,7 @@
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".940",
+        "value": ".936",
         "team": "Los Angeles Dodgers"
       }
     ],
@@ -106,7 +106,7 @@
     "SV+H": [
       {
         "name": "Bryan Baker",
-        "value": "33",
+        "value": "34",
         "team": "Tampa Bay Rays"
       },
       {
@@ -140,7 +140,7 @@
     "RELIEVER WHIP": [
       {
         "name": "Cam Booser",
-        "value": "0.73",
+        "value": "0.69",
         "team": "Tampa Bay Rays"
       },
       {
@@ -156,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Alec Burleson",
-        "team": "St. Louis Cardinals",
-        "value": "3-5, 3 HR, 6 RBI, 3 R"
+        "name": "Wilyer Abreu",
+        "team": "Boston Red Sox",
+        "value": "2-4, 2 HR, 2 RBI, 2 R"
       },
       {
-        "name": "Jung Hoo Lee",
-        "team": "San Francisco Giants",
-        "value": "3-4, 2 HR, 3 RBI, 2 R"
+        "name": "Luis Torrens",
+        "team": "New York Mets",
+        "value": "3-3, 1 HR, 4 RBI, 1 R"
       },
       {
-        "name": "Junior Caminero",
+        "name": "Liam Hicks",
         "team": "Tampa Bay Rays",
-        "value": "2-5, 2 HR, 3 RBI, 3 R"
+        "value": "2-5, 1 HR, 4 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Logan Webb",
-        "team": "San Francisco Giants",
-        "value": "6.0 IP, 5 H, 0 ER, 8 SO"
+        "name": "Jes\u00fas Luzardo",
+        "team": "Philadelphia Phillies",
+        "value": "8.0 IP, 4 H, 0 ER, 7 SO"
       },
       {
-        "name": "Ian Seymour",
-        "team": "Tampa Bay Rays",
-        "value": "6.0 IP, 7 H, 2 ER, 9 SO"
+        "name": "Ryan Weathers",
+        "team": "New York Yankees",
+        "value": "6.0 IP, 4 H, 0 ER, 6 SO"
       },
       {
-        "name": "Brandon Pfaadt",
-        "team": "Arizona Diamondbacks",
-        "value": "6.2 IP, 5 H, 0 ER, 3 SO"
+        "name": "Cade Povich",
+        "team": "Baltimore Orioles",
+        "value": "6.0 IP, 7 H, 0 ER, 7 SO"
       }
     ]
   }
