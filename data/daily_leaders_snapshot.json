@@ -1,11 +1,16 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "leaders": {
     "HR": [
       {
         "name": "Yordan Alvarez",
         "value": "35",
         "team": "Houston Astros"
+      },
+      {
+        "name": "Junior Caminero",
+        "value": "33",
+        "team": "Tampa Bay Rays"
       },
       {
         "name": "Hunter Goodman",
@@ -26,30 +31,30 @@
       },
       {
         "name": "Luis Arraez",
-        "value": ".325",
+        "value": ".324",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Otto Lopez",
-        "value": ".323",
+        "value": ".320",
         "team": "Miami Marlins"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.087",
+        "value": "1.082",
         "team": "Houston Astros"
+      },
+      {
+        "name": "Shohei Ohtani",
+        "value": ".953",
+        "team": "Los Angeles Dodgers"
       },
       {
         "name": "Juan Soto",
         "value": ".947",
         "team": "New York Mets"
-      },
-      {
-        "name": "Shohei Ohtani",
-        "value": ".936",
-        "team": "Los Angeles Dodgers"
       }
     ],
     "STARTER ERA": [
@@ -133,14 +138,14 @@
       },
       {
         "name": "Louis Varland",
-        "value": "1.11",
+        "value": "1.09",
         "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER WHIP": [
       {
         "name": "Cam Booser",
-        "value": "0.69",
+        "value": "0.66",
         "team": "Tampa Bay Rays"
       },
       {
@@ -156,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Wilyer Abreu",
-        "team": "Boston Red Sox",
-        "value": "2-4, 2 HR, 2 RBI, 2 R"
+        "name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "value": "3-5, 2 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Luis Torrens",
-        "team": "New York Mets",
-        "value": "3-3, 1 HR, 4 RBI, 1 R"
+        "name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "value": "3-5, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Liam Hicks",
-        "team": "Tampa Bay Rays",
-        "value": "2-5, 1 HR, 4 RBI, 1 R"
+        "name": "Tim Tawa",
+        "team": "Arizona Diamondbacks",
+        "value": "3-4, 1 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Jes\u00fas Luzardo",
-        "team": "Philadelphia Phillies",
-        "value": "8.0 IP, 4 H, 0 ER, 7 SO"
+        "name": "Noah Cameron",
+        "team": "Kansas City Royals",
+        "value": "8.0 IP, 2 H, 1 ER, 9 SO"
       },
       {
-        "name": "Ryan Weathers",
-        "team": "New York Yankees",
-        "value": "6.0 IP, 4 H, 0 ER, 6 SO"
+        "name": "Mitch Bratt",
+        "team": "Arizona Diamondbacks",
+        "value": "7.0 IP, 1 H, 0 ER, 9 SO"
       },
       {
-        "name": "Cade Povich",
-        "team": "Baltimore Orioles",
-        "value": "6.0 IP, 7 H, 0 ER, 7 SO"
+        "name": "Sonny Gray",
+        "team": "Boston Red Sox",
+        "value": "6.0 IP, 3 H, 0 ER, 8 SO"
       }
     ]
   }
