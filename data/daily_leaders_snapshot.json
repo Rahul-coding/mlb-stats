@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "leaders": {
     "HR": [
       {
@@ -31,12 +31,12 @@
       },
       {
         "name": "Luis Arraez",
-        "value": ".324",
+        "value": ".326",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Otto Lopez",
-        "value": ".320",
+        "value": ".318",
         "team": "Miami Marlins"
       }
     ],
@@ -52,9 +52,9 @@
         "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Juan Soto",
-        "value": ".947",
-        "team": "New York Mets"
+        "name": "Pete Crow-Armstrong",
+        "value": ".936",
+        "team": "Chicago Cubs"
       }
     ],
     "STARTER ERA": [
@@ -98,14 +98,14 @@
         "team": "Milwaukee Brewers"
       },
       {
+        "name": "Dylan Cease",
+        "value": "184",
+        "team": "Toronto Blue Jays"
+      },
+      {
         "name": "Gavin Williams",
         "value": "178",
         "team": "Cleveland Guardians"
-      },
-      {
-        "name": "Dylan Cease",
-        "value": "174",
-        "team": "Toronto Blue Jays"
       }
     ],
     "SV+H": [
@@ -133,13 +133,13 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.76",
+        "value": "0.74",
         "team": "San Diego Padres"
       },
       {
-        "name": "Louis Varland",
-        "value": "1.09",
-        "team": "Toronto Blue Jays"
+        "name": "Josh Hader",
+        "value": "1.13",
+        "team": "Houston Astros"
       }
     ],
     "RELIEVER WHIP": [
@@ -161,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
+        "name": "Chase Meidroth",
+        "team": "Chicago White Sox",
         "value": "3-5, 2 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "value": "3-5, 2 HR, 3 RBI, 2 R"
+        "name": "Ronald Acu\u00f1a Jr.",
+        "team": "Atlanta Braves",
+        "value": "2-5, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Tim Tawa",
-        "team": "Arizona Diamondbacks",
+        "name": "Marcus Semien",
+        "team": "New York Mets",
         "value": "3-4, 1 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Noah Cameron",
-        "team": "Kansas City Royals",
-        "value": "8.0 IP, 2 H, 1 ER, 9 SO"
+        "name": "Dylan Cease",
+        "team": "Toronto Blue Jays",
+        "value": "7.0 IP, 2 H, 0 ER, 10 SO"
       },
       {
-        "name": "Mitch Bratt",
-        "team": "Arizona Diamondbacks",
-        "value": "7.0 IP, 1 H, 0 ER, 9 SO"
+        "name": "Framber Valdez",
+        "team": "Detroit Tigers",
+        "value": "7.0 IP, 5 H, 0 ER, 5 SO"
       },
       {
-        "name": "Sonny Gray",
-        "team": "Boston Red Sox",
-        "value": "6.0 IP, 3 H, 0 ER, 8 SO"
+        "name": "Dustin May",
+        "team": "Milwaukee Brewers",
+        "value": "6.0 IP, 3 H, 2 ER, 5 SO"
       }
     ]
   }
