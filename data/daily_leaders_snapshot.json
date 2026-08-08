@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "leaders": {
     "HR": [
       {
@@ -18,6 +18,11 @@
         "team": "Colorado Rockies"
       },
       {
+        "name": "Matt Olson",
+        "value": "33",
+        "team": "Atlanta Braves"
+      },
+      {
         "name": "Kyle Schwarber",
         "value": "33",
         "team": "Philadelphia Phillies"
@@ -26,34 +31,34 @@
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".329",
+        "value": ".328",
         "team": "Houston Astros"
       },
       {
         "name": "Luis Arraez",
-        "value": ".326",
+        "value": ".323",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Otto Lopez",
-        "value": ".318",
+        "value": ".315",
         "team": "Miami Marlins"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.082",
+        "value": "1.078",
         "team": "Houston Astros"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".953",
+        "value": ".952",
         "team": "Los Angeles Dodgers"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".936",
+        "value": ".937",
         "team": "Chicago Cubs"
       }
     ],
@@ -87,7 +92,7 @@
       },
       {
         "name": "Drew Rasmussen",
-        "value": "0.93",
+        "value": "0.91",
         "team": "Tampa Bay Rays"
       }
     ],
@@ -111,7 +116,7 @@
     "SV+H": [
       {
         "name": "Bryan Baker",
-        "value": "34",
+        "value": "35",
         "team": "Tampa Bay Rays"
       },
       {
@@ -120,9 +125,9 @@
         "team": "Cleveland Guardians"
       },
       {
-        "name": "Louis Varland",
+        "name": "Riley O'Brien",
         "value": "29",
-        "team": "Toronto Blue Jays"
+        "team": "St. Louis Cardinals"
       }
     ],
     "RELIEVER ERA": [
@@ -138,7 +143,7 @@
       },
       {
         "name": "Josh Hader",
-        "value": "1.13",
+        "value": "1.08",
         "team": "Houston Astros"
       }
     ],
@@ -150,47 +155,47 @@
       },
       {
         "name": "Dylan Lee",
-        "value": "0.73",
+        "value": "0.75",
         "team": "Atlanta Braves"
       },
       {
-        "name": "Brandyn Garcia",
-        "value": "0.77",
-        "team": "Arizona Diamondbacks"
+        "name": "Josh Hader",
+        "value": "0.80",
+        "team": "Houston Astros"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Chase Meidroth",
-        "team": "Chicago White Sox",
-        "value": "3-5, 2 HR, 4 RBI, 2 R"
+        "name": "Cam Smith",
+        "team": "Houston Astros",
+        "value": "3-4, 2 HR, 2 RBI, 3 R"
       },
       {
-        "name": "Ronald Acu\u00f1a Jr.",
-        "team": "Atlanta Braves",
-        "value": "2-5, 2 HR, 3 RBI, 2 R"
+        "name": "Josh Bell",
+        "team": "Minnesota Twins",
+        "value": "4-5, 1 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Marcus Semien",
-        "team": "New York Mets",
-        "value": "3-4, 1 HR, 2 RBI, 2 R"
+        "name": "Angel Mart\u00ednez",
+        "team": "Cleveland Guardians",
+        "value": "2-5, 1 HR, 6 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Dylan Cease",
-        "team": "Toronto Blue Jays",
-        "value": "7.0 IP, 2 H, 0 ER, 10 SO"
+        "name": "Payton Tolle",
+        "team": "Boston Red Sox",
+        "value": "6.0 IP, 2 H, 1 ER, 14 SO"
       },
       {
-        "name": "Framber Valdez",
-        "team": "Detroit Tigers",
-        "value": "7.0 IP, 5 H, 0 ER, 5 SO"
+        "name": "Drew Rasmussen",
+        "team": "Tampa Bay Rays",
+        "value": "7.0 IP, 2 H, 0 ER, 8 SO"
       },
       {
-        "name": "Dustin May",
-        "team": "Milwaukee Brewers",
-        "value": "6.0 IP, 3 H, 2 ER, 5 SO"
+        "name": "Tyler Mahle",
+        "team": "Atlanta Braves",
+        "value": "6.0 IP, 3 H, 0 ER, 9 SO"
       }
     ]
   }
