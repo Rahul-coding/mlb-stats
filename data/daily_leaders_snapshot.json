@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "leaders": {
     "HR": [
       {
@@ -31,34 +31,34 @@
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".328",
+        "value": ".325",
         "team": "Houston Astros"
       },
       {
         "name": "Luis Arraez",
-        "value": ".323",
+        "value": ".324",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Otto Lopez",
-        "value": ".315",
+        "value": ".317",
         "team": "Miami Marlins"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.078",
+        "value": "1.069",
         "team": "Houston Astros"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".952",
+        "value": ".945",
         "team": "Los Angeles Dodgers"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".937",
+        "value": ".933",
         "team": "Chicago Cubs"
       }
     ],
@@ -70,7 +70,7 @@
       },
       {
         "name": "Chris Sale",
-        "value": "2.08",
+        "value": "2.20",
         "team": "Atlanta Braves"
       },
       {
@@ -87,7 +87,7 @@
       },
       {
         "name": "Yoshinobu Yamamoto",
-        "value": "0.88",
+        "value": "0.89",
         "team": "Los Angeles Dodgers"
       },
       {
@@ -103,20 +103,20 @@
         "team": "Milwaukee Brewers"
       },
       {
+        "name": "Gavin Williams",
+        "value": "185",
+        "team": "Cleveland Guardians"
+      },
+      {
         "name": "Dylan Cease",
         "value": "184",
         "team": "Toronto Blue Jays"
-      },
-      {
-        "name": "Gavin Williams",
-        "value": "178",
-        "team": "Cleveland Guardians"
       }
     ],
     "SV+H": [
       {
         "name": "Bryan Baker",
-        "value": "35",
+        "value": "36",
         "team": "Tampa Bay Rays"
       },
       {
@@ -125,9 +125,9 @@
         "team": "Cleveland Guardians"
       },
       {
-        "name": "Riley O'Brien",
+        "name": "Mason Miller",
         "value": "29",
-        "team": "St. Louis Cardinals"
+        "team": "San Diego Padres"
       }
     ],
     "RELIEVER ERA": [
@@ -138,7 +138,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.74",
+        "value": "0.91",
         "team": "San Diego Padres"
       },
       {
@@ -149,14 +149,14 @@
     ],
     "RELIEVER WHIP": [
       {
-        "name": "Cam Booser",
-        "value": "0.66",
-        "team": "Tampa Bay Rays"
-      },
-      {
         "name": "Dylan Lee",
         "value": "0.75",
         "team": "Atlanta Braves"
+      },
+      {
+        "name": "Cam Booser",
+        "value": "0.76",
+        "team": "Tampa Bay Rays"
       },
       {
         "name": "Josh Hader",
@@ -166,36 +166,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Cam Smith",
-        "team": "Houston Astros",
-        "value": "3-4, 2 HR, 2 RBI, 3 R"
+        "name": "Jac Caglianone",
+        "team": "Kansas City Royals",
+        "value": "4-4, 2 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Josh Bell",
-        "team": "Minnesota Twins",
-        "value": "4-5, 1 HR, 3 RBI, 2 R"
+        "name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "value": "4-5, 2 HR, 3 RBI, 4 R"
       },
       {
-        "name": "Angel Mart\u00ednez",
-        "team": "Cleveland Guardians",
-        "value": "2-5, 1 HR, 6 RBI, 1 R"
+        "name": "Josh Naylor",
+        "team": "Seattle Mariners",
+        "value": "3-4, 2 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Payton Tolle",
-        "team": "Boston Red Sox",
-        "value": "6.0 IP, 2 H, 1 ER, 14 SO"
+        "name": "Sandy Alcantara",
+        "team": "Miami Marlins",
+        "value": "7.0 IP, 3 H, 0 ER, 8 SO"
       },
       {
-        "name": "Drew Rasmussen",
-        "team": "Tampa Bay Rays",
-        "value": "7.0 IP, 2 H, 0 ER, 8 SO"
+        "name": "Gerrit Cole",
+        "team": "New York Yankees",
+        "value": "7.0 IP, 6 H, 2 ER, 9 SO"
       },
       {
-        "name": "Tyler Mahle",
-        "team": "Atlanta Braves",
-        "value": "6.0 IP, 3 H, 0 ER, 9 SO"
+        "name": "Gage Jump",
+        "team": "Athletics",
+        "value": "6.0 IP, 6 H, 2 ER, 11 SO"
       }
     ]
   }
