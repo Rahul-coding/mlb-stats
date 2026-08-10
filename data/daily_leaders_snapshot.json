@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-09",
+  "date": "2026-08-10",
   "leaders": {
     "HR": [
       {
@@ -8,64 +8,59 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Junior Caminero",
-        "value": "33",
-        "team": "Tampa Bay Rays"
+        "name": "Kyle Schwarber",
+        "value": "35",
+        "team": "Philadelphia Phillies"
       },
       {
         "name": "Hunter Goodman",
-        "value": "33",
+        "value": "34",
         "team": "Colorado Rockies"
       },
       {
         "name": "Matt Olson",
-        "value": "33",
+        "value": "34",
         "team": "Atlanta Braves"
-      },
-      {
-        "name": "Kyle Schwarber",
-        "value": "33",
-        "team": "Philadelphia Phillies"
       }
     ],
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".325",
+        "value": ".322",
         "team": "Houston Astros"
       },
       {
         "name": "Luis Arraez",
-        "value": ".324",
+        "value": ".320",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Otto Lopez",
-        "value": ".317",
+        "value": ".318",
         "team": "Miami Marlins"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.069",
+        "value": "1.059",
         "team": "Houston Astros"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".945",
+        "value": ".937",
         "team": "Los Angeles Dodgers"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".933",
+        "value": ".932",
         "team": "Chicago Cubs"
       }
     ],
     "STARTER ERA": [
       {
         "name": "Jacob Misiorowski",
-        "value": "1.63",
+        "value": "1.76",
         "team": "Milwaukee Brewers"
       },
       {
@@ -75,14 +70,14 @@
       },
       {
         "name": "Cam Schlittler",
-        "value": "2.26",
+        "value": "2.21",
         "team": "New York Yankees"
       }
     ],
     "STARTER WHIP": [
       {
         "name": "Jacob Misiorowski",
-        "value": "0.73",
+        "value": "0.74",
         "team": "Milwaukee Brewers"
       },
       {
@@ -99,7 +94,7 @@
     "SO": [
       {
         "name": "Jacob Misiorowski",
-        "value": "195",
+        "value": "204",
         "team": "Milwaukee Brewers"
       },
       {
@@ -125,9 +120,9 @@
         "team": "Cleveland Guardians"
       },
       {
-        "name": "Mason Miller",
-        "value": "29",
-        "team": "San Diego Padres"
+        "name": "Riley O'Brien",
+        "value": "30",
+        "team": "St. Louis Cardinals"
       }
     ],
     "RELIEVER ERA": [
@@ -155,7 +150,7 @@
       },
       {
         "name": "Cam Booser",
-        "value": "0.76",
+        "value": "0.77",
         "team": "Tampa Bay Rays"
       },
       {
@@ -166,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Jac Caglianone",
-        "team": "Kansas City Royals",
-        "value": "4-4, 2 HR, 4 RBI, 2 R"
+        "name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "value": "3-3, 2 HR, 4 RBI, 3 R"
       },
       {
-        "name": "Jake McCarthy",
-        "team": "Colorado Rockies",
-        "value": "4-5, 2 HR, 3 RBI, 4 R"
+        "name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "value": "2-3, 2 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Josh Naylor",
-        "team": "Seattle Mariners",
-        "value": "3-4, 2 HR, 2 RBI, 2 R"
+        "name": "Bo Bichette",
+        "team": "New York Mets",
+        "value": "5-5, 0 HR, 3 RBI, 3 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Sandy Alcantara",
-        "team": "Miami Marlins",
-        "value": "7.0 IP, 3 H, 0 ER, 8 SO"
+        "name": "Sean Manaea",
+        "team": "New York Mets",
+        "value": "7.0 IP, 3 H, 1 ER, 11 SO"
       },
       {
-        "name": "Gerrit Cole",
+        "name": "Cam Schlittler",
         "team": "New York Yankees",
-        "value": "7.0 IP, 6 H, 2 ER, 9 SO"
+        "value": "7.0 IP, 3 H, 1 ER, 11 SO"
       },
       {
-        "name": "Gage Jump",
-        "team": "Athletics",
-        "value": "6.0 IP, 6 H, 2 ER, 11 SO"
+        "name": "Jes\u00fas Luzardo",
+        "team": "Philadelphia Phillies",
+        "value": "7.0 IP, 4 H, 2 ER, 12 SO"
       }
     ]
   }
