@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "leaders": {
     "HR": [
       {
@@ -11,6 +11,11 @@
         "name": "Kyle Schwarber",
         "value": "35",
         "team": "Philadelphia Phillies"
+      },
+      {
+        "name": "Junior Caminero",
+        "value": "34",
+        "team": "Tampa Bay Rays"
       },
       {
         "name": "Hunter Goodman",
@@ -26,18 +31,18 @@
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".322",
+        "value": ".323",
         "team": "Houston Astros"
-      },
-      {
-        "name": "Luis Arraez",
-        "value": ".320",
-        "team": "Philadelphia Phillies"
       },
       {
         "name": "Otto Lopez",
         "value": ".318",
         "team": "Miami Marlins"
+      },
+      {
+        "name": "Luis Arraez",
+        "value": ".316",
+        "team": "Philadelphia Phillies"
       }
     ],
     "OPS": [
@@ -48,7 +53,7 @@
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".937",
+        "value": ".940",
         "team": "Los Angeles Dodgers"
       },
       {
@@ -115,14 +120,14 @@
         "team": "Tampa Bay Rays"
       },
       {
+        "name": "Mason Miller",
+        "value": "30",
+        "team": "San Diego Padres"
+      },
+      {
         "name": "Cade Smith",
         "value": "30",
         "team": "Cleveland Guardians"
-      },
-      {
-        "name": "Riley O'Brien",
-        "value": "30",
-        "team": "St. Louis Cardinals"
       }
     ],
     "RELIEVER ERA": [
@@ -133,16 +138,21 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.91",
+        "value": "0.89",
         "team": "San Diego Padres"
       },
       {
         "name": "Josh Hader",
-        "value": "1.08",
+        "value": "1.00",
         "team": "Houston Astros"
       }
     ],
     "RELIEVER WHIP": [
+      {
+        "name": "Josh Hader",
+        "value": "0.74",
+        "team": "Houston Astros"
+      },
       {
         "name": "Dylan Lee",
         "value": "0.75",
@@ -152,45 +162,40 @@
         "name": "Cam Booser",
         "value": "0.77",
         "team": "Tampa Bay Rays"
-      },
-      {
-        "name": "Josh Hader",
-        "value": "0.80",
-        "team": "Houston Astros"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "value": "3-3, 2 HR, 4 RBI, 3 R"
+        "name": "Austin Martin",
+        "team": "Minnesota Twins",
+        "value": "4-5, 1 HR, 1 RBI, 3 R"
       },
       {
-        "name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "value": "2-3, 2 HR, 4 RBI, 2 R"
-      },
-      {
-        "name": "Bo Bichette",
+        "name": "Francisco Lindor",
         "team": "New York Mets",
-        "value": "5-5, 0 HR, 3 RBI, 3 R"
+        "value": "3-5, 1 HR, 1 RBI, 3 R"
+      },
+      {
+        "name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "value": "3-4, 1 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Sean Manaea",
-        "team": "New York Mets",
-        "value": "7.0 IP, 3 H, 1 ER, 11 SO"
+        "name": "Dean Kremer",
+        "team": "Minnesota Twins",
+        "value": "7.0 IP, 1 H, 1 ER, 7 SO"
       },
       {
-        "name": "Cam Schlittler",
-        "team": "New York Yankees",
-        "value": "7.0 IP, 3 H, 1 ER, 11 SO"
+        "name": "Reid Detmers",
+        "team": "Los Angeles Angels",
+        "value": "6.0 IP, 3 H, 1 ER, 6 SO"
       },
       {
-        "name": "Jes\u00fas Luzardo",
-        "team": "Philadelphia Phillies",
-        "value": "7.0 IP, 4 H, 2 ER, 12 SO"
+        "name": "Jacob Lopez",
+        "team": "Athletics",
+        "value": "7.0 IP, 5 H, 2 ER, 5 SO"
       }
     ]
   }
