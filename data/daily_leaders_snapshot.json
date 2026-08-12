@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "leaders": {
     "HR": [
       {
@@ -8,30 +8,25 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Kyle Schwarber",
-        "value": "35",
-        "team": "Philadelphia Phillies"
-      },
-      {
         "name": "Junior Caminero",
-        "value": "34",
+        "value": "35",
         "team": "Tampa Bay Rays"
       },
       {
-        "name": "Hunter Goodman",
-        "value": "34",
-        "team": "Colorado Rockies"
+        "name": "Matt Olson",
+        "value": "35",
+        "team": "Atlanta Braves"
       },
       {
-        "name": "Matt Olson",
-        "value": "34",
-        "team": "Atlanta Braves"
+        "name": "Kyle Schwarber",
+        "value": "35",
+        "team": "Philadelphia Phillies"
       }
     ],
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".323",
+        "value": ".322",
         "team": "Houston Astros"
       },
       {
@@ -41,25 +36,25 @@
       },
       {
         "name": "Luis Arraez",
-        "value": ".316",
+        "value": ".314",
         "team": "Philadelphia Phillies"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.059",
+        "value": "1.058",
         "team": "Houston Astros"
-      },
-      {
-        "name": "Shohei Ohtani",
-        "value": ".940",
-        "team": "Los Angeles Dodgers"
       },
       {
         "name": "Pete Crow-Armstrong",
         "value": ".932",
         "team": "Chicago Cubs"
+      },
+      {
+        "name": "Shohei Ohtani",
+        "value": ".930",
+        "team": "Los Angeles Dodgers"
       }
     ],
     "STARTER ERA": [
@@ -103,14 +98,14 @@
         "team": "Milwaukee Brewers"
       },
       {
+        "name": "Dylan Cease",
+        "value": "191",
+        "team": "Toronto Blue Jays"
+      },
+      {
         "name": "Gavin Williams",
         "value": "185",
         "team": "Cleveland Guardians"
-      },
-      {
-        "name": "Dylan Cease",
-        "value": "184",
-        "team": "Toronto Blue Jays"
       }
     ],
     "SV+H": [
@@ -120,14 +115,14 @@
         "team": "Tampa Bay Rays"
       },
       {
+        "name": "Riley O'Brien",
+        "value": "31",
+        "team": "St. Louis Cardinals"
+      },
+      {
         "name": "Mason Miller",
         "value": "30",
         "team": "San Diego Padres"
-      },
-      {
-        "name": "Cade Smith",
-        "value": "30",
-        "team": "Cleveland Guardians"
       }
     ],
     "RELIEVER ERA": [
@@ -155,7 +150,7 @@
       },
       {
         "name": "Dylan Lee",
-        "value": "0.75",
+        "value": "0.74",
         "team": "Atlanta Braves"
       },
       {
@@ -166,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Austin Martin",
-        "team": "Minnesota Twins",
-        "value": "4-5, 1 HR, 1 RBI, 3 R"
-      },
-      {
-        "name": "Francisco Lindor",
-        "team": "New York Mets",
-        "value": "3-5, 1 HR, 1 RBI, 3 R"
-      },
-      {
-        "name": "Yandy D\u00edaz",
+        "name": "Taylor Walls",
         "team": "Tampa Bay Rays",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
+      },
+      {
+        "name": "Luis Campusano",
+        "team": "San Diego Padres",
+        "value": "3-4, 1 HR, 3 RBI, 2 R"
+      },
+      {
+        "name": "Mookie Betts",
+        "team": "Los Angeles Dodgers",
         "value": "3-4, 1 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Dean Kremer",
-        "team": "Minnesota Twins",
-        "value": "7.0 IP, 1 H, 1 ER, 7 SO"
+        "name": "Eury P\u00e9rez",
+        "team": "Miami Marlins",
+        "value": "7.0 IP, 3 H, 0 ER, 7 SO"
       },
       {
-        "name": "Reid Detmers",
-        "team": "Los Angeles Angels",
-        "value": "6.0 IP, 3 H, 1 ER, 6 SO"
+        "name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "value": "7.0 IP, 3 H, 1 ER, 8 SO"
       },
       {
-        "name": "Jacob Lopez",
-        "team": "Athletics",
-        "value": "7.0 IP, 5 H, 2 ER, 5 SO"
+        "name": "Blake Snell",
+        "team": "Los Angeles Dodgers",
+        "value": "6.0 IP, 3 H, 1 ER, 10 SO"
       }
     ]
   }
