@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "leaders": {
     "HR": [
       {
@@ -31,30 +31,35 @@
       },
       {
         "name": "Otto Lopez",
-        "value": ".318",
+        "value": ".314",
         "team": "Miami Marlins"
       },
       {
         "name": "Luis Arraez",
-        "value": ".314",
+        "value": ".313",
         "team": "Philadelphia Phillies"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.058",
+        "value": "1.057",
         "team": "Houston Astros"
       },
       {
+        "name": "Shohei Ohtani",
+        "value": ".937",
+        "team": "Los Angeles Dodgers"
+      },
+      {
         "name": "Pete Crow-Armstrong",
-        "value": ".932",
+        "value": ".928",
         "team": "Chicago Cubs"
       },
       {
-        "name": "Shohei Ohtani",
-        "value": ".930",
-        "team": "Los Angeles Dodgers"
+        "name": "James Wood",
+        "value": ".928",
+        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
@@ -115,14 +120,14 @@
         "team": "Tampa Bay Rays"
       },
       {
+        "name": "Cade Smith",
+        "value": "31",
+        "team": "Cleveland Guardians"
+      },
+      {
         "name": "Riley O'Brien",
         "value": "31",
         "team": "St. Louis Cardinals"
-      },
-      {
-        "name": "Mason Miller",
-        "value": "30",
-        "team": "San Diego Padres"
       }
     ],
     "RELIEVER ERA": [
@@ -133,19 +138,19 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.89",
+        "value": "0.88",
         "team": "San Diego Padres"
       },
       {
         "name": "Josh Hader",
-        "value": "1.00",
+        "value": "0.96",
         "team": "Houston Astros"
       }
     ],
     "RELIEVER WHIP": [
       {
         "name": "Josh Hader",
-        "value": "0.74",
+        "value": "0.71",
         "team": "Houston Astros"
       },
       {
@@ -161,36 +166,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Taylor Walls",
+        "name": "Alex Bregman",
+        "team": "Chicago Cubs",
+        "value": "3-3, 3 HR, 7 RBI, 3 R"
+      },
+      {
+        "name": "Trent Grisham",
+        "team": "New York Yankees",
+        "value": "3-5, 2 HR, 4 RBI, 3 R"
+      },
+      {
+        "name": "Liam Hicks",
         "team": "Tampa Bay Rays",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
-      },
-      {
-        "name": "Luis Campusano",
-        "team": "San Diego Padres",
-        "value": "3-4, 1 HR, 3 RBI, 2 R"
-      },
-      {
-        "name": "Mookie Betts",
-        "team": "Los Angeles Dodgers",
-        "value": "3-4, 1 HR, 2 RBI, 2 R"
+        "value": "3-5, 1 HR, 3 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Eury P\u00e9rez",
-        "team": "Miami Marlins",
-        "value": "7.0 IP, 3 H, 0 ER, 7 SO"
-      },
-      {
-        "name": "Sean Burke",
+        "name": "Luis Castillo",
         "team": "Chicago White Sox",
-        "value": "7.0 IP, 3 H, 1 ER, 8 SO"
+        "value": "7.0 IP, 1 H, 0 ER, 10 SO"
       },
       {
-        "name": "Blake Snell",
-        "team": "Los Angeles Dodgers",
-        "value": "6.0 IP, 3 H, 1 ER, 10 SO"
+        "name": "Adrian Houser",
+        "team": "San Francisco Giants",
+        "value": "6.0 IP, 2 H, 0 ER, 5 SO"
+      },
+      {
+        "name": "Tyler Mahle",
+        "team": "Atlanta Braves",
+        "value": "6.0 IP, 4 H, 1 ER, 7 SO"
       }
     ]
   }
