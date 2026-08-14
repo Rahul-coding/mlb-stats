@@ -1,7 +1,12 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "leaders": {
     "HR": [
+      {
+        "name": "Kyle Schwarber",
+        "value": "37",
+        "team": "Philadelphia Phillies"
+      },
       {
         "name": "Yordan Alvarez",
         "value": "35",
@@ -16,11 +21,6 @@
         "name": "Matt Olson",
         "value": "35",
         "team": "Atlanta Braves"
-      },
-      {
-        "name": "Kyle Schwarber",
-        "value": "35",
-        "team": "Philadelphia Phillies"
       }
     ],
     "AVG": [
@@ -30,14 +30,14 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Otto Lopez",
-        "value": ".314",
-        "team": "Miami Marlins"
+        "name": "Luis Arraez",
+        "value": ".316",
+        "team": "Philadelphia Phillies"
       },
       {
-        "name": "Luis Arraez",
-        "value": ".313",
-        "team": "Philadelphia Phillies"
+        "name": "Otto Lopez",
+        "value": ".312",
+        "team": "Miami Marlins"
       }
     ],
     "OPS": [
@@ -48,13 +48,8 @@
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".937",
+        "value": ".935",
         "team": "Los Angeles Dodgers"
-      },
-      {
-        "name": "Pete Crow-Armstrong",
-        "value": ".928",
-        "team": "Chicago Cubs"
       },
       {
         "name": "James Wood",
@@ -166,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "value": "3-3, 3 HR, 7 RBI, 3 R"
+        "name": "Rafael Flores Jr.",
+        "team": "Pittsburgh Pirates",
+        "value": "2-5, 2 HR, 6 RBI, 2 R"
       },
       {
-        "name": "Trent Grisham",
-        "team": "New York Yankees",
-        "value": "3-5, 2 HR, 4 RBI, 3 R"
+        "name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "value": "2-5, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Liam Hicks",
-        "team": "Tampa Bay Rays",
-        "value": "3-5, 1 HR, 3 RBI, 1 R"
+        "name": "Jared Triolo",
+        "team": "Pittsburgh Pirates",
+        "value": "3-4, 1 HR, 3 RBI, 3 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Luis Castillo",
-        "team": "Chicago White Sox",
-        "value": "7.0 IP, 1 H, 0 ER, 10 SO"
+        "name": "Cade Cavalli",
+        "team": "Washington Nationals",
+        "value": "8.0 IP, 1 H, 0 ER, 10 SO"
       },
       {
-        "name": "Adrian Houser",
-        "team": "San Francisco Giants",
-        "value": "6.0 IP, 2 H, 0 ER, 5 SO"
+        "name": "Braxton Ashcraft",
+        "team": "Pittsburgh Pirates",
+        "value": "9.0 IP, 3 H, 1 ER, 10 SO"
       },
       {
-        "name": "Tyler Mahle",
-        "team": "Atlanta Braves",
-        "value": "6.0 IP, 4 H, 1 ER, 7 SO"
+        "name": "Payton Tolle",
+        "team": "Boston Red Sox",
+        "value": "8.0 IP, 2 H, 0 ER, 4 SO"
       }
     ]
   }
