@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-15",
   "leaders": {
     "HR": [
       {
@@ -9,7 +9,7 @@
       },
       {
         "name": "Yordan Alvarez",
-        "value": "35",
+        "value": "36",
         "team": "Houston Astros"
       },
       {
@@ -26,7 +26,7 @@
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".322",
+        "value": ".323",
         "team": "Houston Astros"
       },
       {
@@ -43,12 +43,12 @@
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.057",
+        "value": "1.063",
         "team": "Houston Astros"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".935",
+        "value": ".930",
         "team": "Los Angeles Dodgers"
       },
       {
@@ -65,7 +65,7 @@
       },
       {
         "name": "Chris Sale",
-        "value": "2.20",
+        "value": "2.16",
         "team": "Atlanta Braves"
       },
       {
@@ -104,7 +104,7 @@
       },
       {
         "name": "Gavin Williams",
-        "value": "185",
+        "value": "190",
         "team": "Cleveland Guardians"
       }
     ],
@@ -115,14 +115,14 @@
         "team": "Tampa Bay Rays"
       },
       {
+        "name": "Louis Varland",
+        "value": "32",
+        "team": "Toronto Blue Jays"
+      },
+      {
         "name": "Cade Smith",
         "value": "31",
         "team": "Cleveland Guardians"
-      },
-      {
-        "name": "Riley O'Brien",
-        "value": "31",
-        "team": "St. Louis Cardinals"
       }
     ],
     "RELIEVER ERA": [
@@ -138,16 +138,11 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.96",
+        "value": "0.93",
         "team": "Houston Astros"
       }
     ],
     "RELIEVER WHIP": [
-      {
-        "name": "Josh Hader",
-        "value": "0.71",
-        "team": "Houston Astros"
-      },
       {
         "name": "Dylan Lee",
         "value": "0.74",
@@ -155,42 +150,47 @@
       },
       {
         "name": "Cam Booser",
-        "value": "0.77",
+        "value": "0.74",
         "team": "Tampa Bay Rays"
+      },
+      {
+        "name": "Josh Hader",
+        "value": "0.76",
+        "team": "Houston Astros"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Rafael Flores Jr.",
-        "team": "Pittsburgh Pirates",
-        "value": "2-5, 2 HR, 6 RBI, 2 R"
+        "name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "value": "4-5, 2 HR, 3 RBI, 3 R"
       },
       {
-        "name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "value": "2-5, 2 HR, 3 RBI, 2 R"
+        "name": "Jeff McNeil",
+        "team": "Athletics",
+        "value": "4-5, 1 HR, 3 RBI, 1 R"
       },
       {
-        "name": "Jared Triolo",
-        "team": "Pittsburgh Pirates",
-        "value": "3-4, 1 HR, 3 RBI, 3 R"
+        "name": "Ben Malgeri",
+        "team": "Detroit Tigers",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Cade Cavalli",
-        "team": "Washington Nationals",
-        "value": "8.0 IP, 1 H, 0 ER, 10 SO"
+        "name": "Chase Burns",
+        "team": "Cincinnati Reds",
+        "value": "7.0 IP, 4 H, 0 ER, 8 SO"
       },
       {
-        "name": "Braxton Ashcraft",
-        "team": "Pittsburgh Pirates",
-        "value": "9.0 IP, 3 H, 1 ER, 10 SO"
+        "name": "Brandon Pfaadt",
+        "team": "Arizona Diamondbacks",
+        "value": "7.0 IP, 2 H, 0 ER, 7 SO"
       },
       {
-        "name": "Payton Tolle",
-        "team": "Boston Red Sox",
-        "value": "8.0 IP, 2 H, 0 ER, 4 SO"
+        "name": "Chris Sale",
+        "team": "Atlanta Braves",
+        "value": "6.0 IP, 5 H, 1 ER, 9 SO"
       }
     ]
   }
