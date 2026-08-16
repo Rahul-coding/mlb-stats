@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "leaders": {
     "HR": [
       {
@@ -26,7 +26,7 @@
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".323",
+        "value": ".321",
         "team": "Houston Astros"
       },
       {
@@ -35,20 +35,20 @@
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Otto Lopez",
-        "value": ".312",
-        "team": "Miami Marlins"
+        "name": "Gabriel Moreno",
+        "value": ".309",
+        "team": "Arizona Diamondbacks"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.063",
+        "value": "1.058",
         "team": "Houston Astros"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".930",
+        "value": ".931",
         "team": "Los Angeles Dodgers"
       },
       {
@@ -60,7 +60,7 @@
     "STARTER ERA": [
       {
         "name": "Jacob Misiorowski",
-        "value": "1.76",
+        "value": "1.75",
         "team": "Milwaukee Brewers"
       },
       {
@@ -70,14 +70,14 @@
       },
       {
         "name": "Cam Schlittler",
-        "value": "2.21",
+        "value": "2.19",
         "team": "New York Yankees"
       }
     ],
     "STARTER WHIP": [
       {
         "name": "Jacob Misiorowski",
-        "value": "0.74",
+        "value": "0.75",
         "team": "Milwaukee Brewers"
       },
       {
@@ -94,7 +94,7 @@
     "SO": [
       {
         "name": "Jacob Misiorowski",
-        "value": "204",
+        "value": "210",
         "team": "Milwaukee Brewers"
       },
       {
@@ -116,7 +116,7 @@
       },
       {
         "name": "Louis Varland",
-        "value": "32",
+        "value": "33",
         "team": "Toronto Blue Jays"
       },
       {
@@ -150,7 +150,7 @@
       },
       {
         "name": "Cam Booser",
-        "value": "0.74",
+        "value": "0.75",
         "team": "Tampa Bay Rays"
       },
       {
@@ -161,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Miguel Vargas",
-        "team": "Chicago White Sox",
-        "value": "4-5, 2 HR, 3 RBI, 3 R"
+        "name": "Joshua B\u00e1ez",
+        "team": "St. Louis Cardinals",
+        "value": "3-4, 3 HR, 5 RBI, 3 R"
       },
       {
-        "name": "Jeff McNeil",
-        "team": "Athletics",
-        "value": "4-5, 1 HR, 3 RBI, 1 R"
+        "name": "Nolan Arenado",
+        "team": "Arizona Diamondbacks",
+        "value": "2-4, 2 HR, 4 RBI, 3 R"
       },
       {
-        "name": "Ben Malgeri",
-        "team": "Detroit Tigers",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
+        "name": "Cole Young",
+        "team": "Seattle Mariners",
+        "value": "3-5, 1 HR, 4 RBI, 3 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Chase Burns",
-        "team": "Cincinnati Reds",
-        "value": "7.0 IP, 4 H, 0 ER, 8 SO"
+        "name": "Reid Detmers",
+        "team": "Los Angeles Angels",
+        "value": "8.0 IP, 2 H, 0 ER, 11 SO"
       },
       {
-        "name": "Brandon Pfaadt",
-        "team": "Arizona Diamondbacks",
-        "value": "7.0 IP, 2 H, 0 ER, 7 SO"
+        "name": "Sonny Gray",
+        "team": "Boston Red Sox",
+        "value": "7.0 IP, 6 H, 0 ER, 7 SO"
       },
       {
-        "name": "Chris Sale",
-        "team": "Atlanta Braves",
-        "value": "6.0 IP, 5 H, 1 ER, 9 SO"
+        "name": "Logan Webb",
+        "team": "San Francisco Giants",
+        "value": "6.0 IP, 4 H, 1 ER, 7 SO"
       }
     ]
   }
