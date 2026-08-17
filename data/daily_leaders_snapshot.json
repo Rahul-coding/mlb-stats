@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "leaders": {
     "HR": [
       {
@@ -13,13 +13,8 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Junior Caminero",
-        "value": "35",
-        "team": "Tampa Bay Rays"
-      },
-      {
         "name": "Matt Olson",
-        "value": "35",
+        "value": "36",
         "team": "Atlanta Braves"
       }
     ],
@@ -31,24 +26,24 @@
       },
       {
         "name": "Luis Arraez",
-        "value": ".316",
+        "value": ".315",
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Gabriel Moreno",
+        "name": "Chandler Simpson",
         "value": ".309",
-        "team": "Arizona Diamondbacks"
+        "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.058",
+        "value": "1.054",
         "team": "Houston Astros"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".931",
+        "value": ".928",
         "team": "Los Angeles Dodgers"
       },
       {
@@ -99,7 +94,7 @@
       },
       {
         "name": "Dylan Cease",
-        "value": "191",
+        "value": "201",
         "team": "Toronto Blue Jays"
       },
       {
@@ -138,14 +133,14 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.93",
+        "value": "0.90",
         "team": "Houston Astros"
       }
     ],
     "RELIEVER WHIP": [
       {
         "name": "Dylan Lee",
-        "value": "0.74",
+        "value": "0.73",
         "team": "Atlanta Braves"
       },
       {
@@ -155,42 +150,42 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.76",
+        "value": "0.77",
         "team": "Houston Astros"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Joshua B\u00e1ez",
+        "name": "Jordan Walker",
         "team": "St. Louis Cardinals",
-        "value": "3-4, 3 HR, 5 RBI, 3 R"
+        "value": "3-4, 1 HR, 4 RBI, 1 R"
       },
       {
-        "name": "Nolan Arenado",
-        "team": "Arizona Diamondbacks",
-        "value": "2-4, 2 HR, 4 RBI, 3 R"
+        "name": "Alec Burleson",
+        "team": "St. Louis Cardinals",
+        "value": "3-5, 1 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Cole Young",
-        "team": "Seattle Mariners",
-        "value": "3-5, 1 HR, 4 RBI, 3 R"
+        "name": "Rafael Devers",
+        "team": "San Francisco Giants",
+        "value": "2-5, 1 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Reid Detmers",
-        "team": "Los Angeles Angels",
-        "value": "8.0 IP, 2 H, 0 ER, 11 SO"
+        "name": "Noah Cameron",
+        "team": "Kansas City Royals",
+        "value": "9.0 IP, 1 H, 0 ER, 8 SO"
       },
       {
-        "name": "Sonny Gray",
-        "team": "Boston Red Sox",
-        "value": "7.0 IP, 6 H, 0 ER, 7 SO"
+        "name": "Dylan Cease",
+        "team": "Toronto Blue Jays",
+        "value": "6.1 IP, 2 H, 2 ER, 10 SO"
       },
       {
-        "name": "Logan Webb",
-        "team": "San Francisco Giants",
-        "value": "6.0 IP, 4 H, 1 ER, 7 SO"
+        "name": "Logan Henderson",
+        "team": "Milwaukee Brewers",
+        "value": "7.0 IP, 3 H, 1 ER, 6 SO"
       }
     ]
   }
