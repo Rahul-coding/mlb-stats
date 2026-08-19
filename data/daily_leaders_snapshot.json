@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "leaders": {
     "HR": [
       {
@@ -21,24 +21,24 @@
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".321",
+        "value": ".318",
         "team": "Houston Astros"
       },
       {
         "name": "Luis Arraez",
-        "value": ".314",
+        "value": ".317",
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Otto Lopez",
+        "name": "Chandler Simpson",
         "value": ".310",
-        "team": "Miami Marlins"
+        "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.054",
+        "value": "1.044",
         "team": "Houston Astros"
       },
       {
@@ -48,7 +48,7 @@
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".929",
+        "value": ".936",
         "team": "Chicago Cubs"
       }
     ],
@@ -110,14 +110,14 @@
         "team": "Tampa Bay Rays"
       },
       {
+        "name": "Riley O'Brien",
+        "value": "33",
+        "team": "St. Louis Cardinals"
+      },
+      {
         "name": "Louis Varland",
         "value": "33",
         "team": "Toronto Blue Jays"
-      },
-      {
-        "name": "Riley O'Brien",
-        "value": "32",
-        "team": "St. Louis Cardinals"
       }
     ],
     "RELIEVER ERA": [
@@ -128,7 +128,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.88",
+        "value": "0.86",
         "team": "San Diego Padres"
       },
       {
@@ -156,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "value": "4-5, 2 HR, 3 RBI, 4 R"
+        "name": "Fernando Tatis Jr.",
+        "team": "San Diego Padres",
+        "value": "2-5, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "value": "4-5, 2 HR, 3 RBI, 2 R"
+        "name": "Jo Adell",
+        "team": "Cleveland Guardians",
+        "value": "3-4, 1 HR, 6 RBI, 1 R"
       },
       {
-        "name": "Bobby Witt Jr.",
-        "team": "Kansas City Royals",
-        "value": "3-4, 1 HR, 3 RBI, 4 R"
+        "name": "Alejandro Kirk",
+        "team": "Toronto Blue Jays",
+        "value": "3-6, 1 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Shota Imanaga",
-        "team": "Chicago Cubs",
-        "value": "6.0 IP, 2 H, 3 ER, 10 SO"
+        "name": "George Klassen",
+        "team": "Los Angeles Angels",
+        "value": "7.0 IP, 1 H, 0 ER, 7 SO"
       },
       {
-        "name": "Blake Snell",
-        "team": "Los Angeles Dodgers",
-        "value": "6.0 IP, 2 H, 1 ER, 5 SO"
+        "name": "Cal Quantrill",
+        "team": "Texas Rangers",
+        "value": "7.0 IP, 4 H, 0 ER, 5 SO"
       },
       {
-        "name": "Cristopher S\u00e1nchez",
-        "team": "Philadelphia Phillies",
-        "value": "6.0 IP, 8 H, 1 ER, 6 SO"
+        "name": "Braxton Ashcraft",
+        "team": "Pittsburgh Pirates",
+        "value": "8.0 IP, 5 H, 1 ER, 4 SO"
       }
     ]
   }
