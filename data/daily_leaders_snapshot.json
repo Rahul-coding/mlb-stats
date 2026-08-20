@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "leaders": {
     "HR": [
       {
@@ -20,36 +20,41 @@
     ],
     "AVG": [
       {
-        "name": "Yordan Alvarez",
-        "value": ".318",
-        "team": "Houston Astros"
-      },
-      {
         "name": "Luis Arraez",
-        "value": ".317",
+        "value": ".319",
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Chandler Simpson",
+        "name": "Yordan Alvarez",
+        "value": ".317",
+        "team": "Houston Astros"
+      },
+      {
+        "name": "Nick Gonzales",
         "value": ".310",
-        "team": "Tampa Bay Rays"
+        "team": "Pittsburgh Pirates"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.044",
+        "value": "1.040",
         "team": "Houston Astros"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".948",
+        "value": ".942",
         "team": "Los Angeles Dodgers"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".936",
+        "value": ".928",
         "team": "Chicago Cubs"
+      },
+      {
+        "name": "James Wood",
+        "value": ".928",
+        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
@@ -81,9 +86,9 @@
         "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Drew Rasmussen",
-        "value": "0.91",
-        "team": "Tampa Bay Rays"
+        "name": "Cam Schlittler",
+        "value": "0.94",
+        "team": "New York Yankees"
       }
     ],
     "SO": [
@@ -106,7 +111,7 @@
     "SV+H": [
       {
         "name": "Bryan Baker",
-        "value": "37",
+        "value": "38",
         "team": "Tampa Bay Rays"
       },
       {
@@ -127,65 +132,65 @@
         "team": "Atlanta Braves"
       },
       {
+        "name": "Daniel Duarte",
+        "value": "0.84",
+        "team": "New York Mets"
+      },
+      {
         "name": "Mason Miller",
         "value": "0.86",
         "team": "San Diego Padres"
-      },
-      {
-        "name": "Daniel Duarte",
-        "value": "0.89",
-        "team": "New York Mets"
       }
     ],
     "RELIEVER WHIP": [
       {
         "name": "Daniel Duarte",
-        "value": "0.64",
+        "value": "0.61",
         "team": "New York Mets"
-      },
-      {
-        "name": "Dylan Lee",
-        "value": "0.73",
-        "team": "Atlanta Braves"
       },
       {
         "name": "Josh Hader",
         "value": "0.77",
         "team": "Houston Astros"
+      },
+      {
+        "name": "Dylan Lee",
+        "value": "0.77",
+        "team": "Atlanta Braves"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Fernando Tatis Jr.",
-        "team": "San Diego Padres",
-        "value": "2-5, 2 HR, 3 RBI, 2 R"
+        "name": "Andr\u00e9s Chaparro",
+        "team": "Washington Nationals",
+        "value": "3-4, 1 HR, 3 RBI, 3 R"
       },
       {
-        "name": "Jo Adell",
-        "team": "Cleveland Guardians",
-        "value": "3-4, 1 HR, 6 RBI, 1 R"
+        "name": "Rafael Flores Jr.",
+        "team": "Pittsburgh Pirates",
+        "value": "2-2, 2 HR, 2 RBI, 2 R"
       },
       {
-        "name": "Alejandro Kirk",
-        "team": "Toronto Blue Jays",
-        "value": "3-6, 1 HR, 3 RBI, 2 R"
+        "name": "Vinnie Pasquantino",
+        "team": "Kansas City Royals",
+        "value": "3-4, 1 HR, 2 RBI, 3 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "George Klassen",
-        "team": "Los Angeles Angels",
-        "value": "7.0 IP, 1 H, 0 ER, 7 SO"
+        "name": "Cade Cavalli",
+        "team": "Washington Nationals",
+        "value": "6.0 IP, 3 H, 0 ER, 11 SO"
       },
       {
-        "name": "Cal Quantrill",
-        "team": "Texas Rangers",
-        "value": "7.0 IP, 4 H, 0 ER, 5 SO"
+        "name": "Jos\u00e9 Urquidy",
+        "team": "Chicago White Sox",
+        "value": "6.0 IP, 2 H, 0 ER, 8 SO"
       },
       {
-        "name": "Braxton Ashcraft",
-        "team": "Pittsburgh Pirates",
-        "value": "8.0 IP, 5 H, 1 ER, 4 SO"
+        "name": "Parker Messick",
+        "team": "Cleveland Guardians",
+        "value": "6.2 IP, 6 H, 1 ER, 10 SO"
       }
     ]
   }
