@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "37",
+        "value": "38",
         "team": "Philadelphia Phillies"
       },
       {
@@ -21,34 +21,34 @@
     "AVG": [
       {
         "name": "Luis Arraez",
-        "value": ".322",
+        "value": ".323",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".321",
+        "value": ".319",
         "team": "Houston Astros"
       },
       {
         "name": "Nick Gonzales",
-        "value": ".311",
+        "value": ".309",
         "team": "Pittsburgh Pirates"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.052",
+        "value": "1.047",
         "team": "Houston Astros"
       },
       {
         "name": "Shohei Ohtani",
-        "value": ".942",
+        "value": ".940",
         "team": "Los Angeles Dodgers"
       },
       {
         "name": "Willson Contreras",
-        "value": ".937",
+        "value": ".933",
         "team": "Boston Red Sox"
       }
     ],
@@ -94,7 +94,7 @@
       },
       {
         "name": "Dylan Cease",
-        "value": "201",
+        "value": "209",
         "team": "Toronto Blue Jays"
       },
       {
@@ -116,7 +116,7 @@
       },
       {
         "name": "Louis Varland",
-        "value": "33",
+        "value": "34",
         "team": "Toronto Blue Jays"
       }
     ],
@@ -133,7 +133,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.84",
+        "value": "0.83",
         "team": "San Diego Padres"
       }
     ],
@@ -156,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "value": "3-5, 2 HR, 3 RBI, 2 R"
+        "name": "JJ Bleday",
+        "team": "Cincinnati Reds",
+        "value": "4-6, 1 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Jordan Lawlar",
-        "team": "Arizona Diamondbacks",
-        "value": "3-5, 1 HR, 3 RBI, 2 R"
+        "name": "Randy Arozarena",
+        "team": "Seattle Mariners",
+        "value": "3-4, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Jordan Walker",
-        "team": "St. Louis Cardinals",
-        "value": "3-5, 1 HR, 2 RBI, 2 R"
+        "name": "Luis Robert Jr.",
+        "team": "New York Mets",
+        "value": "2-5, 2 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "MacKenzie Gore",
-        "team": "Texas Rangers",
-        "value": "6.0 IP, 2 H, 0 ER, 7 SO"
+        "name": "Andrew Painter",
+        "team": "Philadelphia Phillies",
+        "value": "7.0 IP, 5 H, 1 ER, 8 SO"
       },
       {
-        "name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "value": "6.0 IP, 4 H, 0 ER, 6 SO"
+        "name": "Jacob Lopez",
+        "team": "Athletics",
+        "value": "6.0 IP, 3 H, 1 ER, 9 SO"
       },
       {
-        "name": "Yoshinobu Yamamoto",
-        "team": "Los Angeles Dodgers",
-        "value": "6.1 IP, 5 H, 2 ER, 9 SO"
+        "name": "Michael Wacha",
+        "team": "Kansas City Royals",
+        "value": "7.0 IP, 3 H, 1 ER, 6 SO"
       }
     ]
   }
