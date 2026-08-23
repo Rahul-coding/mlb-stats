@@ -68,13 +68,12 @@ def format_stat_value(key, val):
 
 def render_stat_html(label, display_value, pct, color):
     left_pos = max(min(int(pct), 97), 3)
-    return f"""
-        <div class="stat-container">
-            <div class="stat-label">{label}: {display_value}</div>
-            <div class="stat-track">
-                <div class="stat-bar" style="width: {int(pct)}%; background-color: {color};"></div>
-                <div class="stat-bar-label" style="left: {left_pos}%; color: #FFFFFF;">{int(pct)}</div>
-                <div class="half-mark"></div>
-            </div>
-        </div>
-    """
+    return (
+        f'<div class="stat-container">'
+        f'<div class="stat-label"><span>{label}</span><span>{display_value}</span></div>'
+        f'<div class="stat-track">'
+        f'<div class="stat-bar" style="width: {int(pct)}%; background-color: {color};"></div>'
+        f'<div class="stat-bar-label" style="left: {left_pos}%; color: #FFFFFF;">{int(pct)}</div>'
+        f'<div class="half-mark"></div>'
+        f'</div></div>'
+    )

@@ -1,6 +1,14 @@
+import sys
+from pathlib import Path
+
 import streamlit as st
 import statsapi
 import pandas as pd
+
+project_root = Path(__file__).resolve().parents[2]
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
 import src.ui.search.statcast as statcast 
 from src.ui.trade_trees.trade_trees_main import render_trade_trees
 
@@ -74,7 +82,7 @@ if st.button("Lookup Player(s)"):
 
 # --- Render Standard Tables ---
 if hittersStats:
-    st.subheader("Hitter Statistics")
+    st.markdown("<h3 class='comparison-table-title'>Hitter Statistics</h3>", unsafe_allow_html=True)
     df_hitters = pd.DataFrame(hittersStats)
     df_hitters.index += 1
     if len(hittersStats) > 1:      
@@ -83,7 +91,7 @@ if hittersStats:
         ))
     
 if pitchersStats:
-    st.subheader("Pitcher Statistics")
+    st.markdown("<h3 class='comparison-table-title'>Pitcher Statistics</h3>", unsafe_allow_html=True)
     df_pitchers = pd.DataFrame(pitchersStats)
     df_pitchers.index += 1
     if len(pitchersStats) > 1:      
@@ -96,8 +104,13 @@ df_exp = st.session_state.df_expected
 if df_exp is not None and not df_exp.empty:
     st.write("---")
     mode = st.session_state.df_expected_mode
-    st.subheader(f"{'Pitcher' if mode == 'Pitchers' else 'Batter'} Statcast Comparison")
     st.markdown(c.SAVANT_CSS, unsafe_allow_html=True)
+    player_type = 'Pitcher' if mode == 'Pitchers' else 'Batter'
+    st.markdown(
+        f"<div class='comparison-heading'><h3>{player_type} Statcast Comparison</h3>"
+        f"<p>Expected performance snapshot, benchmarked against the selected comparison group</p></div>",
+        unsafe_allow_html=True,
+    )
 
     # Map the metrics you want to iterate through based on player type
     metric_map = {
@@ -108,10 +121,15 @@ if df_exp is not None and not df_exp.empty:
     cols = st.columns(len(df_exp))
     for idx, (_, row) in enumerate(df_exp.iterrows()):
         with cols[idx]:
-            st.markdown(f"### {row.get('player', 'Player')}")
+            card_html = (
+                f"<div class='player-card'><div class='player-card-header'>"
+                f"<p class='player-card-kicker'>{player_type}</p>"
+                f"<p class='player-card-name'>{row.get('player', 'Player')}</p></div>"
+            )
             for key, label in metric_map[mode]:
                 val = row.get(key, None)
                 pct = h.get_display_pct(val, c.BASELINES.get(key, 1), mode, key=key, df_exp=df_exp)
                 color = h.get_stat_color(pct)
                 disp = h.format_stat_value(key, val)
-                st.markdown(h.render_stat_html(label, disp, pct, color), unsafe_allow_html=True)
+                card_html += h.render_stat_html(label, disp, pct, color)
+            st.markdown(card_html + "</div>", unsafe_allow_html=True)

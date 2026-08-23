@@ -23,11 +23,22 @@ def get_stats(players, comparison_mode="Batters", year=2026):
 
     dfs = []
     for player in players:
-        player_parts = player.strip().split(" ")
+        player_parts = player.strip().split()
         first_name = player_parts[0]
-        last_name = player_parts[1] 
+        last_name_parts = player_parts[1:]
+        last_name = " ".join(last_name_parts)
 
         player_info = playerid_lookup(last_name, first_name)
+        if player_info.empty and len(last_name_parts) > 1:
+            hyphenated_last_name = "-".join(last_name_parts)
+            player_info = playerid_lookup(hyphenated_last_name, first_name)
+        if player_info.empty:
+            try:
+                api_players = statsapi.lookup_player(player.strip())
+                if api_players:
+                    player_info = pd.DataFrame([{"key_mlbam": api_players[0]["id"]}])
+            except Exception:
+                pass
 
         if player_info.empty:
             print(f"Could not find {first_name} {last_name}")
