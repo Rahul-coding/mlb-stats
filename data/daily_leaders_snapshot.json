@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "38",
+        "value": "39",
         "team": "Philadelphia Phillies"
       },
       {
@@ -21,35 +21,35 @@
     "AVG": [
       {
         "name": "Luis Arraez",
-        "value": ".323",
+        "value": ".322",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".319",
+        "value": ".320",
         "team": "Houston Astros"
       },
       {
-        "name": "Nick Gonzales",
-        "value": ".309",
-        "team": "Pittsburgh Pirates"
+        "name": "Chandler Simpson",
+        "value": ".310",
+        "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.047",
+        "value": "1.049",
         "team": "Houston Astros"
       },
       {
-        "name": "Shohei Ohtani",
-        "value": ".940",
-        "team": "Los Angeles Dodgers"
+        "name": "Pete Crow-Armstrong",
+        "value": ".938",
+        "team": "Chicago Cubs"
       },
       {
-        "name": "Willson Contreras",
-        "value": ".933",
-        "team": "Boston Red Sox"
+        "name": "Shohei Ohtani",
+        "value": ".934",
+        "team": "Los Angeles Dodgers"
       }
     ],
     "STARTER ERA": [
@@ -106,7 +106,7 @@
     "SV+H": [
       {
         "name": "Bryan Baker",
-        "value": "38",
+        "value": "39",
         "team": "Tampa Bay Rays"
       },
       {
@@ -127,65 +127,65 @@
         "team": "Atlanta Braves"
       },
       {
-        "name": "Daniel Duarte",
-        "value": "0.82",
-        "team": "New York Mets"
-      },
-      {
         "name": "Mason Miller",
         "value": "0.83",
         "team": "San Diego Padres"
+      },
+      {
+        "name": "Josh Hader",
+        "value": "0.84",
+        "team": "Houston Astros"
       }
     ],
     "RELIEVER WHIP": [
       {
         "name": "Daniel Duarte",
-        "value": "0.59",
+        "value": "0.65",
         "team": "New York Mets"
       },
       {
-        "name": "Dylan Lee",
-        "value": "0.76",
-        "team": "Atlanta Braves"
+        "name": "Josh Hader",
+        "value": "0.75",
+        "team": "Houston Astros"
       },
       {
-        "name": "Josh Hader",
-        "value": "0.77",
-        "team": "Houston Astros"
+        "name": "Dylan Lee",
+        "value": "0.78",
+        "team": "Atlanta Braves"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "JJ Bleday",
-        "team": "Cincinnati Reds",
-        "value": "4-6, 1 HR, 3 RBI, 2 R"
+        "name": "Fernando Tatis Jr.",
+        "team": "San Diego Padres",
+        "value": "4-5, 2 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Randy Arozarena",
-        "team": "Seattle Mariners",
-        "value": "3-4, 2 HR, 3 RBI, 2 R"
+        "name": "Pedro Ram\u00edrez",
+        "team": "Chicago Cubs",
+        "value": "3-6, 1 HR, 5 RBI, 3 R"
       },
       {
-        "name": "Luis Robert Jr.",
-        "team": "New York Mets",
-        "value": "2-5, 2 HR, 3 RBI, 2 R"
+        "name": "Nick Loftin",
+        "team": "Kansas City Royals",
+        "value": "3-4, 1 HR, 4 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Andrew Painter",
-        "team": "Philadelphia Phillies",
-        "value": "7.0 IP, 5 H, 1 ER, 8 SO"
+        "name": "Nick Martinez",
+        "team": "Tampa Bay Rays",
+        "value": "6.0 IP, 1 H, 0 ER, 4 SO"
       },
       {
-        "name": "Jacob Lopez",
-        "team": "Athletics",
-        "value": "6.0 IP, 3 H, 1 ER, 9 SO"
+        "name": "Nolan McLean",
+        "team": "New York Mets",
+        "value": "6.0 IP, 1 H, 0 ER, 6 SO"
       },
       {
-        "name": "Michael Wacha",
-        "team": "Kansas City Royals",
-        "value": "7.0 IP, 3 H, 1 ER, 6 SO"
+        "name": "Blake Snell",
+        "team": "Los Angeles Dodgers",
+        "value": "6.0 IP, 2 H, 0 ER, 6 SO"
       }
     ]
   }
