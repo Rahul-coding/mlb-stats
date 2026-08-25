@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "leaders": {
     "HR": [
       {
@@ -21,7 +21,7 @@
     "AVG": [
       {
         "name": "Luis Arraez",
-        "value": ".322",
+        "value": ".321",
         "team": "Philadelphia Phillies"
       },
       {
@@ -31,7 +31,7 @@
       },
       {
         "name": "Chandler Simpson",
-        "value": ".310",
+        "value": ".312",
         "team": "Tampa Bay Rays"
       }
     ],
@@ -42,14 +42,14 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Pete Crow-Armstrong",
-        "value": ".938",
-        "team": "Chicago Cubs"
-      },
-      {
         "name": "Shohei Ohtani",
         "value": ".934",
         "team": "Los Angeles Dodgers"
+      },
+      {
+        "name": "Pete Crow-Armstrong",
+        "value": ".930",
+        "team": "Chicago Cubs"
       }
     ],
     "STARTER ERA": [
@@ -82,7 +82,7 @@
       },
       {
         "name": "Drew Rasmussen",
-        "value": "0.95",
+        "value": "0.93",
         "team": "Tampa Bay Rays"
       }
     ],
@@ -106,18 +106,18 @@
     "SV+H": [
       {
         "name": "Bryan Baker",
-        "value": "39",
+        "value": "40",
         "team": "Tampa Bay Rays"
+      },
+      {
+        "name": "Cade Smith",
+        "value": "34",
+        "team": "Cleveland Guardians"
       },
       {
         "name": "Riley O'Brien",
         "value": "34",
         "team": "St. Louis Cardinals"
-      },
-      {
-        "name": "Louis Varland",
-        "value": "34",
-        "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER ERA": [
@@ -128,7 +128,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "0.83",
+        "value": "0.81",
         "team": "San Diego Padres"
       },
       {
@@ -156,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Fernando Tatis Jr.",
-        "team": "San Diego Padres",
-        "value": "4-5, 2 HR, 4 RBI, 2 R"
+        "name": "Cal Raleigh",
+        "team": "Seattle Mariners",
+        "value": "3-3, 3 HR, 4 RBI, 3 R"
       },
       {
-        "name": "Pedro Ram\u00edrez",
+        "name": "Daylen Lile",
+        "team": "Washington Nationals",
+        "value": "3-5, 1 HR, 5 RBI, 2 R"
+      },
+      {
+        "name": "Michael Conforto",
         "team": "Chicago Cubs",
-        "value": "3-6, 1 HR, 5 RBI, 3 R"
-      },
-      {
-        "name": "Nick Loftin",
-        "team": "Kansas City Royals",
-        "value": "3-4, 1 HR, 4 RBI, 2 R"
+        "value": "3-3, 1 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Nick Martinez",
+        "name": "Kevin Gausman",
+        "team": "Chicago Cubs",
+        "value": "7.0 IP, 3 H, 0 ER, 6 SO"
+      },
+      {
+        "name": "Zebby Matthews",
+        "team": "Minnesota Twins",
+        "value": "7.0 IP, 6 H, 1 ER, 7 SO"
+      },
+      {
+        "name": "Drew Rasmussen",
         "team": "Tampa Bay Rays",
-        "value": "6.0 IP, 1 H, 0 ER, 4 SO"
-      },
-      {
-        "name": "Nolan McLean",
-        "team": "New York Mets",
-        "value": "6.0 IP, 1 H, 0 ER, 6 SO"
-      },
-      {
-        "name": "Blake Snell",
-        "team": "Los Angeles Dodgers",
-        "value": "6.0 IP, 2 H, 0 ER, 6 SO"
+        "value": "6.0 IP, 3 H, 1 ER, 5 SO"
       }
     ]
   }
