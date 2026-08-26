@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "leaders": {
     "HR": [
       {
@@ -20,25 +20,25 @@
     ],
     "AVG": [
       {
+        "name": "Yordan Alvarez",
+        "value": ".323",
+        "team": "Houston Astros"
+      },
+      {
         "name": "Luis Arraez",
         "value": ".321",
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Yordan Alvarez",
-        "value": ".320",
-        "team": "Houston Astros"
-      },
-      {
         "name": "Chandler Simpson",
-        "value": ".312",
+        "value": ".308",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.049",
+        "value": "1.056",
         "team": "Houston Astros"
       },
       {
@@ -47,9 +47,9 @@
         "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Pete Crow-Armstrong",
-        "value": ".930",
-        "team": "Chicago Cubs"
+        "name": "James Wood",
+        "value": ".928",
+        "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
@@ -99,7 +99,7 @@
       },
       {
         "name": "Gavin Williams",
-        "value": "201",
+        "value": "204",
         "team": "Cleveland Guardians"
       }
     ],
@@ -111,7 +111,7 @@
       },
       {
         "name": "Cade Smith",
-        "value": "34",
+        "value": "35",
         "team": "Cleveland Guardians"
       },
       {
@@ -127,14 +127,14 @@
         "team": "Atlanta Braves"
       },
       {
-        "name": "Mason Miller",
+        "name": "Josh Hader",
         "value": "0.81",
-        "team": "San Diego Padres"
+        "team": "Houston Astros"
       },
       {
-        "name": "Josh Hader",
-        "value": "0.84",
-        "team": "Houston Astros"
+        "name": "Mason Miller",
+        "value": "0.96",
+        "team": "San Diego Padres"
       }
     ],
     "RELIEVER WHIP": [
@@ -145,47 +145,47 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.75",
+        "value": "0.72",
         "team": "Houston Astros"
       },
       {
         "name": "Dylan Lee",
-        "value": "0.78",
+        "value": "0.79",
         "team": "Atlanta Braves"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Cal Raleigh",
-        "team": "Seattle Mariners",
-        "value": "3-3, 3 HR, 4 RBI, 3 R"
+        "name": "Yainer Diaz",
+        "team": "Houston Astros",
+        "value": "3-4, 2 HR, 3 RBI, 3 R"
       },
       {
-        "name": "Daylen Lile",
-        "team": "Washington Nationals",
-        "value": "3-5, 1 HR, 5 RBI, 2 R"
+        "name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "value": "4-4, 1 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Michael Conforto",
-        "team": "Chicago Cubs",
-        "value": "3-3, 1 HR, 2 RBI, 2 R"
+        "name": "Mickey Gasper",
+        "team": "Boston Red Sox",
+        "value": "2-2, 2 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Kevin Gausman",
+        "name": "George Kirby",
+        "team": "Seattle Mariners",
+        "value": "7.2 IP, 6 H, 1 ER, 9 SO"
+      },
+      {
+        "name": "Michael King",
+        "team": "San Diego Padres",
+        "value": "7.0 IP, 5 H, 0 ER, 7 SO"
+      },
+      {
+        "name": "Clay Holmes",
         "team": "Chicago Cubs",
-        "value": "7.0 IP, 3 H, 0 ER, 6 SO"
-      },
-      {
-        "name": "Zebby Matthews",
-        "team": "Minnesota Twins",
-        "value": "7.0 IP, 6 H, 1 ER, 7 SO"
-      },
-      {
-        "name": "Drew Rasmussen",
-        "team": "Tampa Bay Rays",
-        "value": "6.0 IP, 3 H, 1 ER, 5 SO"
+        "value": "7.0 IP, 2 H, 0 ER, 5 SO"
       }
     ]
   }
