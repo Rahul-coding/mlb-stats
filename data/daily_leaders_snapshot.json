@@ -1,11 +1,16 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "39",
+        "value": "40",
         "team": "Philadelphia Phillies"
+      },
+      {
+        "name": "Matt Olson",
+        "value": "37",
+        "team": "Atlanta Braves"
       },
       {
         "name": "Yordan Alvarez",
@@ -13,21 +18,26 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Matt Olson",
+        "name": "Hunter Goodman",
         "value": "36",
-        "team": "Atlanta Braves"
+        "team": "Colorado Rockies"
       }
     ],
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".323",
+        "value": ".322",
         "team": "Houston Astros"
       },
       {
         "name": "Luis Arraez",
-        "value": ".321",
+        "value": ".318",
         "team": "Philadelphia Phillies"
+      },
+      {
+        "name": "Otto Lopez",
+        "value": ".308",
+        "team": "Miami Marlins"
       },
       {
         "name": "Chandler Simpson",
@@ -38,7 +48,7 @@
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.056",
+        "value": "1.051",
         "team": "Houston Astros"
       },
       {
@@ -115,9 +125,9 @@
         "team": "Cleveland Guardians"
       },
       {
-        "name": "Riley O'Brien",
-        "value": "34",
-        "team": "St. Louis Cardinals"
+        "name": "Louis Varland",
+        "value": "35",
+        "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER ERA": [
@@ -149,43 +159,43 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Dylan Lee",
-        "value": "0.79",
-        "team": "Atlanta Braves"
+        "name": "Cam Booser",
+        "value": "0.81",
+        "team": "Tampa Bay Rays"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Yainer Diaz",
-        "team": "Houston Astros",
-        "value": "3-4, 2 HR, 3 RBI, 3 R"
+        "name": "H\u00e9ctor Rodr\u00edguez",
+        "team": "Cincinnati Reds",
+        "value": "3-6, 2 HR, 2 RBI, 2 R"
       },
       {
-        "name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "value": "4-4, 1 HR, 4 RBI, 2 R"
+        "name": "Connor Norby",
+        "team": "Colorado Rockies",
+        "value": "2-4, 1 HR, 5 RBI, 3 R"
       },
       {
-        "name": "Mickey Gasper",
-        "team": "Boston Red Sox",
-        "value": "2-2, 2 HR, 2 RBI, 2 R"
+        "name": "Tristan Peters",
+        "team": "Chicago White Sox",
+        "value": "3-4, 1 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "George Kirby",
-        "team": "Seattle Mariners",
-        "value": "7.2 IP, 6 H, 1 ER, 9 SO"
+        "name": "Jes\u00fas Luzardo",
+        "team": "Philadelphia Phillies",
+        "value": "7.0 IP, 1 H, 0 ER, 9 SO"
       },
       {
-        "name": "Michael King",
-        "team": "San Diego Padres",
-        "value": "7.0 IP, 5 H, 0 ER, 7 SO"
+        "name": "Eduardo Rodriguez",
+        "team": "Arizona Diamondbacks",
+        "value": "7.0 IP, 2 H, 0 ER, 9 SO"
       },
       {
-        "name": "Clay Holmes",
-        "team": "Chicago Cubs",
-        "value": "7.0 IP, 2 H, 0 ER, 5 SO"
+        "name": "Freddy Peralta",
+        "team": "Tampa Bay Rays",
+        "value": "6.0 IP, 2 H, 0 ER, 4 SO"
       }
     ]
   }
