@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "leaders": {
     "HR": [
       {
@@ -25,30 +25,25 @@
     ],
     "AVG": [
       {
-        "name": "Yordan Alvarez",
-        "value": ".319",
-        "team": "Houston Astros"
-      },
-      {
         "name": "Luis Arraez",
-        "value": ".318",
+        "value": ".320",
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Otto Lopez",
-        "value": ".308",
-        "team": "Miami Marlins"
+        "name": "Yordan Alvarez",
+        "value": ".318",
+        "team": "Houston Astros"
       },
       {
         "name": "Chandler Simpson",
-        "value": ".308",
+        "value": ".309",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.043",
+        "value": "1.042",
         "team": "Houston Astros"
       },
       {
@@ -57,9 +52,9 @@
         "team": "Washington Nationals"
       },
       {
-        "name": "Shohei Ohtani",
-        "value": ".927",
-        "team": "Los Angeles Dodgers"
+        "name": "Pete Crow-Armstrong",
+        "value": ".922",
+        "team": "Chicago Cubs"
       }
     ],
     "STARTER ERA": [
@@ -75,7 +70,7 @@
       },
       {
         "name": "Cam Schlittler",
-        "value": "2.16",
+        "value": "2.09",
         "team": "New York Yankees"
       }
     ],
@@ -104,7 +99,7 @@
       },
       {
         "name": "Dylan Cease",
-        "value": "209",
+        "value": "217",
         "team": "Toronto Blue Jays"
       },
       {
@@ -138,7 +133,7 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.79",
+        "value": "0.76",
         "team": "Houston Astros"
       },
       {
@@ -155,7 +150,7 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.70",
+        "value": "0.68",
         "team": "Houston Astros"
       },
       {
@@ -166,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Jackson Chourio",
-        "team": "Milwaukee Brewers",
-        "value": "4-5, 2 HR, 4 RBI, 4 R"
+        "name": "George Springer",
+        "team": "Toronto Blue Jays",
+        "value": "4-4, 1 HR, 1 RBI, 3 R"
       },
       {
-        "name": "Jac Caglianone",
-        "team": "Kansas City Royals",
-        "value": "5-6, 1 HR, 6 RBI, 3 R"
+        "name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "value": "2-3, 1 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Christian Walker",
-        "team": "Houston Astros",
-        "value": "3-4, 1 HR, 2 RBI, 2 R"
+        "name": "Lars Nootbaar",
+        "team": "Arizona Diamondbacks",
+        "value": "3-4, 1 HR, 1 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Chris Sale",
-        "team": "Atlanta Braves",
-        "value": "9.0 IP, 5 H, 0 ER, 11 SO"
+        "name": "Michael Wacha",
+        "team": "Kansas City Royals",
+        "value": "8.0 IP, 4 H, 0 ER, 10 SO"
       },
       {
-        "name": "Yoshinobu Yamamoto",
-        "team": "Los Angeles Dodgers",
-        "value": "6.1 IP, 4 H, 1 ER, 8 SO"
-      },
-      {
-        "name": "Jacob Misiorowski",
+        "name": "Logan Henderson",
         "team": "Milwaukee Brewers",
-        "value": "6.0 IP, 2 H, 2 ER, 6 SO"
+        "value": "7.0 IP, 1 H, 1 ER, 7 SO"
+      },
+      {
+        "name": "Hunter Brown",
+        "team": "Houston Astros",
+        "value": "6.2 IP, 5 H, 1 ER, 10 SO"
       }
     ]
   }
