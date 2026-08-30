@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "leaders": {
     "HR": [
       {
@@ -8,53 +8,48 @@
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Matt Olson",
-        "value": "37",
-        "team": "Atlanta Braves"
-      },
-      {
         "name": "Yordan Alvarez",
-        "value": "36",
+        "value": "37",
         "team": "Houston Astros"
       },
       {
-        "name": "Hunter Goodman",
-        "value": "36",
-        "team": "Colorado Rockies"
+        "name": "Matt Olson",
+        "value": "37",
+        "team": "Atlanta Braves"
       }
     ],
     "AVG": [
       {
-        "name": "Luis Arraez",
-        "value": ".320",
-        "team": "Philadelphia Phillies"
-      },
-      {
         "name": "Yordan Alvarez",
-        "value": ".318",
+        "value": ".320",
         "team": "Houston Astros"
       },
       {
+        "name": "Luis Arraez",
+        "value": ".317",
+        "team": "Philadelphia Phillies"
+      },
+      {
         "name": "Chandler Simpson",
-        "value": ".309",
+        "value": ".311",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.042",
+        "value": "1.048",
         "team": "Houston Astros"
+      },
+      {
+        "name": "Pete Crow-Armstrong",
+        "value": ".944",
+        "team": "Chicago Cubs"
       },
       {
         "name": "James Wood",
         "value": ".928",
         "team": "Washington Nationals"
-      },
-      {
-        "name": "Pete Crow-Armstrong",
-        "value": ".922",
-        "team": "Chicago Cubs"
       }
     ],
     "STARTER ERA": [
@@ -111,18 +106,18 @@
     "SV+H": [
       {
         "name": "Bryan Baker",
-        "value": "40",
+        "value": "41",
         "team": "Tampa Bay Rays"
+      },
+      {
+        "name": "Louis Varland",
+        "value": "36",
+        "team": "Toronto Blue Jays"
       },
       {
         "name": "Cade Smith",
         "value": "35",
         "team": "Cleveland Guardians"
-      },
-      {
-        "name": "Riley O'Brien",
-        "value": "35",
-        "team": "St. Louis Cardinals"
       }
     ],
     "RELIEVER ERA": [
@@ -145,7 +140,7 @@
     "RELIEVER WHIP": [
       {
         "name": "Daniel Duarte",
-        "value": "0.65",
+        "value": "0.67",
         "team": "New York Mets"
       },
       {
@@ -154,43 +149,43 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Cam Booser",
-        "value": "0.81",
-        "team": "Tampa Bay Rays"
+        "name": "Brandyn Garcia",
+        "value": "0.80",
+        "team": "Arizona Diamondbacks"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "George Springer",
-        "team": "Toronto Blue Jays",
-        "value": "4-4, 1 HR, 1 RBI, 3 R"
+        "name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "value": "4-6, 3 HR, 6 RBI, 4 R"
       },
       {
-        "name": "Michael Harris II",
-        "team": "Atlanta Braves",
-        "value": "2-3, 1 HR, 3 RBI, 2 R"
+        "name": "Carson Kelly",
+        "team": "Chicago Cubs",
+        "value": "2-4, 1 HR, 4 RBI, 3 R"
       },
       {
-        "name": "Lars Nootbaar",
-        "team": "Arizona Diamondbacks",
-        "value": "3-4, 1 HR, 1 RBI, 2 R"
+        "name": "Alex Bregman",
+        "team": "Chicago Cubs",
+        "value": "3-5, 1 HR, 3 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Michael Wacha",
-        "team": "Kansas City Royals",
-        "value": "8.0 IP, 4 H, 0 ER, 10 SO"
+        "name": "Cristopher S\u00e1nchez",
+        "team": "Philadelphia Phillies",
+        "value": "7.0 IP, 2 H, 0 ER, 8 SO"
       },
       {
-        "name": "Logan Henderson",
-        "team": "Milwaukee Brewers",
-        "value": "7.0 IP, 1 H, 1 ER, 7 SO"
+        "name": "Jake Bennett",
+        "team": "Boston Red Sox",
+        "value": "6.0 IP, 3 H, 0 ER, 7 SO"
       },
       {
-        "name": "Hunter Brown",
-        "team": "Houston Astros",
-        "value": "6.2 IP, 5 H, 1 ER, 10 SO"
+        "name": "Merrill Kelly",
+        "team": "Arizona Diamondbacks",
+        "value": "7.0 IP, 2 H, 0 ER, 7 SO"
       }
     ]
   }
