@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "leaders": {
     "HR": [
       {
@@ -8,9 +8,19 @@
         "team": "Philadelphia Phillies"
       },
       {
+        "name": "Pete Crow-Armstrong",
+        "value": "38",
+        "team": "Chicago Cubs"
+      },
+      {
         "name": "Yordan Alvarez",
         "value": "37",
         "team": "Houston Astros"
+      },
+      {
+        "name": "Junior Caminero",
+        "value": "37",
+        "team": "Tampa Bay Rays"
       },
       {
         "name": "Matt Olson",
@@ -21,7 +31,7 @@
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".320",
+        "value": ".317",
         "team": "Houston Astros"
       },
       {
@@ -31,19 +41,19 @@
       },
       {
         "name": "Chandler Simpson",
-        "value": ".311",
+        "value": ".309",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.048",
+        "value": "1.039",
         "team": "Houston Astros"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".944",
+        "value": ".954",
         "team": "Chicago Cubs"
       },
       {
@@ -128,13 +138,13 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.76",
+        "value": "0.74",
         "team": "Houston Astros"
       },
       {
-        "name": "Mason Miller",
-        "value": "0.96",
-        "team": "San Diego Padres"
+        "name": "Louis Varland",
+        "value": "1.18",
+        "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER WHIP": [
@@ -145,7 +155,7 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.68",
+        "value": "0.69",
         "team": "Houston Astros"
       },
       {
@@ -156,36 +166,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
+        "name": "Gunnar Henderson",
+        "team": "Baltimore Orioles",
+        "value": "4-4, 2 HR, 5 RBI, 3 R"
+      },
+      {
+        "name": "Austin Wells",
+        "team": "New York Yankees",
+        "value": "2-2, 2 HR, 5 RBI, 2 R"
+      },
+      {
         "name": "Pete Crow-Armstrong",
         "team": "Chicago Cubs",
-        "value": "4-6, 3 HR, 6 RBI, 4 R"
-      },
-      {
-        "name": "Carson Kelly",
-        "team": "Chicago Cubs",
-        "value": "2-4, 1 HR, 4 RBI, 3 R"
-      },
-      {
-        "name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "value": "3-5, 1 HR, 3 RBI, 1 R"
+        "value": "2-5, 2 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Cristopher S\u00e1nchez",
-        "team": "Philadelphia Phillies",
-        "value": "7.0 IP, 2 H, 0 ER, 8 SO"
+        "name": "Max Scherzer",
+        "team": "Toronto Blue Jays",
+        "value": "7.0 IP, 1 H, 0 ER, 10 SO"
       },
       {
-        "name": "Jake Bennett",
-        "team": "Boston Red Sox",
-        "value": "6.0 IP, 3 H, 0 ER, 7 SO"
+        "name": "Tyler Mahle",
+        "team": "Atlanta Braves",
+        "value": "6.2 IP, 5 H, 1 ER, 9 SO"
       },
       {
-        "name": "Merrill Kelly",
-        "team": "Arizona Diamondbacks",
-        "value": "7.0 IP, 2 H, 0 ER, 7 SO"
+        "name": "Tyler Glasnow",
+        "team": "Los Angeles Dodgers",
+        "value": "7.0 IP, 2 H, 1 ER, 6 SO"
       }
     ]
   }
