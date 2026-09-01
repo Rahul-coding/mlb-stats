@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "leaders": {
     "HR": [
       {
@@ -36,24 +36,24 @@
       },
       {
         "name": "Luis Arraez",
-        "value": ".317",
+        "value": ".316",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Chandler Simpson",
-        "value": ".309",
+        "value": ".311",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.039",
+        "value": "1.037",
         "team": "Houston Astros"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".954",
+        "value": ".949",
         "team": "Chicago Cubs"
       },
       {
@@ -149,11 +149,6 @@
     ],
     "RELIEVER WHIP": [
       {
-        "name": "Daniel Duarte",
-        "value": "0.67",
-        "team": "New York Mets"
-      },
-      {
         "name": "Josh Hader",
         "value": "0.69",
         "team": "Houston Astros"
@@ -162,40 +157,45 @@
         "name": "Brandyn Garcia",
         "value": "0.80",
         "team": "Arizona Diamondbacks"
+      },
+      {
+        "name": "Cam Booser",
+        "value": "0.81",
+        "team": "Tampa Bay Rays"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Gunnar Henderson",
-        "team": "Baltimore Orioles",
-        "value": "4-4, 2 HR, 5 RBI, 3 R"
-      },
-      {
-        "name": "Austin Wells",
-        "team": "New York Yankees",
-        "value": "2-2, 2 HR, 5 RBI, 2 R"
-      },
-      {
-        "name": "Pete Crow-Armstrong",
+        "name": "Alex Bregman",
         "team": "Chicago Cubs",
-        "value": "2-5, 2 HR, 2 RBI, 2 R"
+        "value": "3-6, 3 HR, 4 RBI, 3 R"
+      },
+      {
+        "name": "Daylen Lile",
+        "team": "Washington Nationals",
+        "value": "3-3, 2 HR, 4 RBI, 2 R"
+      },
+      {
+        "name": "Randy Arozarena",
+        "team": "Seattle Mariners",
+        "value": "4-5, 1 HR, 4 RBI, 3 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Max Scherzer",
-        "team": "Toronto Blue Jays",
-        "value": "7.0 IP, 1 H, 0 ER, 10 SO"
+        "name": "Jacob deGrom",
+        "team": "Texas Rangers",
+        "value": "7.0 IP, 1 H, 0 ER, 8 SO"
       },
       {
-        "name": "Tyler Mahle",
-        "team": "Atlanta Braves",
-        "value": "6.2 IP, 5 H, 1 ER, 9 SO"
+        "name": "Taj Bradley",
+        "team": "Minnesota Twins",
+        "value": "7.0 IP, 4 H, 1 ER, 9 SO"
       },
       {
-        "name": "Tyler Glasnow",
-        "team": "Los Angeles Dodgers",
-        "value": "7.0 IP, 2 H, 1 ER, 6 SO"
+        "name": "Walbert Ure\u00f1a",
+        "team": "Los Angeles Angels",
+        "value": "7.0 IP, 5 H, 1 ER, 8 SO"
       }
     ]
   }
