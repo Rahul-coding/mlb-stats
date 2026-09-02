@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "leaders": {
     "HR": [
       {
@@ -30,30 +30,35 @@
     ],
     "AVG": [
       {
-        "name": "Yordan Alvarez",
-        "value": ".317",
-        "team": "Houston Astros"
-      },
-      {
         "name": "Luis Arraez",
-        "value": ".316",
+        "value": ".317",
         "team": "Philadelphia Phillies"
       },
       {
+        "name": "Yordan Alvarez",
+        "value": ".316",
+        "team": "Houston Astros"
+      },
+      {
+        "name": "Nick Gonzales",
+        "value": ".310",
+        "team": "Pittsburgh Pirates"
+      },
+      {
         "name": "Chandler Simpson",
-        "value": ".311",
+        "value": ".310",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.037",
+        "value": "1.036",
         "team": "Houston Astros"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".949",
+        "value": ".943",
         "team": "Chicago Cubs"
       },
       {
@@ -109,7 +114,7 @@
       },
       {
         "name": "Gavin Williams",
-        "value": "204",
+        "value": "217",
         "team": "Cleveland Guardians"
       }
     ],
@@ -166,36 +171,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "value": "3-6, 3 HR, 4 RBI, 3 R"
+        "name": "Thomas Saggese",
+        "team": "St. Louis Cardinals",
+        "value": "2-3, 2 HR, 3 RBI, 3 R"
       },
       {
-        "name": "Daylen Lile",
-        "team": "Washington Nationals",
-        "value": "3-3, 2 HR, 4 RBI, 2 R"
+        "name": "Royce Lewis",
+        "team": "Minnesota Twins",
+        "value": "3-4, 1 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Randy Arozarena",
-        "team": "Seattle Mariners",
-        "value": "4-5, 1 HR, 4 RBI, 3 R"
+        "name": "Graham Pauley",
+        "team": "Miami Marlins",
+        "value": "2-4, 1 HR, 4 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Jacob deGrom",
-        "team": "Texas Rangers",
-        "value": "7.0 IP, 1 H, 0 ER, 8 SO"
+        "name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "value": "7.0 IP, 2 H, 0 ER, 13 SO"
       },
       {
-        "name": "Taj Bradley",
-        "team": "Minnesota Twins",
-        "value": "7.0 IP, 4 H, 1 ER, 9 SO"
+        "name": "Freddy Peralta",
+        "team": "Tampa Bay Rays",
+        "value": "6.0 IP, 3 H, 1 ER, 7 SO"
       },
       {
-        "name": "Walbert Ure\u00f1a",
-        "team": "Los Angeles Angels",
-        "value": "7.0 IP, 5 H, 1 ER, 8 SO"
+        "name": "Bryan Woo",
+        "team": "Seattle Mariners",
+        "value": "6.0 IP, 5 H, 1 ER, 7 SO"
       }
     ]
   }
