@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "leaders": {
     "HR": [
       {
@@ -30,30 +30,25 @@
     ],
     "AVG": [
       {
-        "name": "Luis Arraez",
-        "value": ".317",
-        "team": "Philadelphia Phillies"
-      },
-      {
         "name": "Yordan Alvarez",
-        "value": ".316",
+        "value": ".317",
         "team": "Houston Astros"
       },
       {
-        "name": "Nick Gonzales",
-        "value": ".310",
-        "team": "Pittsburgh Pirates"
+        "name": "Luis Arraez",
+        "value": ".315",
+        "team": "Philadelphia Phillies"
       },
       {
         "name": "Chandler Simpson",
-        "value": ".310",
+        "value": ".312",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.036",
+        "value": "1.037",
         "team": "Houston Astros"
       },
       {
@@ -63,36 +58,36 @@
       },
       {
         "name": "James Wood",
-        "value": ".928",
+        "value": ".924",
         "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
       {
         "name": "Jacob Misiorowski",
-        "value": "1.73",
+        "value": "1.97",
         "team": "Milwaukee Brewers"
+      },
+      {
+        "name": "Cam Schlittler",
+        "value": "2.04",
+        "team": "New York Yankees"
       },
       {
         "name": "Chris Sale",
         "value": "2.06",
         "team": "Atlanta Braves"
-      },
-      {
-        "name": "Cam Schlittler",
-        "value": "2.09",
-        "team": "New York Yankees"
       }
     ],
     "STARTER WHIP": [
       {
         "name": "Jacob Misiorowski",
-        "value": "0.75",
+        "value": "0.79",
         "team": "Milwaukee Brewers"
       },
       {
         "name": "Yoshinobu Yamamoto",
-        "value": "0.89",
+        "value": "0.90",
         "team": "Los Angeles Dodgers"
       },
       {
@@ -104,12 +99,12 @@
     "SO": [
       {
         "name": "Jacob Misiorowski",
-        "value": "222",
+        "value": "227",
         "team": "Milwaukee Brewers"
       },
       {
         "name": "Dylan Cease",
-        "value": "217",
+        "value": "221",
         "team": "Toronto Blue Jays"
       },
       {
@@ -125,14 +120,14 @@
         "team": "Tampa Bay Rays"
       },
       {
+        "name": "Riley O'Brien",
+        "value": "36",
+        "team": "St. Louis Cardinals"
+      },
+      {
         "name": "Louis Varland",
         "value": "36",
         "team": "Toronto Blue Jays"
-      },
-      {
-        "name": "Cade Smith",
-        "value": "35",
-        "team": "Cleveland Guardians"
       }
     ],
     "RELIEVER ERA": [
@@ -143,7 +138,7 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.74",
+        "value": "0.72",
         "team": "Houston Astros"
       },
       {
@@ -155,52 +150,52 @@
     "RELIEVER WHIP": [
       {
         "name": "Josh Hader",
-        "value": "0.69",
+        "value": "0.67",
         "team": "Houston Astros"
+      },
+      {
+        "name": "Daniel Duarte",
+        "value": "0.77",
+        "team": "New York Mets"
       },
       {
         "name": "Brandyn Garcia",
         "value": "0.80",
         "team": "Arizona Diamondbacks"
-      },
-      {
-        "name": "Cam Booser",
-        "value": "0.81",
-        "team": "Tampa Bay Rays"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Thomas Saggese",
-        "team": "St. Louis Cardinals",
-        "value": "2-3, 2 HR, 3 RBI, 3 R"
+        "name": "Henry Bolte",
+        "team": "Athletics",
+        "value": "3-4, 2 HR, 4 RBI, 2 R"
       },
       {
-        "name": "Royce Lewis",
-        "team": "Minnesota Twins",
-        "value": "3-4, 1 HR, 3 RBI, 2 R"
+        "name": "Vladimir Guerrero Jr.",
+        "team": "Toronto Blue Jays",
+        "value": "3-4, 1 HR, 5 RBI, 1 R"
       },
       {
-        "name": "Graham Pauley",
-        "team": "Miami Marlins",
-        "value": "2-4, 1 HR, 4 RBI, 2 R"
+        "name": "Carter Jensen",
+        "team": "Kansas City Royals",
+        "value": "2-4, 2 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "value": "7.0 IP, 2 H, 0 ER, 13 SO"
+        "name": "Cam Schlittler",
+        "team": "New York Yankees",
+        "value": "8.0 IP, 2 H, 1 ER, 9 SO"
       },
       {
-        "name": "Freddy Peralta",
-        "team": "Tampa Bay Rays",
-        "value": "6.0 IP, 3 H, 1 ER, 7 SO"
+        "name": "Andrew Painter",
+        "team": "Philadelphia Phillies",
+        "value": "7.0 IP, 2 H, 0 ER, 6 SO"
       },
       {
-        "name": "Bryan Woo",
-        "team": "Seattle Mariners",
-        "value": "6.0 IP, 5 H, 1 ER, 7 SO"
+        "name": "Hayden Wesneski",
+        "team": "Houston Astros",
+        "value": "7.0 IP, 1 H, 0 ER, 5 SO"
       }
     ]
   }
