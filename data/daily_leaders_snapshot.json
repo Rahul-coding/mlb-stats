@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "leaders": {
     "HR": [
       {
@@ -9,7 +9,7 @@
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": "38",
+        "value": "39",
         "team": "Chicago Cubs"
       },
       {
@@ -31,7 +31,7 @@
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".317",
+        "value": ".316",
         "team": "Houston Astros"
       },
       {
@@ -40,20 +40,20 @@
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Chandler Simpson",
-        "value": ".312",
-        "team": "Tampa Bay Rays"
+        "name": "Nick Gonzales",
+        "value": ".310",
+        "team": "Pittsburgh Pirates"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.037",
+        "value": "1.035",
         "team": "Houston Astros"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".943",
+        "value": ".946",
         "team": "Chicago Cubs"
       },
       {
@@ -120,14 +120,14 @@
         "team": "Tampa Bay Rays"
       },
       {
+        "name": "Louis Varland",
+        "value": "37",
+        "team": "Toronto Blue Jays"
+      },
+      {
         "name": "Riley O'Brien",
         "value": "36",
         "team": "St. Louis Cardinals"
-      },
-      {
-        "name": "Louis Varland",
-        "value": "36",
-        "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER ERA": [
@@ -143,7 +143,7 @@
       },
       {
         "name": "Louis Varland",
-        "value": "1.18",
+        "value": "1.16",
         "team": "Toronto Blue Jays"
       }
     ],
@@ -166,36 +166,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Henry Bolte",
-        "team": "Athletics",
-        "value": "3-4, 2 HR, 4 RBI, 2 R"
-      },
-      {
-        "name": "Vladimir Guerrero Jr.",
-        "team": "Toronto Blue Jays",
-        "value": "3-4, 1 HR, 5 RBI, 1 R"
-      },
-      {
         "name": "Carter Jensen",
         "team": "Kansas City Royals",
-        "value": "2-4, 2 HR, 2 RBI, 2 R"
+        "value": "3-4, 1 HR, 3 RBI, 3 R"
+      },
+      {
+        "name": "Adley Rutschman",
+        "team": "Boston Red Sox",
+        "value": "2-4, 2 HR, 2 RBI, 3 R"
+      },
+      {
+        "name": "Christian Encarnacion-Strand",
+        "team": "Baltimore Orioles",
+        "value": "2-3, 1 HR, 2 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Cam Schlittler",
-        "team": "New York Yankees",
-        "value": "8.0 IP, 2 H, 1 ER, 9 SO"
+        "name": "Kevin Gausman",
+        "team": "Chicago Cubs",
+        "value": "7.0 IP, 5 H, 1 ER, 9 SO"
       },
       {
-        "name": "Andrew Painter",
-        "team": "Philadelphia Phillies",
-        "value": "7.0 IP, 2 H, 0 ER, 6 SO"
+        "name": "Cal Quantrill",
+        "team": "Texas Rangers",
+        "value": "7.0 IP, 2 H, 0 ER, 5 SO"
       },
       {
-        "name": "Hayden Wesneski",
-        "team": "Houston Astros",
-        "value": "7.0 IP, 1 H, 0 ER, 5 SO"
+        "name": "Logan Henderson",
+        "team": "Milwaukee Brewers",
+        "value": "7.0 IP, 3 H, 2 ER, 7 SO"
       }
     ]
   }
