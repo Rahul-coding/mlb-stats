@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "40",
+        "value": "41",
         "team": "Philadelphia Phillies"
       },
       {
@@ -13,52 +13,42 @@
         "team": "Chicago Cubs"
       },
       {
-        "name": "Yordan Alvarez",
-        "value": "37",
-        "team": "Houston Astros"
-      },
-      {
         "name": "Junior Caminero",
-        "value": "37",
+        "value": "38",
         "team": "Tampa Bay Rays"
-      },
-      {
-        "name": "Matt Olson",
-        "value": "37",
-        "team": "Atlanta Braves"
       }
     ],
     "AVG": [
       {
-        "name": "Yordan Alvarez",
-        "value": ".317",
-        "team": "Houston Astros"
-      },
-      {
         "name": "Luis Arraez",
-        "value": ".316",
+        "value": ".318",
         "team": "Philadelphia Phillies"
       },
       {
+        "name": "Yordan Alvarez",
+        "value": ".315",
+        "team": "Houston Astros"
+      },
+      {
         "name": "Chandler Simpson",
-        "value": ".311",
+        "value": ".308",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.035",
+        "value": "1.031",
         "team": "Houston Astros"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".945",
+        "value": ".943",
         "team": "Chicago Cubs"
       },
       {
         "name": "James Wood",
-        "value": ".928",
+        "value": ".925",
         "team": "Washington Nationals"
       }
     ],
@@ -92,7 +82,7 @@
       },
       {
         "name": "Drew Rasmussen",
-        "value": "0.93",
+        "value": "0.91",
         "team": "Tampa Bay Rays"
       }
     ],
@@ -120,14 +110,14 @@
         "team": "Tampa Bay Rays"
       },
       {
+        "name": "Louis Varland",
+        "value": "38",
+        "team": "Toronto Blue Jays"
+      },
+      {
         "name": "Riley O'Brien",
         "value": "37",
         "team": "St. Louis Cardinals"
-      },
-      {
-        "name": "Louis Varland",
-        "value": "37",
-        "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER ERA": [
@@ -138,19 +128,19 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.70",
+        "value": "0.69",
         "team": "Houston Astros"
       },
       {
         "name": "Louis Varland",
-        "value": "1.16",
+        "value": "1.15",
         "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER WHIP": [
       {
         "name": "Josh Hader",
-        "value": "0.65",
+        "value": "0.64",
         "team": "Houston Astros"
       },
       {
@@ -160,42 +150,42 @@
       },
       {
         "name": "Brandyn Garcia",
-        "value": "0.80",
+        "value": "0.79",
         "team": "Arizona Diamondbacks"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Brayan Rocchio",
-        "team": "Cleveland Guardians",
-        "value": "2-4, 2 HR, 5 RBI, 2 R"
+        "name": "Riley Greene",
+        "team": "Detroit Tigers",
+        "value": "4-5, 2 HR, 4 RBI, 3 R"
       },
       {
         "name": "Rafael Devers",
         "team": "San Francisco Giants",
-        "value": "3-4, 1 HR, 5 RBI, 1 R"
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Francisco Alvarez",
-        "team": "New York Mets",
-        "value": "2-4, 2 HR, 2 RBI, 2 R"
+        "name": "Christian Koss",
+        "team": "San Francisco Giants",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Jared Jones",
-        "team": "Pittsburgh Pirates",
-        "value": "6.0 IP, 3 H, 0 ER, 9 SO"
-      },
-      {
-        "name": "Blake Snell",
-        "team": "Los Angeles Dodgers",
-        "value": "6.0 IP, 5 H, 0 ER, 7 SO"
-      },
-      {
-        "name": "Ranger Suarez",
+        "name": "Sonny Gray",
         "team": "Boston Red Sox",
-        "value": "7.0 IP, 5 H, 0 ER, 3 SO"
+        "value": "7.0 IP, 3 H, 0 ER, 7 SO"
+      },
+      {
+        "name": "Jeffrey Springs",
+        "team": "Athletics",
+        "value": "7.0 IP, 2 H, 0 ER, 6 SO"
+      },
+      {
+        "name": "Drew Rasmussen",
+        "team": "Tampa Bay Rays",
+        "value": "7.0 IP, 3 H, 1 ER, 7 SO"
       }
     ]
   }
