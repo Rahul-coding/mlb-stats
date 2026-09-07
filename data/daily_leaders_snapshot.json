@@ -1,16 +1,21 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "41",
+        "value": "42",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": "39",
+        "value": "40",
         "team": "Chicago Cubs"
+      },
+      {
+        "name": "Yordan Alvarez",
+        "value": "38",
+        "team": "Houston Astros"
       },
       {
         "name": "Junior Caminero",
@@ -26,7 +31,7 @@
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".315",
+        "value": ".314",
         "team": "Houston Astros"
       },
       {
@@ -43,12 +48,12 @@
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".943",
+        "value": ".946",
         "team": "Chicago Cubs"
       },
       {
         "name": "James Wood",
-        "value": ".925",
+        "value": ".928",
         "team": "Washington Nationals"
       }
     ],
@@ -88,6 +93,11 @@
     ],
     "SO": [
       {
+        "name": "Gavin Williams",
+        "value": "228",
+        "team": "Cleveland Guardians"
+      },
+      {
         "name": "Jacob Misiorowski",
         "value": "227",
         "team": "Milwaukee Brewers"
@@ -96,11 +106,6 @@
         "name": "Dylan Cease",
         "value": "221",
         "team": "Toronto Blue Jays"
-      },
-      {
-        "name": "Gavin Williams",
-        "value": "217",
-        "team": "Cleveland Guardians"
       }
     ],
     "SV+H": [
@@ -150,42 +155,42 @@
       },
       {
         "name": "Brandyn Garcia",
-        "value": "0.79",
+        "value": "0.78",
         "team": "Arizona Diamondbacks"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Riley Greene",
-        "team": "Detroit Tigers",
-        "value": "4-5, 2 HR, 4 RBI, 3 R"
+        "name": "Jake Burger",
+        "team": "Texas Rangers",
+        "value": "2-4, 2 HR, 3 RBI, 3 R"
       },
       {
-        "name": "Rafael Devers",
-        "team": "San Francisco Giants",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
+        "name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "value": "2-4, 1 HR, 4 RBI, 1 R"
       },
       {
-        "name": "Christian Koss",
-        "team": "San Francisco Giants",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
+        "name": "Ronald Acu\u00f1a Jr.",
+        "team": "Atlanta Braves",
+        "value": "2-3, 1 HR, 4 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Sonny Gray",
+        "name": "Bryan Woo",
+        "team": "Seattle Mariners",
+        "value": "8.0 IP, 1 H, 0 ER, 9 SO"
+      },
+      {
+        "name": "Payton Tolle",
         "team": "Boston Red Sox",
-        "value": "7.0 IP, 3 H, 0 ER, 7 SO"
+        "value": "6.0 IP, 4 H, 1 ER, 12 SO"
       },
       {
-        "name": "Jeffrey Springs",
-        "team": "Athletics",
-        "value": "7.0 IP, 2 H, 0 ER, 6 SO"
-      },
-      {
-        "name": "Drew Rasmussen",
-        "team": "Tampa Bay Rays",
-        "value": "7.0 IP, 3 H, 1 ER, 7 SO"
+        "name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "value": "6.0 IP, 4 H, 2 ER, 11 SO"
       }
     ]
   }
