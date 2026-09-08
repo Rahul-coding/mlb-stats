@@ -1,15 +1,15 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "leaders": {
     "HR": [
       {
         "name": "Kyle Schwarber",
-        "value": "42",
+        "value": "43",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": "40",
+        "value": "41",
         "team": "Chicago Cubs"
       },
       {
@@ -26,7 +26,7 @@
     "AVG": [
       {
         "name": "Luis Arraez",
-        "value": ".318",
+        "value": ".316",
         "team": "Philadelphia Phillies"
       },
       {
@@ -48,12 +48,12 @@
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".946",
+        "value": ".953",
         "team": "Chicago Cubs"
       },
       {
         "name": "James Wood",
-        "value": ".928",
+        "value": ".927",
         "team": "Washington Nationals"
       }
     ],
@@ -98,14 +98,14 @@
         "team": "Cleveland Guardians"
       },
       {
+        "name": "Dylan Cease",
+        "value": "227",
+        "team": "Toronto Blue Jays"
+      },
+      {
         "name": "Jacob Misiorowski",
         "value": "227",
         "team": "Milwaukee Brewers"
-      },
-      {
-        "name": "Dylan Cease",
-        "value": "221",
-        "team": "Toronto Blue Jays"
       }
     ],
     "SV+H": [
@@ -137,9 +137,9 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Louis Varland",
-        "value": "1.15",
-        "team": "Toronto Blue Jays"
+        "name": "Mason Miller",
+        "value": "1.17",
+        "team": "San Diego Padres"
       }
     ],
     "RELIEVER WHIP": [
@@ -150,7 +150,7 @@
       },
       {
         "name": "Daniel Duarte",
-        "value": "0.77",
+        "value": "0.74",
         "team": "New York Mets"
       },
       {
@@ -161,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Jake Burger",
-        "team": "Texas Rangers",
-        "value": "2-4, 2 HR, 3 RBI, 3 R"
+        "name": "Coby Mayo",
+        "team": "Baltimore Orioles",
+        "value": "2-5, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Elly De La Cruz",
-        "team": "Cincinnati Reds",
-        "value": "2-4, 1 HR, 4 RBI, 1 R"
+        "name": "Mois\u00e9s Ballesteros",
+        "team": "Los Angeles Angels",
+        "value": "3-4, 1 HR, 1 RBI, 1 R"
       },
       {
-        "name": "Ronald Acu\u00f1a Jr.",
-        "team": "Atlanta Braves",
-        "value": "2-3, 1 HR, 4 RBI, 1 R"
+        "name": "Teoscar Hern\u00e1ndez",
+        "team": "Los Angeles Dodgers",
+        "value": "2-3, 1 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Bryan Woo",
-        "team": "Seattle Mariners",
-        "value": "8.0 IP, 1 H, 0 ER, 9 SO"
+        "name": "Jes\u00fas Luzardo",
+        "team": "Philadelphia Phillies",
+        "value": "9.0 IP, 2 H, 0 ER, 12 SO"
       },
       {
-        "name": "Payton Tolle",
-        "team": "Boston Red Sox",
-        "value": "6.0 IP, 4 H, 1 ER, 12 SO"
+        "name": "Noah Cameron",
+        "team": "Kansas City Royals",
+        "value": "6.0 IP, 3 H, 0 ER, 7 SO"
       },
       {
-        "name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "value": "6.0 IP, 4 H, 2 ER, 11 SO"
+        "name": "Grant Holmes",
+        "team": "Atlanta Braves",
+        "value": "6.0 IP, 3 H, 0 ER, 6 SO"
       }
     ]
   }
