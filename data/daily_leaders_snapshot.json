@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "leaders": {
     "HR": [
       {
@@ -14,7 +14,7 @@
       },
       {
         "name": "Junior Caminero",
-        "value": "39",
+        "value": "40",
         "team": "Tampa Bay Rays"
       }
     ],
@@ -30,9 +30,9 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Chandler Simpson",
-        "value": ".308",
-        "team": "Tampa Bay Rays"
+        "name": "Otto Lopez",
+        "value": ".307",
+        "team": "Miami Marlins"
       }
     ],
     "OPS": [
@@ -43,7 +43,7 @@
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".947",
+        "value": ".946",
         "team": "Chicago Cubs"
       },
       {
@@ -65,7 +65,7 @@
       },
       {
         "name": "Chris Sale",
-        "value": "2.10",
+        "value": "2.18",
         "team": "Atlanta Braves"
       }
     ],
@@ -82,7 +82,7 @@
       },
       {
         "name": "Drew Rasmussen",
-        "value": "0.91",
+        "value": "0.92",
         "team": "Tampa Bay Rays"
       }
     ],
@@ -133,7 +133,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "1.17",
+        "value": "1.16",
         "team": "San Diego Padres"
       }
     ],
@@ -156,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Anthony Volpe",
-        "team": "New York Yankees",
-        "value": "3-4, 1 HR, 5 RBI, 1 R"
+        "name": "Kyle Tucker",
+        "team": "Los Angeles Dodgers",
+        "value": "3-3, 1 HR, 5 RBI, 2 R"
       },
       {
-        "name": "Oneil Cruz",
-        "team": "Pittsburgh Pirates",
-        "value": "3-4, 1 HR, 2 RBI, 1 R"
+        "name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "value": "3-3, 1 HR, 4 RBI, 3 R"
       },
       {
-        "name": "Cam Smith",
-        "team": "Houston Astros",
-        "value": "2-3, 1 HR, 1 RBI, 1 R"
+        "name": "Garrett Mitchell",
+        "team": "Milwaukee Brewers",
+        "value": "3-5, 1 HR, 4 RBI, 3 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Jacob deGrom",
-        "team": "Texas Rangers",
-        "value": "6.0 IP, 1 H, 0 ER, 12 SO"
+        "name": "Dustin May",
+        "team": "Milwaukee Brewers",
+        "value": "6.0 IP, 2 H, 0 ER, 6 SO"
       },
       {
-        "name": "Jared Jones",
-        "team": "Pittsburgh Pirates",
-        "value": "7.0 IP, 1 H, 0 ER, 8 SO"
+        "name": "Carlos Rod\u00f3n",
+        "team": "New York Yankees",
+        "value": "6.1 IP, 3 H, 1 ER, 8 SO"
       },
       {
-        "name": "Zack Wheeler",
-        "team": "Philadelphia Phillies",
-        "value": "7.0 IP, 5 H, 1 ER, 9 SO"
+        "name": "Taj Bradley",
+        "team": "Minnesota Twins",
+        "value": "6.0 IP, 1 H, 0 ER, 6 SO"
       }
     ]
   }
