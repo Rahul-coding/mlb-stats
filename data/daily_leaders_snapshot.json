@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "leaders": {
     "HR": [
       {
@@ -21,7 +21,7 @@
     "AVG": [
       {
         "name": "Luis Arraez",
-        "value": ".318",
+        "value": ".316",
         "team": "Philadelphia Phillies"
       },
       {
@@ -31,7 +31,7 @@
       },
       {
         "name": "Otto Lopez",
-        "value": ".307",
+        "value": ".310",
         "team": "Miami Marlins"
       }
     ],
@@ -43,12 +43,12 @@
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".946",
+        "value": ".939",
         "team": "Chicago Cubs"
       },
       {
         "name": "James Wood",
-        "value": ".919",
+        "value": ".916",
         "team": "Washington Nationals"
       }
     ],
@@ -106,7 +106,7 @@
     "SV+H": [
       {
         "name": "Bryan Baker",
-        "value": "41",
+        "value": "42",
         "team": "Tampa Bay Rays"
       },
       {
@@ -133,7 +133,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "1.16",
+        "value": "1.14",
         "team": "San Diego Padres"
       }
     ],
@@ -156,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Kyle Tucker",
-        "team": "Los Angeles Dodgers",
-        "value": "3-3, 1 HR, 5 RBI, 2 R"
-      },
-      {
-        "name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "value": "3-3, 1 HR, 4 RBI, 3 R"
+        "name": "Francisco Lindor",
+        "team": "New York Mets",
+        "value": "3-5, 2 HR, 5 RBI, 2 R"
       },
       {
         "name": "Garrett Mitchell",
         "team": "Milwaukee Brewers",
-        "value": "3-5, 1 HR, 4 RBI, 3 R"
+        "value": "4-5, 1 HR, 4 RBI, 2 R"
+      },
+      {
+        "name": "Cole Young",
+        "team": "Seattle Mariners",
+        "value": "3-6, 1 HR, 5 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Dustin May",
-        "team": "Milwaukee Brewers",
-        "value": "6.0 IP, 2 H, 0 ER, 6 SO"
+        "name": "Andrew Alvarez",
+        "team": "Washington Nationals",
+        "value": "7.0 IP, 1 H, 0 ER, 8 SO"
       },
       {
-        "name": "Carlos Rod\u00f3n",
-        "team": "New York Yankees",
-        "value": "6.1 IP, 3 H, 1 ER, 8 SO"
+        "name": "Ranger Suarez",
+        "team": "Boston Red Sox",
+        "value": "7.0 IP, 5 H, 1 ER, 8 SO"
       },
       {
-        "name": "Taj Bradley",
-        "team": "Minnesota Twins",
-        "value": "6.0 IP, 1 H, 0 ER, 6 SO"
+        "name": "Ian Seymour",
+        "team": "Tampa Bay Rays",
+        "value": "6.0 IP, 4 H, 2 ER, 10 SO"
       }
     ]
   }
