@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "leaders": {
     "HR": [
       {
@@ -21,7 +21,7 @@
     "AVG": [
       {
         "name": "Luis Arraez",
-        "value": ".316",
+        "value": ".313",
         "team": "Philadelphia Phillies"
       },
       {
@@ -31,37 +31,37 @@
       },
       {
         "name": "Otto Lopez",
-        "value": ".310",
+        "value": ".309",
         "team": "Miami Marlins"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.017",
+        "value": "1.016",
         "team": "Houston Astros"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".939",
+        "value": ".933",
         "team": "Chicago Cubs"
       },
       {
         "name": "James Wood",
-        "value": ".916",
+        "value": ".918",
         "team": "Washington Nationals"
       }
     ],
     "STARTER ERA": [
       {
+        "name": "Cam Schlittler",
+        "value": "1.95",
+        "team": "New York Yankees"
+      },
+      {
         "name": "Jacob Misiorowski",
         "value": "1.95",
         "team": "Milwaukee Brewers"
-      },
-      {
-        "name": "Cam Schlittler",
-        "value": "2.01",
-        "team": "New York Yankees"
       },
       {
         "name": "Chris Sale",
@@ -81,26 +81,31 @@
         "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Drew Rasmussen",
-        "value": "0.92",
-        "team": "Tampa Bay Rays"
+        "name": "Cam Schlittler",
+        "value": "0.90",
+        "team": "New York Yankees"
       }
     ],
     "SO": [
+      {
+        "name": "Dylan Cease",
+        "value": "236",
+        "team": "Toronto Blue Jays"
+      },
       {
         "name": "Jacob Misiorowski",
         "value": "236",
         "team": "Milwaukee Brewers"
       },
       {
+        "name": "Cam Schlittler",
+        "value": "228",
+        "team": "New York Yankees"
+      },
+      {
         "name": "Gavin Williams",
         "value": "228",
         "team": "Cleveland Guardians"
-      },
-      {
-        "name": "Dylan Cease",
-        "value": "227",
-        "team": "Toronto Blue Jays"
       }
     ],
     "SV+H": [
@@ -145,7 +150,7 @@
       },
       {
         "name": "Brandyn Garcia",
-        "value": "0.78",
+        "value": "0.77",
         "team": "Arizona Diamondbacks"
       },
       {
@@ -156,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Francisco Lindor",
-        "team": "New York Mets",
-        "value": "3-5, 2 HR, 5 RBI, 2 R"
-      },
-      {
-        "name": "Garrett Mitchell",
-        "team": "Milwaukee Brewers",
-        "value": "4-5, 1 HR, 4 RBI, 2 R"
-      },
-      {
-        "name": "Cole Young",
+        "name": "Randy Arozarena",
         "team": "Seattle Mariners",
-        "value": "3-6, 1 HR, 5 RBI, 2 R"
+        "value": "3-5, 2 HR, 4 RBI, 2 R"
+      },
+      {
+        "name": "Lawrence Butler",
+        "team": "Athletics",
+        "value": "2-4, 2 HR, 4 RBI, 2 R"
+      },
+      {
+        "name": "Jonathan Aranda",
+        "team": "Tampa Bay Rays",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Andrew Alvarez",
-        "team": "Washington Nationals",
-        "value": "7.0 IP, 1 H, 0 ER, 8 SO"
+        "name": "Cam Schlittler",
+        "team": "New York Yankees",
+        "value": "6.0 IP, 1 H, 0 ER, 8 SO"
       },
       {
-        "name": "Ranger Suarez",
+        "name": "Payton Tolle",
         "team": "Boston Red Sox",
-        "value": "7.0 IP, 5 H, 1 ER, 8 SO"
+        "value": "6.0 IP, 4 H, 0 ER, 7 SO"
       },
       {
-        "name": "Ian Seymour",
-        "team": "Tampa Bay Rays",
-        "value": "6.0 IP, 4 H, 2 ER, 10 SO"
+        "name": "Jackson Jobe",
+        "team": "Detroit Tigers",
+        "value": "6.1 IP, 3 H, 1 ER, 8 SO"
       }
     ]
   }
