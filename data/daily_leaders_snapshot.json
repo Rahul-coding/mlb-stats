@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "leaders": {
     "HR": [
       {
@@ -9,7 +9,7 @@
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": "41",
+        "value": "42",
         "team": "Chicago Cubs"
       },
       {
@@ -31,7 +31,7 @@
       },
       {
         "name": "Otto Lopez",
-        "value": ".309",
+        "value": ".307",
         "team": "Miami Marlins"
       }
     ],
@@ -43,7 +43,7 @@
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".933",
+        "value": ".945",
         "team": "Chicago Cubs"
       },
       {
@@ -98,13 +98,8 @@
         "team": "Milwaukee Brewers"
       },
       {
-        "name": "Cam Schlittler",
-        "value": "228",
-        "team": "New York Yankees"
-      },
-      {
         "name": "Gavin Williams",
-        "value": "228",
+        "value": "235",
         "team": "Cleveland Guardians"
       }
     ],
@@ -115,14 +110,14 @@
         "team": "Tampa Bay Rays"
       },
       {
+        "name": "Riley O'Brien",
+        "value": "38",
+        "team": "St. Louis Cardinals"
+      },
+      {
         "name": "Louis Varland",
         "value": "38",
         "team": "Toronto Blue Jays"
-      },
-      {
-        "name": "Riley O'Brien",
-        "value": "37",
-        "team": "St. Louis Cardinals"
       }
     ],
     "RELIEVER ERA": [
@@ -138,7 +133,7 @@
       },
       {
         "name": "Mason Miller",
-        "value": "1.14",
+        "value": "1.12",
         "team": "San Diego Padres"
       }
     ],
@@ -161,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Randy Arozarena",
-        "team": "Seattle Mariners",
-        "value": "3-5, 2 HR, 4 RBI, 2 R"
+        "name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "value": "4-5, 1 HR, 4 RBI, 1 R"
       },
       {
-        "name": "Lawrence Butler",
-        "team": "Athletics",
-        "value": "2-4, 2 HR, 4 RBI, 2 R"
+        "name": "Javier Sanoja",
+        "team": "Miami Marlins",
+        "value": "2-4, 1 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Jonathan Aranda",
-        "team": "Tampa Bay Rays",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
+        "name": "Jakob Marsee",
+        "team": "Miami Marlins",
+        "value": "3-4, 1 HR, 1 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Cam Schlittler",
-        "team": "New York Yankees",
-        "value": "6.0 IP, 1 H, 0 ER, 8 SO"
+        "name": "Tarik Skubal",
+        "team": "Los Angeles Dodgers",
+        "value": "7.0 IP, 3 H, 0 ER, 9 SO"
       },
       {
-        "name": "Payton Tolle",
-        "team": "Boston Red Sox",
-        "value": "6.0 IP, 4 H, 0 ER, 7 SO"
+        "name": "Jonah Tong",
+        "team": "New York Mets",
+        "value": "6.0 IP, 4 H, 0 ER, 6 SO"
       },
       {
-        "name": "Jackson Jobe",
-        "team": "Detroit Tigers",
-        "value": "6.1 IP, 3 H, 1 ER, 8 SO"
+        "name": "Quinn Mathews",
+        "team": "St. Louis Cardinals",
+        "value": "6.2 IP, 4 H, 1 ER, 8 SO"
       }
     ]
   }
