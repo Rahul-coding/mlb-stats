@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "leaders": {
     "HR": [
       {
@@ -21,24 +21,24 @@
     "AVG": [
       {
         "name": "Luis Arraez",
-        "value": ".316",
+        "value": ".315",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".310",
+        "value": ".311",
         "team": "Houston Astros"
       },
       {
         "name": "Chandler Simpson",
-        "value": ".310",
+        "value": ".311",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.022",
+        "value": "1.027",
         "team": "Houston Astros"
       },
       {
@@ -128,7 +128,7 @@
       },
       {
         "name": "Josh Hader",
-        "value": "0.85",
+        "value": "0.83",
         "team": "Houston Astros"
       },
       {
@@ -140,7 +140,7 @@
     "RELIEVER WHIP": [
       {
         "name": "Josh Hader",
-        "value": "0.66",
+        "value": "0.65",
         "team": "Houston Astros"
       },
       {
@@ -156,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "value": "3-4, 2 HR, 3 RBI, 3 R"
+        "name": "Kyle Tucker",
+        "team": "Los Angeles Dodgers",
+        "value": "4-5, 1 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "value": "3-4, 1 HR, 4 RBI, 1 R"
-      },
-      {
-        "name": "Ethan Salas",
+        "name": "Xander Bogaerts",
         "team": "San Diego Padres",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
+        "value": "3-5, 1 HR, 2 RBI, 1 R"
+      },
+      {
+        "name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "value": "2-4, 1 HR, 3 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Zebby Matthews",
-        "team": "Minnesota Twins",
-        "value": "6.0 IP, 2 H, 0 ER, 8 SO"
+        "name": "Walbert Ure\u00f1a",
+        "team": "Los Angeles Angels",
+        "value": "7.0 IP, 4 H, 0 ER, 9 SO"
       },
       {
-        "name": "Zack Wheeler",
+        "name": "Aaron Nola",
         "team": "Philadelphia Phillies",
-        "value": "7.0 IP, 4 H, 0 ER, 5 SO"
+        "value": "7.0 IP, 3 H, 0 ER, 4 SO"
       },
       {
-        "name": "Shota Imanaga",
-        "team": "Chicago Cubs",
-        "value": "6.0 IP, 4 H, 1 ER, 8 SO"
+        "name": "Taj Bradley",
+        "team": "Minnesota Twins",
+        "value": "7.0 IP, 5 H, 3 ER, 9 SO"
       }
     ]
   }
