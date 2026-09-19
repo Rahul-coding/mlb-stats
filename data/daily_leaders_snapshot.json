@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "leaders": {
     "HR": [
       {
@@ -21,34 +21,34 @@
     "AVG": [
       {
         "name": "Luis Arraez",
-        "value": ".315",
+        "value": ".313",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Yordan Alvarez",
-        "value": ".311",
+        "value": ".312",
         "team": "Houston Astros"
       },
       {
         "name": "Chandler Simpson",
-        "value": ".311",
+        "value": ".308",
         "team": "Tampa Bay Rays"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.027",
+        "value": "1.031",
         "team": "Houston Astros"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".956",
+        "value": ".948",
         "team": "Chicago Cubs"
       },
       {
         "name": "James Wood",
-        "value": ".909",
+        "value": ".911",
         "team": "Washington Nationals"
       }
     ],
@@ -94,7 +94,7 @@
       },
       {
         "name": "Dylan Cease",
-        "value": "236",
+        "value": "239",
         "team": "Toronto Blue Jays"
       },
       {
@@ -115,9 +115,9 @@
         "team": "Toronto Blue Jays"
       },
       {
-        "name": "Riley O'Brien",
+        "name": "Cade Smith",
         "value": "38",
-        "team": "St. Louis Cardinals"
+        "team": "Cleveland Guardians"
       }
     ],
     "RELIEVER ERA": [
@@ -156,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Kyle Tucker",
+        "name": "Mookie Betts",
         "team": "Los Angeles Dodgers",
+        "value": "3-4, 2 HR, 3 RBI, 2 R"
+      },
+      {
+        "name": "Hao-Yu Lee",
+        "team": "Detroit Tigers",
         "value": "4-5, 1 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Xander Bogaerts",
-        "team": "San Diego Padres",
-        "value": "3-5, 1 HR, 2 RBI, 1 R"
-      },
-      {
-        "name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "value": "2-4, 1 HR, 3 RBI, 1 R"
+        "name": "Ben Rice",
+        "team": "New York Yankees",
+        "value": "2-3, 1 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Walbert Ure\u00f1a",
-        "team": "Los Angeles Angels",
-        "value": "7.0 IP, 4 H, 0 ER, 9 SO"
-      },
-      {
-        "name": "Aaron Nola",
-        "team": "Philadelphia Phillies",
-        "value": "7.0 IP, 3 H, 0 ER, 4 SO"
-      },
-      {
-        "name": "Taj Bradley",
+        "name": "Connor Prielipp",
         "team": "Minnesota Twins",
-        "value": "7.0 IP, 5 H, 3 ER, 9 SO"
+        "value": "7.0 IP, 2 H, 0 ER, 8 SO"
+      },
+      {
+        "name": "Joey Cantillo",
+        "team": "Cleveland Guardians",
+        "value": "6.0 IP, 2 H, 0 ER, 5 SO"
+      },
+      {
+        "name": "Tyler Glasnow",
+        "team": "Los Angeles Dodgers",
+        "value": "6.0 IP, 3 H, 2 ER, 10 SO"
       }
     ]
   }
