@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "leaders": {
     "HR": [
       {
@@ -156,36 +156,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Jake Cronenworth",
-        "team": "San Diego Padres",
-        "value": "3-4, 2 HR, 5 RBI, 3 R"
+        "name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "value": "2-4, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "value": "3-5, 1 HR, 2 RBI, 3 R"
+        "name": "Gunnar Henderson",
+        "team": "Baltimore Orioles",
+        "value": "3-4, 1 HR, 1 RBI, 1 R"
       },
       {
-        "name": "Iv\u00e1n Herrera",
-        "team": "St. Louis Cardinals",
-        "value": "2-4, 2 HR, 2 RBI, 2 R"
+        "name": "Drew Gilbert",
+        "team": "San Francisco Giants",
+        "value": "3-4, 1 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "value": "7.0 IP, 3 H, 0 ER, 9 SO"
+        "name": "Keider Montero",
+        "team": "Detroit Tigers",
+        "value": "4.0 IP, 1 H, 0 ER, 5 SO"
       },
       {
-        "name": "Kade Anderson",
-        "team": "Seattle Mariners",
-        "value": "7.0 IP, 3 H, 0 ER, 7 SO"
+        "name": "River Ryan",
+        "team": "Detroit Tigers",
+        "value": "3.0 IP, 2 H, 0 ER, 3 SO"
       },
       {
-        "name": "Dean Kremer",
-        "team": "Minnesota Twins",
-        "value": "6.0 IP, 1 H, 0 ER, 8 SO"
+        "name": "Blade Tidwell",
+        "team": "San Francisco Giants",
+        "value": "3.1 IP, 3 H, 1 ER, 4 SO"
       }
     ]
   }
