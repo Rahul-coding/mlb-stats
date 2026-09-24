@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-24",
   "leaders": {
     "HR": [
       {
@@ -13,37 +13,57 @@
         "team": "Philadelphia Phillies"
       },
       {
+        "name": "Pete Alonso",
+        "value": "41",
+        "team": "Baltimore Orioles"
+      },
+      {
+        "name": "Yordan Alvarez",
+        "value": "41",
+        "team": "Houston Astros"
+      },
+      {
         "name": "Junior Caminero",
         "value": "41",
         "team": "Tampa Bay Rays"
+      },
+      {
+        "name": "Matt Olson",
+        "value": "41",
+        "team": "Atlanta Braves"
+      },
+      {
+        "name": "Ben Rice",
+        "value": "41",
+        "team": "New York Yankees"
       }
     ],
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".313",
+        "value": ".316",
         "team": "Houston Astros"
       },
       {
         "name": "Luis Arraez",
-        "value": ".313",
+        "value": ".312",
         "team": "Philadelphia Phillies"
       },
       {
-        "name": "Chandler Simpson",
-        "value": ".309",
-        "team": "Tampa Bay Rays"
+        "name": "Gabriel Moreno",
+        "value": ".310",
+        "team": "Arizona Diamondbacks"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.027",
+        "value": "1.035",
         "team": "Houston Astros"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".949",
+        "value": ".950",
         "team": "Chicago Cubs"
       },
       {
@@ -65,7 +85,7 @@
       },
       {
         "name": "Chris Sale",
-        "value": "2.18",
+        "value": "2.16",
         "team": "Atlanta Braves"
       }
     ],
@@ -111,7 +131,7 @@
       },
       {
         "name": "Cade Smith",
-        "value": "39",
+        "value": "40",
         "team": "Cleveland Guardians"
       },
       {
@@ -123,69 +143,69 @@
     "RELIEVER ERA": [
       {
         "name": "Robert Suarez",
-        "value": "0.56",
+        "value": "0.82",
         "team": "Atlanta Braves"
       },
       {
         "name": "Josh Hader",
-        "value": "0.83",
+        "value": "1.01",
         "team": "Houston Astros"
       },
       {
         "name": "Mason Miller",
-        "value": "1.21",
+        "value": "1.19",
         "team": "San Diego Padres"
       }
     ],
     "RELIEVER WHIP": [
       {
-        "name": "Josh Hader",
-        "value": "0.65",
-        "team": "Houston Astros"
-      },
-      {
         "name": "Brandyn Garcia",
-        "value": "0.73",
+        "value": "0.74",
         "team": "Arizona Diamondbacks"
       },
       {
+        "name": "Josh Hader",
+        "value": "0.76",
+        "team": "Houston Astros"
+      },
+      {
         "name": "Cam Booser",
-        "value": "0.78",
+        "value": "0.76",
         "team": "Tampa Bay Rays"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "value": "2-4, 2 HR, 3 RBI, 2 R"
+        "name": "Ben Rice",
+        "team": "New York Yankees",
+        "value": "3-4, 2 HR, 2 RBI, 2 R"
       },
       {
-        "name": "Gunnar Henderson",
-        "team": "Baltimore Orioles",
-        "value": "3-4, 1 HR, 1 RBI, 1 R"
+        "name": "Yainer Diaz",
+        "team": "Houston Astros",
+        "value": "2-5, 1 HR, 3 RBI, 1 R"
       },
       {
-        "name": "Drew Gilbert",
-        "team": "San Francisco Giants",
-        "value": "3-4, 1 HR, 3 RBI, 2 R"
+        "name": "Ryan McMahon",
+        "team": "New York Yankees",
+        "value": "2-4, 1 HR, 5 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Keider Montero",
-        "team": "Detroit Tigers",
-        "value": "4.0 IP, 1 H, 0 ER, 5 SO"
+        "name": "Mason Adams",
+        "team": "Colorado Rockies",
+        "value": "6.0 IP, 5 H, 0 ER, 8 SO"
       },
       {
-        "name": "River Ryan",
-        "team": "Detroit Tigers",
-        "value": "3.0 IP, 2 H, 0 ER, 3 SO"
+        "name": "Trey Gibson",
+        "team": "Baltimore Orioles",
+        "value": "6.2 IP, 3 H, 0 ER, 7 SO"
       },
       {
-        "name": "Blade Tidwell",
-        "team": "San Francisco Giants",
-        "value": "3.1 IP, 3 H, 1 ER, 4 SO"
+        "name": "Chris Sale",
+        "team": "Atlanta Braves",
+        "value": "5.2 IP, 4 H, 1 ER, 10 SO"
       }
     ]
   }
