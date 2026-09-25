@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "leaders": {
     "HR": [
       {
@@ -41,29 +41,29 @@
     "AVG": [
       {
         "name": "Yordan Alvarez",
-        "value": ".316",
+        "value": ".315",
         "team": "Houston Astros"
       },
       {
         "name": "Luis Arraez",
-        "value": ".312",
+        "value": ".310",
         "team": "Philadelphia Phillies"
       },
       {
         "name": "Gabriel Moreno",
-        "value": ".310",
+        "value": ".308",
         "team": "Arizona Diamondbacks"
       }
     ],
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.035",
+        "value": "1.032",
         "team": "Houston Astros"
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".950",
+        "value": ".948",
         "team": "Chicago Cubs"
       },
       {
@@ -80,7 +80,7 @@
       },
       {
         "name": "Cam Schlittler",
-        "value": "1.94",
+        "value": "1.95",
         "team": "New York Yankees"
       },
       {
@@ -101,9 +101,9 @@
         "team": "Los Angeles Dodgers"
       },
       {
-        "name": "Cam Schlittler",
+        "name": "Drew Rasmussen",
         "value": "0.91",
-        "team": "New York Yankees"
+        "team": "Tampa Bay Rays"
       }
     ],
     "SO": [
@@ -121,6 +121,11 @@
         "name": "Dylan Cease",
         "value": "239",
         "team": "Toronto Blue Jays"
+      },
+      {
+        "name": "Cam Schlittler",
+        "value": "239",
+        "team": "New York Yankees"
       }
     ],
     "SV+H": [
@@ -131,7 +136,7 @@
       },
       {
         "name": "Cade Smith",
-        "value": "40",
+        "value": "41",
         "team": "Cleveland Guardians"
       },
       {
@@ -152,9 +157,9 @@
         "team": "Houston Astros"
       },
       {
-        "name": "Mason Miller",
-        "value": "1.19",
-        "team": "San Diego Padres"
+        "name": "Louis Varland",
+        "value": "1.29",
+        "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER WHIP": [
@@ -176,36 +181,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Ben Rice",
-        "team": "New York Yankees",
-        "value": "3-4, 2 HR, 2 RBI, 2 R"
-      },
-      {
-        "name": "Yainer Diaz",
+        "name": "Lucas Spence",
         "team": "Houston Astros",
-        "value": "2-5, 1 HR, 3 RBI, 1 R"
+        "value": "3-4, 3 HR, 5 RBI, 3 R"
       },
       {
-        "name": "Ryan McMahon",
-        "team": "New York Yankees",
-        "value": "2-4, 1 HR, 5 RBI, 1 R"
+        "name": "Zack Gelof",
+        "team": "Athletics",
+        "value": "2-3, 2 HR, 2 RBI, 2 R"
+      },
+      {
+        "name": "Cole Carrigg",
+        "team": "Colorado Rockies",
+        "value": "4-5, 1 HR, 3 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Mason Adams",
-        "team": "Colorado Rockies",
-        "value": "6.0 IP, 5 H, 0 ER, 8 SO"
+        "name": "Paul Skenes",
+        "team": "Pittsburgh Pirates",
+        "value": "6.1 IP, 3 H, 1 ER, 8 SO"
       },
       {
-        "name": "Trey Gibson",
-        "team": "Baltimore Orioles",
-        "value": "6.2 IP, 3 H, 0 ER, 7 SO"
+        "name": "Tyler Glasnow",
+        "team": "Los Angeles Dodgers",
+        "value": "6.1 IP, 3 H, 3 ER, 11 SO"
       },
       {
-        "name": "Chris Sale",
-        "team": "Atlanta Braves",
-        "value": "5.2 IP, 4 H, 1 ER, 10 SO"
+        "name": "David Sandlin",
+        "team": "Chicago White Sox",
+        "value": "6.0 IP, 5 H, 1 ER, 7 SO"
       }
     ]
   }
