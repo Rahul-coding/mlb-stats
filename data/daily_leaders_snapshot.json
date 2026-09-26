@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "leaders": {
     "HR": [
       {
@@ -14,28 +14,8 @@
       },
       {
         "name": "Pete Alonso",
-        "value": "41",
+        "value": "43",
         "team": "Baltimore Orioles"
-      },
-      {
-        "name": "Yordan Alvarez",
-        "value": "41",
-        "team": "Houston Astros"
-      },
-      {
-        "name": "Junior Caminero",
-        "value": "41",
-        "team": "Tampa Bay Rays"
-      },
-      {
-        "name": "Matt Olson",
-        "value": "41",
-        "team": "Atlanta Braves"
-      },
-      {
-        "name": "Ben Rice",
-        "value": "41",
-        "team": "New York Yankees"
       }
     ],
     "AVG": [
@@ -45,14 +25,14 @@
         "team": "Houston Astros"
       },
       {
+        "name": "Gabriel Moreno",
+        "value": ".311",
+        "team": "Arizona Diamondbacks"
+      },
+      {
         "name": "Luis Arraez",
         "value": ".310",
         "team": "Philadelphia Phillies"
-      },
-      {
-        "name": "Gabriel Moreno",
-        "value": ".308",
-        "team": "Arizona Diamondbacks"
       }
     ],
     "OPS": [
@@ -63,7 +43,7 @@
       },
       {
         "name": "Pete Crow-Armstrong",
-        "value": ".948",
+        "value": ".942",
         "team": "Chicago Cubs"
       },
       {
@@ -108,14 +88,14 @@
     ],
     "SO": [
       {
+        "name": "Gavin Williams",
+        "value": "248",
+        "team": "Cleveland Guardians"
+      },
+      {
         "name": "Jacob Misiorowski",
         "value": "247",
         "team": "Milwaukee Brewers"
-      },
-      {
-        "name": "Gavin Williams",
-        "value": "244",
-        "team": "Cleveland Guardians"
       },
       {
         "name": "Dylan Cease",
@@ -131,7 +111,7 @@
     "SV+H": [
       {
         "name": "Bryan Baker",
-        "value": "42",
+        "value": "43",
         "team": "Tampa Bay Rays"
       },
       {
@@ -140,9 +120,9 @@
         "team": "Cleveland Guardians"
       },
       {
-        "name": "Riley O'Brien",
-        "value": "39",
-        "team": "St. Louis Cardinals"
+        "name": "Louis Varland",
+        "value": "40",
+        "team": "Toronto Blue Jays"
       }
     ],
     "RELIEVER ERA": [
@@ -158,7 +138,7 @@
       },
       {
         "name": "Louis Varland",
-        "value": "1.29",
+        "value": "1.27",
         "team": "Toronto Blue Jays"
       }
     ],
@@ -169,48 +149,48 @@
         "team": "Arizona Diamondbacks"
       },
       {
+        "name": "Cam Booser",
+        "value": "0.75",
+        "team": "Tampa Bay Rays"
+      },
+      {
         "name": "Josh Hader",
         "value": "0.76",
         "team": "Houston Astros"
-      },
-      {
-        "name": "Cam Booser",
-        "value": "0.76",
-        "team": "Tampa Bay Rays"
       }
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Lucas Spence",
-        "team": "Houston Astros",
-        "value": "3-4, 3 HR, 5 RBI, 3 R"
+        "name": "Carter Jensen",
+        "team": "Kansas City Royals",
+        "value": "2-4, 2 HR, 5 RBI, 2 R"
       },
       {
-        "name": "Zack Gelof",
-        "team": "Athletics",
-        "value": "2-3, 2 HR, 2 RBI, 2 R"
+        "name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "value": "3-5, 2 HR, 3 RBI, 2 R"
       },
       {
-        "name": "Cole Carrigg",
-        "team": "Colorado Rockies",
-        "value": "4-5, 1 HR, 3 RBI, 1 R"
+        "name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "value": "3-4, 2 HR, 3 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Paul Skenes",
-        "team": "Pittsburgh Pirates",
-        "value": "6.1 IP, 3 H, 1 ER, 8 SO"
+        "name": "Eury P\u00e9rez",
+        "team": "Miami Marlins",
+        "value": "9.0 IP, 1 H, 0 ER, 8 SO"
       },
       {
-        "name": "Tyler Glasnow",
+        "name": "Tarik Skubal",
         "team": "Los Angeles Dodgers",
-        "value": "6.1 IP, 3 H, 3 ER, 11 SO"
+        "value": "7.0 IP, 3 H, 0 ER, 10 SO"
       },
       {
-        "name": "David Sandlin",
-        "team": "Chicago White Sox",
-        "value": "6.0 IP, 5 H, 1 ER, 7 SO"
+        "name": "Robert Gasser",
+        "team": "Milwaukee Brewers",
+        "value": "6.0 IP, 1 H, 1 ER, 9 SO"
       }
     ]
   }
