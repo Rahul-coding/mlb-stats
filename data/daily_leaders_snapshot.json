@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "leaders": {
     "HR": [
       {
@@ -38,7 +38,7 @@
     "OPS": [
       {
         "name": "Yordan Alvarez",
-        "value": "1.036",
+        "value": "1.033",
         "team": "Houston Astros"
       },
       {
@@ -48,14 +48,14 @@
       },
       {
         "name": "Willson Contreras",
-        "value": ".905",
+        "value": ".902",
         "team": "Boston Red Sox"
       }
     ],
     "STARTER ERA": [
       {
         "name": "Jacob Misiorowski",
-        "value": "1.86",
+        "value": "1.80",
         "team": "Milwaukee Brewers"
       },
       {
@@ -88,14 +88,14 @@
     ],
     "SO": [
       {
+        "name": "Jacob Misiorowski",
+        "value": "252",
+        "team": "Milwaukee Brewers"
+      },
+      {
         "name": "Gavin Williams",
         "value": "248",
         "team": "Cleveland Guardians"
-      },
-      {
-        "name": "Jacob Misiorowski",
-        "value": "247",
-        "team": "Milwaukee Brewers"
       },
       {
         "name": "Dylan Cease",
@@ -161,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Jeremy Pe\u00f1a",
-        "team": "Houston Astros",
-        "value": "4-6, 2 HR, 4 RBI, 4 R"
+        "name": "Alex Bregman",
+        "team": "Chicago Cubs",
+        "value": "4-4, 2 HR, 4 RBI, 3 R"
       },
       {
-        "name": "Brayan Rocchio",
-        "team": "Cleveland Guardians",
-        "value": "3-4, 2 HR, 2 RBI, 3 R"
+        "name": "Andr\u00e9s Chaparro",
+        "team": "Washington Nationals",
+        "value": "3-4, 2 HR, 2 RBI, 2 R"
       },
       {
-        "name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "value": "2-5, 2 HR, 4 RBI, 2 R"
+        "name": "Jonny DeLuca",
+        "team": "Tampa Bay Rays",
+        "value": "2-4, 2 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Hayden Wesneski",
-        "team": "Houston Astros",
-        "value": "7.0 IP, 6 H, 1 ER, 5 SO"
+        "name": "Max Scherzer",
+        "team": "Toronto Blue Jays",
+        "value": "7.0 IP, 6 H, 1 ER, 7 SO"
       },
       {
-        "name": "Jonah Tong",
-        "team": "New York Mets",
-        "value": "5.0 IP, 3 H, 1 ER, 9 SO"
+        "name": "Dean Kremer",
+        "team": "Minnesota Twins",
+        "value": "7.0 IP, 3 H, 1 ER, 4 SO"
       },
       {
-        "name": "Rhett Lowder",
-        "team": "Cincinnati Reds",
-        "value": "6.0 IP, 3 H, 0 ER, 2 SO"
+        "name": "Logan Gilbert",
+        "team": "Seattle Mariners",
+        "value": "4.0 IP, 0 H, 0 ER, 8 SO"
       }
     ]
   }
