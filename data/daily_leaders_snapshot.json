@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "leaders": {
     "HR": [
       {
@@ -157,40 +157,6 @@
         "name": "Josh Hader",
         "value": "0.76",
         "team": "Houston Astros"
-      }
-    ],
-    "YESTERDAY'S BEST BATTERS": [
-      {
-        "name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "value": "4-4, 2 HR, 4 RBI, 3 R"
-      },
-      {
-        "name": "Andr\u00e9s Chaparro",
-        "team": "Washington Nationals",
-        "value": "3-4, 2 HR, 2 RBI, 2 R"
-      },
-      {
-        "name": "Jonny DeLuca",
-        "team": "Tampa Bay Rays",
-        "value": "2-4, 2 HR, 2 RBI, 2 R"
-      }
-    ],
-    "YESTERDAY'S BEST PITCHERS": [
-      {
-        "name": "Max Scherzer",
-        "team": "Toronto Blue Jays",
-        "value": "7.0 IP, 6 H, 1 ER, 7 SO"
-      },
-      {
-        "name": "Dean Kremer",
-        "team": "Minnesota Twins",
-        "value": "7.0 IP, 3 H, 1 ER, 4 SO"
-      },
-      {
-        "name": "Logan Gilbert",
-        "team": "Seattle Mariners",
-        "value": "4.0 IP, 0 H, 0 ER, 8 SO"
       }
     ]
   }
