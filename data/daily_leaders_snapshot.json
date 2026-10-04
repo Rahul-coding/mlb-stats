@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "leaders": {
     "HR": [
       {
@@ -157,6 +157,40 @@
         "name": "Josh Hader",
         "value": "0.76",
         "team": "Houston Astros"
+      }
+    ],
+    "YESTERDAY'S BEST BATTERS": [
+      {
+        "name": "Teoscar Hern\u00e1ndez",
+        "team": "Los Angeles Dodgers",
+        "value": "2-4, 1 HR, 2 RBI, 2 R"
+      },
+      {
+        "name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "value": "2-4, 1 HR, 2 RBI, 1 R"
+      },
+      {
+        "name": "Kyle Tucker",
+        "team": "Los Angeles Dodgers",
+        "value": "2-4, 1 HR, 2 RBI, 1 R"
+      }
+    ],
+    "YESTERDAY'S BEST PITCHERS": [
+      {
+        "name": "Drew Rasmussen",
+        "team": "Tampa Bay Rays",
+        "value": "8.0 IP, 1 H, 0 ER, 10 SO"
+      },
+      {
+        "name": "Tarik Skubal",
+        "team": "Los Angeles Dodgers",
+        "value": "6.0 IP, 2 H, 1 ER, 7 SO"
+      },
+      {
+        "name": "Grant Taylor",
+        "team": "Chicago White Sox",
+        "value": "4.0 IP, 2 H, 0 ER, 6 SO"
       }
     ]
   }
