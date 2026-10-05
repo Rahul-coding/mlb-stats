@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "leaders": {
     "HR": [
       {
@@ -161,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Teoscar Hern\u00e1ndez",
-        "team": "Los Angeles Dodgers",
-        "value": "2-4, 1 HR, 2 RBI, 2 R"
+        "name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "value": "3-5, 0 HR, 1 RBI, 1 R"
       },
       {
-        "name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "value": "2-4, 1 HR, 2 RBI, 1 R"
+        "name": "Freddie Freeman",
+        "team": "Los Angeles Dodgers",
+        "value": "2-4, 1 HR, 1 RBI, 1 R"
       },
       {
-        "name": "Kyle Tucker",
+        "name": "Max Muncy",
         "team": "Los Angeles Dodgers",
-        "value": "2-4, 1 HR, 2 RBI, 1 R"
+        "value": "1-3, 1 HR, 1 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Drew Rasmussen",
-        "team": "Tampa Bay Rays",
-        "value": "8.0 IP, 1 H, 0 ER, 10 SO"
+        "name": "Michael King",
+        "team": "San Diego Padres",
+        "value": "5.0 IP, 3 H, 1 ER, 6 SO"
       },
       {
-        "name": "Tarik Skubal",
-        "team": "Los Angeles Dodgers",
-        "value": "6.0 IP, 2 H, 1 ER, 7 SO"
+        "name": "Logan Henderson",
+        "team": "Milwaukee Brewers",
+        "value": "5.0 IP, 2 H, 1 ER, 4 SO"
       },
       {
-        "name": "Grant Taylor",
-        "team": "Chicago White Sox",
-        "value": "4.0 IP, 2 H, 0 ER, 6 SO"
+        "name": "Ray Kerr",
+        "team": "Atlanta Braves",
+        "value": "2.2 IP, 2 H, 0 ER, 4 SO"
       }
     ]
   }
