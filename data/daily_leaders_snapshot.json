@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "leaders": {
     "HR": [
       {
@@ -157,40 +157,6 @@
         "name": "Josh Hader",
         "value": "0.76",
         "team": "Houston Astros"
-      }
-    ],
-    "YESTERDAY'S BEST BATTERS": [
-      {
-        "name": "Jos\u00e9 Ram\u00edrez",
-        "team": "Cleveland Guardians",
-        "value": "2-5, 1 HR, 3 RBI, 2 R"
-      },
-      {
-        "name": "Patrick Bailey",
-        "team": "Cleveland Guardians",
-        "value": "2-3, 1 HR, 2 RBI, 2 R"
-      },
-      {
-        "name": "Miguel Vargas",
-        "team": "Chicago White Sox",
-        "value": "1-2, 1 HR, 1 RBI, 2 R"
-      }
-    ],
-    "YESTERDAY'S BEST PITCHERS": [
-      {
-        "name": "Shawn Armstrong",
-        "team": "Cleveland Guardians",
-        "value": "1.2 IP, 0 H, 0 ER, 2 SO"
-      },
-      {
-        "name": "Tyler Davis",
-        "team": "Chicago White Sox",
-        "value": "2.0 IP, 1 H, 0 ER, 1 SO"
-      },
-      {
-        "name": "Hunter Gaddis",
-        "team": "Cleveland Guardians",
-        "value": "1.1 IP, 1 H, 0 ER, 1 SO"
       }
     ]
   }
