@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-18",
   "leaders": {
     "HR": [
       {
@@ -161,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "David Hamilton",
-        "team": "Milwaukee Brewers",
-        "value": "2-4, 1 HR, 2 RBI, 2 R"
+        "name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "value": "2-5, 1 HR, 2 RBI, 2 R"
       },
       {
-        "name": "Petey Halpin",
+        "name": "Travis Bazzana",
         "team": "Cleveland Guardians",
-        "value": "1-3, 1 HR, 2 RBI, 1 R"
+        "value": "2-3, 1 HR, 1 RBI, 1 R"
       },
       {
-        "name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "value": "1-4, 1 HR, 3 RBI, 1 R"
+        "name": "Jonathan Aranda",
+        "team": "Tampa Bay Rays",
+        "value": "3-4, 0 HR, 2 RBI, 2 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "value": "5.0 IP, 2 H, 2 ER, 9 SO"
-      },
-      {
-        "name": "Tyler Wells",
+        "name": "Nick Martinez",
         "team": "Tampa Bay Rays",
-        "value": "2.0 IP, 1 H, 0 ER, 4 SO"
+        "value": "5.1 IP, 2 H, 1 ER, 3 SO"
       },
       {
-        "name": "Aaron Ashby",
-        "team": "Milwaukee Brewers",
-        "value": "3.0 IP, 2 H, 0 ER, 3 SO"
+        "name": "Foster Griffin",
+        "team": "Cleveland Guardians",
+        "value": "3.2 IP, 4 H, 1 ER, 5 SO"
+      },
+      {
+        "name": "Shawn Armstrong",
+        "team": "Cleveland Guardians",
+        "value": "1.0 IP, 0 H, 0 ER, 1 SO"
       }
     ]
   }
