@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "leaders": {
     "HR": [
       {
@@ -157,40 +157,6 @@
         "name": "Josh Hader",
         "value": "0.76",
         "team": "Houston Astros"
-      }
-    ],
-    "YESTERDAY'S BEST BATTERS": [
-      {
-        "name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "value": "2-3, 1 HR, 2 RBI, 2 R"
-      },
-      {
-        "name": "Yandy D\u00edaz",
-        "team": "Tampa Bay Rays",
-        "value": "1-4, 1 HR, 2 RBI, 1 R"
-      },
-      {
-        "name": "Richie Palacios",
-        "team": "Tampa Bay Rays",
-        "value": "2-4, 0 HR, 2 RBI, 0 R"
-      }
-    ],
-    "YESTERDAY'S BEST PITCHERS": [
-      {
-        "name": "Freddy Peralta",
-        "team": "Tampa Bay Rays",
-        "value": "5.1 IP, 5 H, 1 ER, 3 SO"
-      },
-      {
-        "name": "Daniel Espino",
-        "team": "Cleveland Guardians",
-        "value": "1.1 IP, 0 H, 0 ER, 1 SO"
-      },
-      {
-        "name": "Erik Sabrowski",
-        "team": "Cleveland Guardians",
-        "value": "1.0 IP, 1 H, 0 ER, 1 SO"
       }
     ]
   }
