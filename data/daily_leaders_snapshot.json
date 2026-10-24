@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "leaders": {
     "HR": [
       {
@@ -157,6 +157,40 @@
         "name": "Josh Hader",
         "value": "0.76",
         "team": "Houston Astros"
+      }
+    ],
+    "YESTERDAY'S BEST BATTERS": [
+      {
+        "name": "Christian Yelich",
+        "team": "Milwaukee Brewers",
+        "value": "1-4, 0 HR, 1 RBI, 1 R"
+      },
+      {
+        "name": "Jonathan Aranda",
+        "team": "Tampa Bay Rays",
+        "value": "3-3, 0 HR, 0 RBI, 1 R"
+      },
+      {
+        "name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "value": "2-4, 0 HR, 1 RBI, 1 R"
+      }
+    ],
+    "YESTERDAY'S BEST PITCHERS": [
+      {
+        "name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "value": "5.0 IP, 4 H, 1 ER, 3 SO"
+      },
+      {
+        "name": "Nick Martinez",
+        "team": "Tampa Bay Rays",
+        "value": "5.0 IP, 5 H, 2 ER, 5 SO"
+      },
+      {
+        "name": "Aaron Ashby",
+        "team": "Milwaukee Brewers",
+        "value": "1.2 IP, 0 H, 0 ER, 3 SO"
       }
     ]
   }
