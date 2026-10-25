@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "leaders": {
     "HR": [
       {
@@ -161,36 +161,36 @@
     ],
     "YESTERDAY'S BEST BATTERS": [
       {
-        "name": "Christian Yelich",
+        "name": "Sal Frelick",
         "team": "Milwaukee Brewers",
-        "value": "1-4, 0 HR, 1 RBI, 1 R"
+        "value": "2-4, 1 HR, 1 RBI, 1 R"
       },
       {
-        "name": "Jonathan Aranda",
+        "name": "Liam Hicks",
         "team": "Tampa Bay Rays",
-        "value": "3-3, 0 HR, 0 RBI, 1 R"
+        "value": "1-2, 1 HR, 2 RBI, 1 R"
       },
       {
-        "name": "Jackson Chourio",
+        "name": "Brice Turang",
         "team": "Milwaukee Brewers",
-        "value": "2-4, 0 HR, 1 RBI, 1 R"
+        "value": "1-4, 0 HR, 0 RBI, 1 R"
       }
     ],
     "YESTERDAY'S BEST PITCHERS": [
       {
-        "name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "value": "5.0 IP, 4 H, 1 ER, 3 SO"
-      },
-      {
-        "name": "Nick Martinez",
-        "team": "Tampa Bay Rays",
-        "value": "5.0 IP, 5 H, 2 ER, 5 SO"
-      },
-      {
         "name": "Aaron Ashby",
         "team": "Milwaukee Brewers",
-        "value": "1.2 IP, 0 H, 0 ER, 3 SO"
+        "value": "1.2 IP, 1 H, 0 ER, 3 SO"
+      },
+      {
+        "name": "Abner Uribe",
+        "team": "Milwaukee Brewers",
+        "value": "1.1 IP, 0 H, 0 ER, 1 SO"
+      },
+      {
+        "name": "JoJo Romero",
+        "team": "Milwaukee Brewers",
+        "value": "1.0 IP, 1 H, 0 ER, 1 SO"
       }
     ]
   }
