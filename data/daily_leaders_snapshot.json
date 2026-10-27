@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "leaders": {
     "HR": [
       {
@@ -157,6 +157,40 @@
         "name": "Josh Hader",
         "value": "0.76",
         "team": "Houston Astros"
+      }
+    ],
+    "YESTERDAY'S BEST BATTERS": [
+      {
+        "name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "value": "4-5, 0 HR, 1 RBI, 2 R"
+      },
+      {
+        "name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "value": "3-5, 0 HR, 2 RBI, 1 R"
+      },
+      {
+        "name": "William Contreras",
+        "team": "Milwaukee Brewers",
+        "value": "3-5, 0 HR, 1 RBI, 1 R"
+      }
+    ],
+    "YESTERDAY'S BEST PITCHERS": [
+      {
+        "name": "Robert Gasser",
+        "team": "Milwaukee Brewers",
+        "value": "6.0 IP, 1 H, 0 ER, 3 SO"
+      },
+      {
+        "name": "Antonio Senzatela",
+        "team": "Milwaukee Brewers",
+        "value": "2.0 IP, 0 H, 0 ER, 1 SO"
+      },
+      {
+        "name": "Tyler Wells",
+        "team": "Tampa Bay Rays",
+        "value": "1.0 IP, 0 H, 0 ER, 1 SO"
       }
     ]
   }
