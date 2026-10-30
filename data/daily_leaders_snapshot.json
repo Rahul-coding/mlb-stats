@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "leaders": {
     "HR": [
       {
@@ -157,40 +157,6 @@
         "name": "Josh Hader",
         "value": "0.76",
         "team": "Houston Astros"
-      }
-    ],
-    "YESTERDAY'S BEST BATTERS": [
-      {
-        "name": "Cooper Pratt",
-        "team": "Milwaukee Brewers",
-        "value": "2-3, 0 HR, 2 RBI, 1 R"
-      },
-      {
-        "name": "Chandler Simpson",
-        "team": "Tampa Bay Rays",
-        "value": "2-4, 0 HR, 1 RBI, 0 R"
-      },
-      {
-        "name": "William Contreras",
-        "team": "Milwaukee Brewers",
-        "value": "1-4, 0 HR, 1 RBI, 1 R"
-      }
-    ],
-    "YESTERDAY'S BEST PITCHERS": [
-      {
-        "name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "value": "5.2 IP, 2 H, 0 ER, 2 SO"
-      },
-      {
-        "name": "Drew Rasmussen",
-        "team": "Tampa Bay Rays",
-        "value": "4.0 IP, 2 H, 1 ER, 4 SO"
-      },
-      {
-        "name": "Ian Seymour",
-        "team": "Tampa Bay Rays",
-        "value": "1.0 IP, 0 H, 0 ER, 2 SO"
       }
     ]
   }
